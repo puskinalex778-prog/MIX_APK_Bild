@@ -1,5 +1,6 @@
 extends Node
-## Звук: фоновая музыка (с плавной сменой), эффекты интерфейса, озвучка английских слов
+## Звук: фоновая музыка (с плавной сменой), яркие синтезированные эффекты интерфейса
+## из прототипа ostrova-znaniy (tap/pick/drop/good/bad/star), озвучка английских слов
 ## (встроенные файлы или системный синтезатор речи) и чтение заданий вслух (системный TTS).
 
 const MUSIC := {
@@ -9,6 +10,7 @@ const MUSIC := {
 	"break": "res://assets/audio/music/break.ogg",
 }
 const SFX := ["click", "correct", "wrong", "achievement", "star", "whoosh", "pop", "unlock", "chime", "step", "levelup", "tick", "sparkle"]
+const SYNTH_SR := 22050
 
 var _music_a: AudioStreamPlayer
 var _music_b: AudioStreamPlayer
@@ -28,13 +30,14 @@ func _ready() -> void:
 	_music_a = _make_player("Music")
 	_music_b = _make_player("Music")
 	_active = _music_a
-	for i in 6:
+	for i in 8:
 		_sfx_players.append(_make_player("SFX"))
 	_voice = _make_player("Speech")
 	for s in SFX:
 		var p = "res://assets/audio/sfx/%s.ogg" % s
 		if ResourceLoader.exists(p):
 			_sfx_cache[s] = load(p)
+	_build_modern_sfx()
 	var vi = "res://assets/audio/voice/index.json"
 	if FileAccess.file_exists(vi):
 		var d = JSON.parse_string(FileAccess.open(vi, FileAccess.READ).get_as_text())
@@ -43,6 +46,76 @@ func _ready() -> void:
 	_pick_tts_voices()
 	apply_settings()
 	Settings.changed.connect(apply_settings)
+
+
+## Синтез чётких, звонких звуков интерфейса (как в Sfx из ostrova-znaniy/src/art.js).
+func _build_modern_sfx() -> void:
+	var tap_wav = _synth_tones([[660.0, 0.0, 0.08, "tri", 0.28]])
+	_sfx_cache["tap"] = tap_wav
+	_sfx_cache["click"] = tap_wav
+	_sfx_cache["pick"] = _synth_tones([[520.0, 0.0, 0.09, "tri", 0.30]])
+	var drop_wav = _synth_tones([[380.0, 0.0, 0.10, "tri", 0.32], [570.0, 0.05, 0.10, "tri", 0.22]])
+	_sfx_cache["drop"] = drop_wav
+	_sfx_cache["pop"] = drop_wav
+	_sfx_cache["correct"] = _synth_tones([
+		[523.25, 0.00, 0.25, "tri", 0.32],
+		[659.25, 0.08, 0.25, "tri", 0.32],
+		[783.99, 0.16, 0.25, "tri", 0.32],
+		[1046.5, 0.24, 0.28, "tri", 0.34],
+	])
+	_sfx_cache["wrong"] = _synth_tones([
+		[220.0, 0.00, 0.25, "saw", 0.16],
+		[180.0, 0.12, 0.30, "saw", 0.14],
+	])
+	_sfx_cache["star"] = _synth_tones([
+		[783.99, 0.00, 0.35, "sine", 0.30],
+		[987.77, 0.10, 0.35, "sine", 0.30],
+		[1318.5, 0.20, 0.38, "sine", 0.32],
+	])
+
+
+func _synth_tones(notes: Array) -> AudioStreamWAV:
+	var total_sec := 0.05
+	for nt in notes:
+		total_sec = maxf(total_sec, float(nt[1]) + float(nt[2]) + 0.02)
+	var count = int(total_sec * SYNTH_SR)
+	var buf = PackedFloat32Array()
+	buf.resize(count)
+	buf.fill(0.0)
+	for nt in notes:
+		var freq: float = nt[0]
+		var start_i = int(float(nt[1]) * SYNTH_SR)
+		var dur: float = nt[2]
+		var n = int(dur * SYNTH_SR)
+		var kind: String = nt[3]
+		var vol: float = nt[4]
+		var atk = maxf(1.0, 0.015 * SYNTH_SR)
+		for i in n:
+			var idx = start_i + i
+			if idx >= count:
+				break
+			var t = float(i) / float(SYNTH_SR)
+			var ph = fmod(freq * t, 1.0)
+			var w = 0.0
+			if kind == "tri":
+				w = 4.0 * absf(ph - 0.5) - 1.0
+			elif kind == "saw":
+				w = 2.0 * ph - 1.0
+			else:
+				w = sin(TAU * ph)
+			var env = minf(1.0, float(i) / atk) * exp(-4.8 * t / maxf(dur, 0.01))
+			buf[idx] += w * env * vol
+	var bytes = PackedByteArray()
+	bytes.resize(count * 2)
+	for i in count:
+		var v = int(clampf(buf[i], -1.0, 1.0) * 32000.0)
+		bytes.encode_s16(i * 2, v)
+	var wav = AudioStreamWAV.new()
+	wav.format = AudioStreamWAV.FORMAT_16_BITS
+	wav.mix_rate = SYNTH_SR
+	wav.stereo = false
+	wav.data = bytes
+	return wav
 
 
 func _ensure_buses() -> void:
@@ -119,6 +192,7 @@ func sfx(name: String, pitch: float = 1.0) -> void:
 			p.play()
 			return
 	_sfx_players[0].stream = _sfx_cache[name]
+	_sfx_players[0].pitch_scale = pitch
 	_sfx_players[0].play()
 
 

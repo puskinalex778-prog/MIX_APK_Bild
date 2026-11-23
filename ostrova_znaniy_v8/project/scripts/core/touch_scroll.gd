@@ -151,7 +151,7 @@ func _find_scroll(pos: Vector2) -> ScrollContainer:
 func _blocked_at(node: Node, pos: Vector2) -> bool:
 	for c in node.get_children(true):
 		if c is Control and c.is_visible_in_tree():
-			if (c is Range or c is LineEdit or c is TextEdit) and c.get_global_rect().has_point(pos):
+			if (c is Range or c is LineEdit or c is TextEdit or c.is_in_group("drag_card")) and c.get_global_rect().has_point(pos):
 				return true
 			if _blocked_at(c, pos):
 				return true

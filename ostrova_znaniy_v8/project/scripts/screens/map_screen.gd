@@ -2,7 +2,7 @@ extends BaseScreen
 ## Карта островов: персонаж ребёнка ходит к островам предметов; сюжет, мастерская
 ## умножения, повторение ошибок, достижения, настройки, родительский раздел.
 
-const ISLAND_POS := {"math": Vector2(0.16, 0.40), "rus": Vector2(0.38, 0.30), "world": Vector2(0.60, 0.40), "eng": Vector2(0.82, 0.30), "read": Vector2(0.40, 0.56)}
+const ISLAND_POS := {"math": Vector2(0.14, 0.38), "rus": Vector2(0.32, 0.48), "read": Vector2(0.50, 0.36), "world": Vector2(0.68, 0.48), "eng": Vector2(0.84, 0.36)}
 
 var avatar: CharacterView
 var lumik: CharacterView
@@ -60,10 +60,13 @@ func _build_islands() -> void:
 		var subj: String = s
 		b.pressed.connect(func(): _walk_to(p + Vector2(0, 60), func(): Router.go("subject", {"subject": subj})))
 		_layer.add_child(b)
-		var badge = UIKit.nowrap(UIKit.label("%d/%d" % [done, lst.size()], 18, Color.WHITE, "bold", HORIZONTAL_ALIGNMENT_CENTER))
-		badge.position = p + Vector2(-40, 48)
-		badge.custom_minimum_size = Vector2(80, 0)
-		_layer.add_child(badge)
+		var badge_p = PanelContainer.new()
+		badge_p.add_theme_stylebox_override("panel", UIKit.sb(Color(0.12, 0.14, 0.40, 0.52), 14, 1, Color(1, 1, 1, 0.22), 0, 8))
+		badge_p.mouse_filter = Control.MOUSE_FILTER_IGNORE
+		badge_p.add_child(UIKit.nowrap(UIKit.label("⭐ %d/%d" % [done, lst.size()], 16, Color.WHITE, "bold", HORIZONTAL_ALIGNMENT_CENTER)))
+		badge_p.position = p + Vector2(-46, 52)
+		badge_p.custom_minimum_size = Vector2(92, 0)
+		_layer.add_child(badge_p)
 	var pr = Profiles.current()
 	avatar = CharacterView.new(str(pr.get("avatar", "kid_a")), Vector2(120, 150))
 	avatar.position = Vector2(sz.x * 0.86 - 60, sz.y * 0.80 - 150)
@@ -100,15 +103,16 @@ func _walk_to(target: Vector2, then: Callable) -> void:
 func _build_hud() -> void:
 	var pr = Profiles.current()
 	var top = UIKit.hbox(12)
-	var who = UIKit.button("👤 %s · %d кл." % [pr.get("name", ""), int(pr.get("grade", 2))], Color(0.15, 0.2, 0.45, 0.85), 22, Vector2(0, 64))
+	var who = UIKit.button("👤 %s · %d кл." % [pr.get("name", ""), int(pr.get("grade", 2))], Color(0.12, 0.14, 0.40, 0.58), 22, Vector2(0, 62))
 	who.pressed.connect(func(): Router.go("profiles"))
 	top.add_child(who)
 	top.add_child(UIKit.spacer())
-	var stars = UIKit.panel(Color(0.15, 0.2, 0.45, 0.85), 18, 12)
-	stars.add_child(UIKit.nowrap(UIKit.label("⭐ %d" % int(Profiles.progress().get("stars", 0)), 26, Color.WHITE, "bold")))
+	var stars = PanelContainer.new()
+	stars.add_theme_stylebox_override("panel", UIKit.sb(Color(0.12, 0.14, 0.40, 0.58), 18, 1, Color(1, 1, 1, 0.25), 6, 12))
+	stars.add_child(UIKit.nowrap(UIKit.label("⭐ %d" % int(Profiles.progress().get("stars", 0)), 24, Color.WHITE, "bold")))
 	top.add_child(stars)
 	for item in [["🏆", "achievements"], ["⚙️", "settings"], ["👪", "parent"], ["ℹ️", "info"]]:
-		var b = UIKit.button(item[0], Color(0.15, 0.2, 0.45, 0.85), 28, Vector2(72, 64))
+		var b = UIKit.button(item[0], Color(0.12, 0.14, 0.40, 0.58), 26, Vector2(66, 62))
 		var target: String = item[1]
 		b.pressed.connect(func(): Router.go(target))
 		top.add_child(b)
@@ -127,16 +131,16 @@ func _build_hud() -> void:
 	var grade = Profiles.current_grade()
 	var route = Content.story_route(grade)
 	var step = int(Profiles.grade_data()["story_step"])
-	var story = UIKit.button("📖 Сюжет: %s (%d/%d)" % [Story.CHAPTERS[grade]["title"], mini(step, route.size()), route.size()], Color("f08c00"), 22, Vector2(0, 76))
+	var story = UIKit.button("📖 Сюжет: %s (%d/%d)" % [Story.CHAPTERS[grade]["title"], mini(step, route.size()), route.size()], UIKit.C_ORANGE, 22, Vector2(0, 74))
 	story.pressed.connect(func(): Router.go("story"))
 	bottom.add_child(story)
-	var mult = UIKit.button("✖️ Мастерская умножения", Color("7048e8"), 22, Vector2(0, 76))
+	var mult = UIKit.button("✖️ Мастерская умножения", UIKit.C_PURPLE, 22, Vector2(0, 74))
 	mult.pressed.connect(func(): Router.go("mult"))
 	bottom.add_child(mult)
 	var n_err = Profiles.open_errors().size()
 	var assigned: Array = Profiles.progress().get("assigned", [])
 	if n_err > 0 or assigned.size() > 0:
-		var rv = UIKit.button("🛠️ Работа над ошибками (%d)" % (n_err if assigned.is_empty() else assigned.size()), Color("e8590c"), 22, Vector2(0, 76))
+		var rv = UIKit.button("🛠️ Работа над ошибками (%d)" % (n_err if assigned.is_empty() else assigned.size()), UIKit.C_PRIMARY, 22, Vector2(0, 74))
 		rv.pressed.connect(func(): Router.go("lesson", {"mode": "assigned" if assigned.size() > 0 else "review"}))
 		bottom.add_child(rv)
 	bottom.alignment = BoxContainer.ALIGNMENT_CENTER

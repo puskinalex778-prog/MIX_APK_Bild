@@ -143,7 +143,7 @@ func _process(delta: float) -> void:
 		hint_btn.text = "💡 %d" % int(ceil(left))
 	elif hint_btn.text != "💡 Подсказка":
 		hint_btn.text = "💡 Подсказка"
-		UIKit.set_chip_style(hint_btn, Color("ffd43b"), UIKit.C_TEXT, Color("f59f00"))
+		UIKit.apply_button_color(hint_btn, UIKit.C_GOLD, Color("5a3b00"), 20, 6)
 		mentor.set_state("wave", 1.2)
 
 
@@ -156,7 +156,7 @@ func _show_task() -> void:
 	hint_used = false
 	task_time = 0.0
 	hint_btn.text = "💡 15"
-	hint_btn.add_theme_stylebox_override("normal", UIKit.sb(Color("adb5bd"), 20, 0, Color.TRANSPARENT, 4, 18))
+	UIKit.apply_button_color(hint_btn, Color("a9adc4"), Color.WHITE, 20, 6)
 	var t: Dictionary = queue[idx]
 	progress.max_value = queue.size()
 	progress.value = idx
@@ -208,6 +208,7 @@ func _on_submitted(ok: bool, given: String) -> void:
 	if ok:
 		Audio.sfx("correct")
 		mentor.set_state("happy", 1.6)
+		ConfettiBurst.burst_on(self, get_viewport_rect().size * Vector2(0.56, 0.45), 48, 0.9)
 		var outcome = "first"
 		if hint_used:
 			outcome = "hint"
@@ -316,7 +317,9 @@ func _show_result(res: Dictionary) -> void:
 	bubble.visible = false
 	progress.value = queue.size()
 	mentor.set_state("finish")
-	Audio.sfx("levelup" if res.get("stars", 0) > 0 or topic_id == "" else "chime")
+	Audio.sfx("star" if res.get("stars", 0) > 0 or topic_id == "" else "chime")
+	if res.get("stars", 0) > 0 or topic_id == "":
+		ConfettiBurst.burst_on(self, get_viewport_rect().size * Vector2(0.55, 0.35), 95, 1.15)
 	var stars = int(res.get("stars", 0))
 	if topic_id != "":
 		var srow = UIKit.label("★".repeat(stars) + "☆".repeat(3 - stars), 72, Color("fab005"), "bold", HORIZONTAL_ALIGNMENT_CENTER)

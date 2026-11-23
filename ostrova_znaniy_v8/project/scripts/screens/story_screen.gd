@@ -24,7 +24,7 @@ func setup(_params: Dictionary) -> void:
 		step += 1
 	gd["story_step"] = step
 	Profiles.save_progress()
-	make_layout("night" if step >= route.size() else "sky", 24, 0.0)
+	make_layout("night" if step >= route.size() else "calm", 24, 0.0)
 	Audio.music("menu")
 	root.add_child(UIKit.top_bar("📖 %s · шаг %d из %d" % [Story.CHAPTERS[grade]["title"], mini(step + 1, route.size()), route.size()], Router.back))
 	if step >= route.size():
@@ -93,7 +93,10 @@ func _show_line() -> void:
 	hero.set_state("happy" if finale else "idle", 1.5)
 	if li == lines.size() - 1:
 		next_btn.text = "🗺️ На карту" if finale else "Начать тему ▶"
-		next_btn.add_theme_stylebox_override("normal", UIKit.sb(UIKit.C_OK, 20, 0, Color.TRANSPARENT, 4, 18))
+		UIKit.apply_button_color(next_btn, UIKit.C_OK, Color.WHITE, 20, 6)
+		if finale:
+			Audio.sfx("star")
+			ConfettiBurst.burst_on(self, get_viewport_rect().size * Vector2(0.5, 0.35), 110, 1.2)
 	Audio.sfx("pop")
 	UIKit.pop_in(text_lbl)
 
