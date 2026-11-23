@@ -115,7 +115,7 @@ func _draw() -> void:
 	_draw_ellipse(Vector2(shake_x * 0.5, -4), Vector2(shadow_w, 12), Color(0.08, 0.12, 0.35, 0.20))
 
 	var root = Vector2(shake_x, bob + jump)
-	var img = ArtLib.tex("characters/" + kind)
+	var img = _pick_pose_tex()
 	if img:
 		_draw_image(img, root, t, a)
 	else:
@@ -126,26 +126,56 @@ func _draw() -> void:
 	draw_set_transform(Vector2.ZERO, 0.0, Vector2.ONE)
 
 
+func _pick_pose_tex() -> Texture2D:
+	var base_tex = ArtLib.tex("characters/" + kind)
+	if base_tex == null:
+		return null
+	var suffix = ""
+	if state == "happy" or state == "finish":
+		suffix = "_happy"
+	elif talking:
+		suffix = "_explain" if fmod(_t, 0.44) < 0.26 else ""
+	elif state == "wave":
+		suffix = "_explain" if fmod(_t, 0.72) < 0.42 else ""
+	elif state == "explain":
+		suffix = "_explain"
+	elif state == "support" or state == "think":
+		suffix = "_support"
+	if suffix != "":
+		var pose_tex = ArtLib.tex("characters/" + kind + suffix)
+		if pose_tex:
+			return pose_tex
+	return base_tex
+
+
 func _draw_image(img: Texture2D, root: Vector2, t: float, a: float) -> void:
 	var s = _sc()
 	var base = _base_xf_origin()
 	var rot = 0.0
 	var sq = Vector2.ONE
+	var extra_y = 0.0
 	match state:
 		"walk":
-			rot = sin(t * 9.0) * 0.06 * a
+			rot = sin(t * 9.5) * 0.075 * a
 		"wave", "explain":
-			rot = sin(t * 4.0) * 0.05 * a
+			rot = sin(t * 4.2) * 0.045 * a
+			sq = Vector2(1.0 + 0.02 * sin(t * 6.0) * a, 1.0 - 0.02 * sin(t * 6.0) * a)
 		"think":
-			rot = -0.06
+			rot = -0.055 + sin(t * 1.8) * 0.02 * a
 		"support":
-			rot = 0.05
+			rot = sin(t * 3.2) * 0.045 * a
 		"happy", "finish":
-			sq = Vector2(1.0 + 0.05 * sin(t * 14.0) * a, 1.0 - 0.05 * sin(t * 14.0) * a)
+			rot = sin(t * 7.5) * 0.05 * a
+			sq = Vector2(1.0 + 0.055 * sin(t * 14.0) * a, 1.0 - 0.055 * sin(t * 14.0) * a)
 		_:
-			sq = Vector2(1.0 - 0.014 * sin(t * 2.0) * a, 1.0 + 0.014 * sin(t * 2.0) * a)
-	draw_set_transform(base + root * s, rot, Vector2(s * facing * sq.x, s * sq.y))
-	ArtLib.draw_fit_bottom(self, img, Vector2(size.x / s * 0.98, 290), Vector2.ZERO, Color.WHITE)
+			rot = sin(t * 1.4) * 0.018 * a
+			sq = Vector2(1.0 + 0.018 * sin(t * 2.1) * a, 1.0 - 0.018 * sin(t * 2.1) * a)
+	if talking and state != "happy" and state != "finish":
+		extra_y = -absf(sin(t * 9.0)) * 4.5 * a
+		rot += sin(t * 5.0) * 0.028 * a
+		sq *= Vector2(1.0 + 0.02 * sin(t * 11.0) * a, 1.0 - 0.02 * sin(t * 11.0) * a)
+	draw_set_transform(base + (root + Vector2(0.0, extra_y)) * s, rot, Vector2(s * facing * sq.x, s * sq.y))
+	ArtLib.draw_fit_bottom(self, img, Vector2(size.x / s * 1.05, 292), Vector2.ZERO, Color.WHITE)
 	draw_set_transform(base, 0.0, Vector2(s * facing, s))
 
 

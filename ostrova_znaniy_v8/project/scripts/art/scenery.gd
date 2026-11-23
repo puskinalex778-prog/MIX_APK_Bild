@@ -45,6 +45,7 @@ func _draw() -> void:
 	var bg = ArtLib.tex(_bg_name())
 	if bg:
 		ArtLib.draw_cover(self, bg, Rect2(Vector2.ZERO, size))
+		_draw_sky_sparkles(W, H)
 	else:
 		_draw_sky(W, H)
 		for cl in _clouds:
@@ -162,9 +163,13 @@ func _island(p: Vector2, col: Color, lit: float, sc: float, subj: String, idx: i
 	var w = 114.0 * sc
 	var img = ArtLib.tex("islands/" + subj) if subj != "" else null
 	if img:
-		var sz = img.get_size() * (w * 2.3 / img.get_size().x)
-		draw_texture_rect(img, Rect2(p - Vector2(sz.x * 0.5, sz.y * 0.38), sz), false)
-		_lamp(p + Vector2(w * 0.62, -w * 0.25), lit, sc)
+		var sz = img.get_size() * (w * 2.35 / img.get_size().x)
+		draw_texture_rect(img, Rect2(p - Vector2(sz.x * 0.5, sz.y * 0.44), sz), false)
+		if lit > 0.0:
+			var glow = 0.65 + 0.35 * sin(_t * 2.6)
+			var lp = p + Vector2(sz.x * 0.28, -sz.y * 0.14)
+			for i in 3:
+				draw_circle(lp, (34.0 - i * 8.0) * sc, Color(1.0, 0.92, 0.45, (0.14 + i * 0.09) * glow * clampf(lit, 0.35, 1.0)))
 		return
 	# мягкая тень под парящим островом
 	_draw_ellipse(p + Vector2(0, w * 0.92 - bob * 0.4), Vector2(w * 0.78, w * 0.14), Color(0.12, 0.16, 0.48, 0.18))
