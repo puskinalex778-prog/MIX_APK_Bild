@@ -1,0 +1,26 @@
+# Исходные архивы оставляем локально
+*.zip
+
+# Python cache
+**/__pycache__/
+*.pyc
+
+# Node / Capacitor
+**/node_modules/
+oblachko_runner_v1.1/android/app/src/main/assets/public/
+oblachko_runner_v1.1/android/app/build/
+oblachko_runner_v1.1/android/.gradle/
+oblachko_runner_v1.1/android/build/
+
+# Android / Gradle / Godot build outputs
+**/.gradle/
+**/build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+captures/
+*.apk
+*.aab
+*.keystore
+*.jks

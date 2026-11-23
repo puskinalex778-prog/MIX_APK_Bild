@@ -1,0 +1,120 @@
+{
+ "topics": 560,
+ "tasks": 5839,
+ "items": 912,
+ "items_covered": 912,
+ "types": {
+  "choice": 2320,
+  "input": 587,
+  "order": 166,
+  "sort": 195,
+  "match": 400,
+  "fix": 496,
+  "fill": 648,
+  "tf": 444,
+  "multi": 391,
+  "build": 40,
+  "listen": 152
+ },
+ "with_pic": 256,
+ "with_audio": 152,
+ "with_text": 9,
+ "auto_hints": 2631,
+ "duplicate_ids": 0,
+ "voice_files": 153,
+ "sfx_files": 13,
+ "music_files": 4,
+ "gd_scripts": 41,
+ "by_grade_subject": {
+  "2.math": {
+   "sections": 6,
+   "topics": 42,
+   "tasks": 470,
+   "min": 10
+  },
+  "2.rus": {
+   "sections": 6,
+   "topics": 37,
+   "tasks": 373,
+   "min": 10
+  },
+  "2.world": {
+   "sections": 6,
+   "topics": 51,
+   "tasks": 512,
+   "min": 10
+  },
+  "2.eng": {
+   "sections": 6,
+   "topics": 24,
+   "tasks": 287,
+   "min": 10
+  },
+  "2.read": {
+   "sections": 12,
+   "topics": 41,
+   "tasks": 411,
+   "min": 10
+  },
+  "3.math": {
+   "sections": 7,
+   "topics": 36,
+   "tasks": 401,
+   "min": 10
+  },
+  "3.rus": {
+   "sections": 9,
+   "topics": 39,
+   "tasks": 393,
+   "min": 10
+  },
+  "3.world": {
+   "sections": 6,
+   "topics": 41,
+   "tasks": 410,
+   "min": 10
+  },
+  "3.eng": {
+   "sections": 8,
+   "topics": 26,
+   "tasks": 299,
+   "min": 10
+  },
+  "3.read": {
+   "sections": 12,
+   "topics": 40,
+   "tasks": 400,
+   "min": 10
+  },
+  "4.math": {
+   "sections": 9,
+   "topics": 39,
+   "tasks": 399,
+   "min": 10
+  },
+  "4.rus": {
+   "sections": 7,
+   "topics": 31,
+   "tasks": 316,
+   "min": 10
+  },
+  "4.world": {
+   "sections": 6,
+   "topics": 48,
+   "tasks": 486,
+   "min": 10
+  },
+  "4.eng": {
+   "sections": 8,
+   "topics": 31,
+   "tasks": 342,
+   "min": 10
+  },
+  "4.read": {
+   "sections": 11,
+   "topics": 34,
+   "tasks": 340,
+   "min": 10
+  }
+ }
+}

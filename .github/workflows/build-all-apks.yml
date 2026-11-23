@@ -1,0 +1,228 @@
+name: Build All APKs
+
+on:
+  push:
+    branches: [ main, master ]
+    tags: [ 'v*' ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-khranitoniks:
+    name: Хранитоникс + Бокс (v1.1)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Set up Gradle 8.10.2
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.10.2'
+
+      - name: Build debug APKs
+        working-directory: Khranitoniks_v1.1
+        run: gradle assembleDebug --stacktrace
+
+      - name: Prepare APK names
+        working-directory: Khranitoniks_v1.1
+        run: |
+          mkdir -p out_apks
+          cp app/build/outputs/apk/debug/app-debug.apk out_apks/Khranitoniks-v1.1-app-debug.apk
+          cp box/build/outputs/apk/debug/box-debug.apk out_apks/Khranitoniks-v1.1-box-debug.apk
+
+      - name: Upload Хранитоникс APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: Khranitoniks-v1.1-app-debug-apk
+          path: Khranitoniks_v1.1/out_apks/Khranitoniks-v1.1-app-debug.apk
+
+      - name: Upload Хранитоникс Бокс APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: Khranitoniks-v1.1-box-debug-apk
+          path: Khranitoniks_v1.1/out_apks/Khranitoniks-v1.1-box-debug.apk
+
+  build-oblachko-runner:
+    name: Облачко Большой забег (v1.1)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: oblachko_runner_v1.1/package-lock.json
+
+      - name: Set up JDK 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - name: Install dependencies
+        working-directory: oblachko_runner_v1.1
+        run: npm ci
+
+      - name: Build game and sync Android project
+        working-directory: oblachko_runner_v1.1
+        run: |
+          npm run build
+          npx cap sync android
+
+      - name: Build debug APK
+        working-directory: oblachko_runner_v1.1/android
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleDebug --no-daemon --stacktrace
+
+      - name: Prepare APK
+        working-directory: oblachko_runner_v1.1
+        run: |
+          mkdir -p out_apks
+          cp android/app/build/outputs/apk/debug/app-debug.apk "out_apks/OblachkoRunner-v1.1.${{ github.run_number }}.apk"
+
+      - name: Upload Облачко APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: OblachkoRunner-v1.1-APK
+          path: oblachko_runner_v1.1/out_apks/*.apk
+
+  build-viberadio:
+    name: VibeRadio
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Set up Gradle 8.9
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.9'
+
+      - name: Build debug APK
+        working-directory: VibeRadio
+        run: gradle assembleDebug --stacktrace
+
+      - name: Prepare APK
+        working-directory: VibeRadio
+        run: |
+          mkdir -p out_apks
+          cp app/build/outputs/apk/debug/app-debug.apk "out_apks/VibeRadio-1.0.${{ github.run_number }}.apk"
+
+      - name: Upload VibeRadio APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: VibeRadio-APK
+          path: VibeRadio/out_apks/*.apk
+
+  build-ostrova-znaniy:
+    name: Острова Знаний (${{ matrix.ver }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        ver: [ v7, v8 ]
+    env:
+      GODOT_VERSION: 4.6.2
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Install Android SDK packages
+        run: |
+          set +o pipefail
+          SDK_ROOT="${ANDROID_SDK_ROOT:-$ANDROID_HOME}"
+          SDKMANAGER="$(command -v sdkmanager || find "$SDK_ROOT/cmdline-tools" -name sdkmanager -type f | head -n 1)"
+          yes | "$SDKMANAGER" --sdk_root="$SDK_ROOT" --licenses > /dev/null || true
+          yes | "$SDKMANAGER" --sdk_root="$SDK_ROOT" "platform-tools" "build-tools;34.0.0" "platforms;android-34"
+
+      - name: Download Godot and export templates
+        run: |
+          wget -q -O "$RUNNER_TEMP/godot.zip" "https://github.com/godotengine/godot/releases/download/${GODOT_VERSION}-stable/Godot_v${GODOT_VERSION}-stable_linux.x86_64.zip"
+          wget -q -O "$RUNNER_TEMP/templates.tpz" "https://github.com/godotengine/godot/releases/download/${GODOT_VERSION}-stable/Godot_v${GODOT_VERSION}-stable_export_templates.tpz"
+          unzip -q "$RUNNER_TEMP/godot.zip" -d "$RUNNER_TEMP"
+          mv "$RUNNER_TEMP/Godot_v${GODOT_VERSION}-stable_linux.x86_64" "$RUNNER_TEMP/godot"
+          chmod +x "$RUNNER_TEMP/godot"
+          mkdir -p ~/.local/share/godot/export_templates/${GODOT_VERSION}.stable
+          unzip -q "$RUNNER_TEMP/templates.tpz" -d "$RUNNER_TEMP/tpl"
+          mv "$RUNNER_TEMP/tpl/templates/"* ~/.local/share/godot/export_templates/${GODOT_VERSION}.stable/
+
+      - name: Create debug keystore and Godot editor settings
+        run: |
+          keytool -genkeypair -v -keystore "$RUNNER_TEMP/debug.keystore" -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000 -dname "CN=Android Debug,O=Android,C=US"
+          SDK_ROOT="${ANDROID_SDK_ROOT:-$ANDROID_HOME}"
+          mkdir -p ~/.config/godot
+          cat > ~/.config/godot/editor_settings-4.6.tres <<EOT
+          [gd_resource type="EditorSettings" format=3]
+          [resource]
+          export/android/android_sdk_path = "$SDK_ROOT"
+          export/android/java_sdk_path = "$JAVA_HOME"
+          export/android/debug_keystore = "$RUNNER_TEMP/debug.keystore"
+          export/android/debug_keystore_user = "androiddebugkey"
+          export/android/debug_keystore_pass = "android"
+          EOT
+
+      - name: Content check
+        working-directory: ostrova_znaniy_${{ matrix.ver }}/tools/content
+        run: |
+          python3 build_content.py
+          python3 validate_content.py | tail -3
+          python3 -c "import json,sys; d=json.load(open('../../docs/validation_report.json')); sys.exit(1 if d['errors'] else 0)"
+
+      - name: Export APK
+        working-directory: ostrova_znaniy_${{ matrix.ver }}/project
+        env:
+          GODOT_ANDROID_KEYSTORE_DEBUG_PATH: ${{ runner.temp }}/debug.keystore
+          GODOT_ANDROID_KEYSTORE_DEBUG_USER: androiddebugkey
+          GODOT_ANDROID_KEYSTORE_DEBUG_PASSWORD: android
+        run: |
+          mkdir -p build
+          "$RUNNER_TEMP/godot" --headless --import || true
+          "$RUNNER_TEMP/godot" --headless res://tests/unit_tests.tscn
+          "$RUNNER_TEMP/godot" --headless --export-debug "Android" "build/ostrova-znaniy-${{ matrix.ver }}.apk"
+
+      - name: Upload Острова Знаний APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: ostrova-znaniy-${{ matrix.ver }}-apk
+          path: ostrova_znaniy_${{ matrix.ver }}/project/build/*.apk
+
+  release:
+    name: Publish Release
+    needs: [ build-khranitoniks, build-oblachko-runner, build-viberadio, build-ostrova-znaniy ]
+    if: startsWith(github.ref, 'refs/tags/')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download all APKs
+        uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: artifacts/**/*.apk

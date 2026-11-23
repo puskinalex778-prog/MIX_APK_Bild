@@ -1,0 +1,10103 @@
+{
+ "summary": {
+  "grades": {
+   "2": {
+    "math": {
+     "sections": 6,
+     "topics": 42,
+     "tasks": 470,
+     "min_tasks_in_topic": 10
+    },
+    "rus": {
+     "sections": 6,
+     "topics": 37,
+     "tasks": 373,
+     "min_tasks_in_topic": 10
+    },
+    "world": {
+     "sections": 6,
+     "topics": 51,
+     "tasks": 512,
+     "min_tasks_in_topic": 10
+    },
+    "eng": {
+     "sections": 6,
+     "topics": 24,
+     "tasks": 287,
+     "min_tasks_in_topic": 10
+    },
+    "read": {
+     "sections": 12,
+     "topics": 41,
+     "tasks": 411,
+     "min_tasks_in_topic": 10
+    }
+   },
+   "3": {
+    "math": {
+     "sections": 7,
+     "topics": 36,
+     "tasks": 401,
+     "min_tasks_in_topic": 10
+    },
+    "rus": {
+     "sections": 9,
+     "topics": 39,
+     "tasks": 393,
+     "min_tasks_in_topic": 10
+    },
+    "world": {
+     "sections": 6,
+     "topics": 41,
+     "tasks": 410,
+     "min_tasks_in_topic": 10
+    },
+    "eng": {
+     "sections": 8,
+     "topics": 26,
+     "tasks": 299,
+     "min_tasks_in_topic": 10
+    },
+    "read": {
+     "sections": 12,
+     "topics": 40,
+     "tasks": 400,
+     "min_tasks_in_topic": 10
+    }
+   },
+   "4": {
+    "math": {
+     "sections": 9,
+     "topics": 39,
+     "tasks": 399,
+     "min_tasks_in_topic": 10
+    },
+    "rus": {
+     "sections": 7,
+     "topics": 31,
+     "tasks": 316,
+     "min_tasks_in_topic": 10
+    },
+    "world": {
+     "sections": 6,
+     "topics": 48,
+     "tasks": 486,
+     "min_tasks_in_topic": 10
+    },
+    "eng": {
+     "sections": 8,
+     "topics": 31,
+     "tasks": 342,
+     "min_tasks_in_topic": 10
+    },
+    "read": {
+     "sections": 11,
+     "topics": 34,
+     "tasks": 340,
+     "min_tasks_in_topic": 10
+    }
+   }
+  },
+  "totals": {
+   "textbooks": 15,
+   "sections": 119,
+   "topics": 560,
+   "reading_works_items": 240,
+   "tasks": 5839,
+   "min_tasks_in_topic": 10,
+   "topics_below_min": 0,
+   "uncovered_items": 0,
+   "auto_hints": 2631,
+   "errors": 0,
+   "warnings": 30
+  }
+ },
+ "errors": [],
+ "warnings": [
+  "g2.rus.stress: мало разных механик ({'choice': 9, 'tf': 1})",
+  "g2.rus.adj_meaning-001: подсказка содержит ответ",
+  "g2.rus.adj_meaning-005: подсказка содержит ответ",
+  "g2.rus.pronoun-003: подсказка содержит ответ",
+  "g2.rus.pronoun-004: подсказка содержит ответ",
+  "g2.rus.pronoun-005: подсказка содержит ответ",
+  "g2.eng.prepositions-003: подсказка содержит ответ",
+  "g2.eng.prepositions-006: подсказка содержит ответ",
+  "g2.eng.circus-005: подсказка содержит ответ",
+  "g2.eng.have_got-002: подсказка содержит ответ",
+  "g2.eng.have_got-003: подсказка содержит ответ",
+  "g2.eng.have_got-005: подсказка содержит ответ",
+  "g3.rus.prefix-002: подсказка содержит ответ",
+  "g3.rus.prefix-005: подсказка содержит ответ",
+  "g3.eng.possessives-002: подсказка содержит ответ",
+  "g3.eng.possessives-003: подсказка содержит ответ",
+  "g3.eng.possessives-004: подсказка содержит ответ",
+  "g3.eng.possessives-005: подсказка содержит ответ",
+  "g3.eng.possessives-006: подсказка содержит ответ",
+  "g3.eng.likes-007: подсказка содержит ответ",
+  "g4.rus.prefix_suffix-001: подсказка содержит ответ",
+  "g4.rus.prefix_suffix: мало разных механик ({'choice': 9, 'fix': 1})",
+  "g4.rus.adj_decl_mn-001: подсказка содержит ответ",
+  "g4.rus.verb_exceptions-002: подсказка содержит ответ",
+  "g4.eng.past_regular-003: подсказка содержит ответ",
+  "g4.eng.past_regular-004: подсказка содержит ответ",
+  "g4.eng.past_regular-005: подсказка содержит ответ",
+  "g4.eng.past_neg_q-002: подсказка содержит ответ",
+  "g4.eng.superlative-005: подсказка содержит ответ",
+  "g4.eng.going_to-003: подсказка содержит ответ"
+ ],
+ "topics": [
+  {
+   "id": "g2.math.rep20",
+   "title": "Повторение: числа от 1 до 20",
+   "section": "Числа от 1 до 100. Нумерация",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 13,
+   "types": {
+    "choice": 4,
+    "input": 5,
+    "order": 1,
+    "sort": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.tens",
+   "title": "Счёт десятками",
+   "section": "Числа от 1 до 100. Нумерация",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 12,
+   "types": {
+    "input": 5,
+    "order": 1,
+    "choice": 2,
+    "fill": 1,
+    "sort": 1,
+    "tf": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.twodigit",
+   "title": "Двузначные числа: образование и запись",
+   "section": "Числа от 1 до 100. Нумерация",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 12,
+   "types": {
+    "input": 6,
+    "choice": 2,
+    "match": 1,
+    "order": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.mm",
+   "title": "Миллиметр",
+   "section": "Числа от 1 до 100. Нумерация",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 12,
+   "types": {
+    "input": 5,
+    "choice": 3,
+    "fill": 1,
+    "order": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.meter",
+   "title": "Метр",
+   "section": "Числа от 1 до 100. Нумерация",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 11,
+   "types": {
+    "input": 4,
+    "choice": 2,
+    "fill": 1,
+    "match": 1,
+    "order": 1,
+    "tf": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.money",
+   "title": "Рубль и копейка",
+   "section": "Числа от 1 до 100. Нумерация",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 11,
+   "types": {
+    "input": 5,
+    "fill": 1,
+    "choice": 2,
+    "multi": 1,
+    "order": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.inverse",
+   "title": "Задачи, обратные данной",
+   "section": "Сложение и вычитание",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 11,
+   "types": {
+    "choice": 2,
+    "input": 5,
+    "tf": 1,
+    "sort": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.time",
+   "title": "Час и минута",
+   "section": "Сложение и вычитание",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 12,
+   "types": {
+    "input": 6,
+    "choice": 2,
+    "fill": 1,
+    "order": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.polyline",
+   "title": "Длина ломаной",
+   "section": "Сложение и вычитание",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 11,
+   "types": {
+    "input": 4,
+    "choice": 2,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "order": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.order",
+   "title": "Порядок действий и скобки",
+   "section": "Сложение и вычитание",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 11,
+   "types": {
+    "input": 4,
+    "choice": 2,
+    "build": 1,
+    "fill": 1,
+    "match": 1,
+    "tf": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.numexpr",
+   "title": "Числовые выражения",
+   "section": "Сложение и вычитание",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "input": 1,
+    "sort": 1,
+    "build": 1,
+    "multi": 1,
+    "tf": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.perimeter",
+   "title": "Периметр многоугольника",
+   "section": "Сложение и вычитание",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 11,
+   "types": {
+    "input": 5,
+    "choice": 1,
+    "fill": 1,
+    "multi": 1,
+    "tf": 1,
+    "order": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.addprops",
+   "title": "Свойства сложения",
+   "section": "Сложение и вычитание",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "fill": 2,
+    "tf": 1,
+    "input": 2,
+    "choice": 1,
+    "multi": 1,
+    "match": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.bars",
+   "title": "Столбчатые диаграммы",
+   "section": "Сложение и вычитание",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "input": 3,
+    "order": 1,
+    "tf": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.oral_nocarry",
+   "title": "Сложение и вычитание без перехода через десяток",
+   "section": "Устные вычисления в пределах 100",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 11,
+   "types": {
+    "input": 7,
+    "choice": 1,
+    "match": 1,
+    "fill": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.oral_carry",
+   "title": "Сложение и вычитание с переходом через десяток",
+   "section": "Устные вычисления в пределах 100",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 12,
+   "types": {
+    "input": 7,
+    "choice": 2,
+    "order": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.letterexpr",
+   "title": "Буквенные выражения",
+   "section": "Устные вычисления в пределах 100",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 11,
+   "types": {
+    "input": 4,
+    "choice": 2,
+    "match": 1,
+    "sort": 1,
+    "fill": 1,
+    "tf": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.equations",
+   "title": "Уравнения",
+   "section": "Устные вычисления в пределах 100",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 11,
+   "types": {
+    "input": 5,
+    "choice": 2,
+    "sort": 1,
+    "order": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.check",
+   "title": "Проверка сложения и вычитания",
+   "section": "Устные вычисления в пределах 100",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "choice": 2,
+    "tf": 2,
+    "fill": 2,
+    "match": 1,
+    "multi": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.col_add",
+   "title": "Сложение двузначных чисел столбиком",
+   "section": "Письменные вычисления (столбиком)",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "input": 4,
+    "choice": 1,
+    "fill": 1,
+    "tf": 1,
+    "fix": 1,
+    "multi": 1,
+    "order": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.col_sub",
+   "title": "Вычитание двузначных чисел столбиком",
+   "section": "Письменные вычисления (столбиком)",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "input": 4,
+    "choice": 1,
+    "fill": 1,
+    "tf": 1,
+    "fix": 1,
+    "multi": 1,
+    "order": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.angles",
+   "title": "Виды углов",
+   "section": "Письменные вычисления (столбиком)",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 11,
+   "types": {
+    "choice": 7,
+    "sort": 1,
+    "multi": 1,
+    "tf": 1,
+    "fix": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.rect_sides",
+   "title": "Противоположные стороны прямоугольника",
+   "section": "Письменные вычисления (столбиком)",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "input": 3,
+    "choice": 2,
+    "tf": 1,
+    "multi": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.symmetry",
+   "title": "Симметричные фигуры",
+   "section": "Письменные вычисления (столбиком)",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 11,
+   "types": {
+    "tf": 6,
+    "choice": 1,
+    "multi": 1,
+    "input": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.mul_meaning",
+   "title": "Смысл умножения",
+   "section": "Умножение и деление",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 12,
+   "types": {
+    "choice": 6,
+    "input": 2,
+    "tf": 1,
+    "match": 1,
+    "build": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.rect_perimeter",
+   "title": "Периметр прямоугольника",
+   "section": "Умножение и деление",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 11,
+   "types": {
+    "input": 5,
+    "choice": 1,
+    "fill": 1,
+    "multi": 1,
+    "order": 1,
+    "tf": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.mul_names",
+   "title": "Названия компонентов умножения",
+   "section": "Умножение и деление",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "choice": 3,
+    "input": 2,
+    "fill": 1,
+    "match": 1,
+    "build": 1,
+    "tf": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.mul_commut",
+   "title": "Переместительное свойство умножения",
+   "section": "Умножение и деление",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "fill": 1,
+    "tf": 1,
+    "choice": 3,
+    "input": 1,
+    "match": 1,
+    "multi": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.div_meaning",
+   "title": "Смысл деления и названия компонентов",
+   "section": "Умножение и деление",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 11,
+   "types": {
+    "input": 3,
+    "choice": 3,
+    "match": 1,
+    "tf": 1,
+    "fill": 1,
+    "build": 1,
+    "fix": 1
+   },
+   "items": 4,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.x2",
+   "title": "Умножение и деление на 2",
+   "section": "Табличное умножение и деление",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 12,
+   "types": {
+    "input": 6,
+    "fill": 1,
+    "choice": 1,
+    "match": 1,
+    "order": 1,
+    "fix": 1,
+    "multi": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.evenodd",
+   "title": "Чётные и нечётные числа",
+   "section": "Табличное умножение и деление",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 11,
+   "types": {
+    "sort": 1,
+    "choice": 3,
+    "multi": 1,
+    "input": 2,
+    "order": 1,
+    "tf": 1,
+    "fix": 1,
+    "fill": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.x3",
+   "title": "Умножение и деление на 3",
+   "section": "Табличное умножение и деление",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 12,
+   "types": {
+    "input": 6,
+    "fill": 1,
+    "choice": 1,
+    "match": 1,
+    "order": 1,
+    "fix": 1,
+    "multi": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.order2",
+   "title": "Порядок действий в выражениях со скобками и без",
+   "section": "Табличное умножение и деление",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 11,
+   "types": {
+    "input": 5,
+    "choice": 2,
+    "match": 1,
+    "order": 1,
+    "tf": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.x4",
+   "title": "Умножение и деление на 4",
+   "section": "Табличное умножение и деление",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 12,
+   "types": {
+    "input": 6,
+    "fill": 1,
+    "choice": 1,
+    "match": 1,
+    "order": 1,
+    "fix": 1,
+    "multi": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.times_more",
+   "title": "Увеличение и уменьшение в несколько раз",
+   "section": "Табличное умножение и деление",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "input": 6,
+    "choice": 1,
+    "sort": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.ratio_compare",
+   "title": "Во сколько раз больше или меньше",
+   "section": "Табличное умножение и деление",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 11,
+   "types": {
+    "input": 6,
+    "choice": 2,
+    "match": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.x5",
+   "title": "Умножение и деление с числом 5",
+   "section": "Табличное умножение и деление",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 12,
+   "types": {
+    "input": 6,
+    "fill": 1,
+    "choice": 1,
+    "match": 1,
+    "order": 1,
+    "fix": 1,
+    "multi": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.x6",
+   "title": "Умножение и деление с числом 6",
+   "section": "Табличное умножение и деление",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 12,
+   "types": {
+    "input": 6,
+    "fill": 1,
+    "choice": 1,
+    "match": 1,
+    "order": 1,
+    "fix": 1,
+    "multi": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.x7",
+   "title": "Умножение и деление с числом 7",
+   "section": "Табличное умножение и деление",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 12,
+   "types": {
+    "input": 6,
+    "fill": 1,
+    "choice": 1,
+    "match": 1,
+    "order": 1,
+    "fix": 1,
+    "multi": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.x8",
+   "title": "Умножение и деление с числом 8",
+   "section": "Табличное умножение и деление",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 12,
+   "types": {
+    "input": 6,
+    "fill": 1,
+    "choice": 1,
+    "match": 1,
+    "order": 1,
+    "fix": 1,
+    "multi": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.x9",
+   "title": "Умножение и деление с числом 9",
+   "section": "Табличное умножение и деление",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 13,
+   "types": {
+    "input": 6,
+    "fill": 1,
+    "choice": 2,
+    "match": 1,
+    "order": 1,
+    "fix": 1,
+    "multi": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.math.table",
+   "title": "Таблица умножения",
+   "section": "Табличное умножение и деление",
+   "grade": 2,
+   "subject": "math",
+   "tasks": 12,
+   "types": {
+    "input": 5,
+    "choice": 1,
+    "multi": 1,
+    "match": 1,
+    "fill": 1,
+    "sort": 1,
+    "fix": 1,
+    "tf": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.rus.speech",
+   "title": "Устная и письменная речь",
+   "section": "Наша речь",
+   "grade": 2,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "sort": 1,
+    "tf": 2,
+    "multi": 1,
+    "order": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.rus.dialog",
+   "title": "Диалог и монолог",
+   "section": "Наша речь",
+   "grade": 2,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "sort": 1,
+    "order": 1,
+    "tf": 1,
+    "multi": 1,
+    "fill": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.rus.text_signs",
+   "title": "Признаки текста",
+   "section": "Текст",
+   "grade": 2,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 3,
+    "tf": 2,
+    "multi": 1,
+    "order": 1,
+    "fill": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.rus.text_theme",
+   "title": "Тема и главная мысль текста",
+   "section": "Текст",
+   "grade": 2,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "match": 1,
+    "multi": 1,
+    "fill": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.rus.text_parts",
+   "title": "Части текста",
+   "section": "Текст",
+   "grade": 2,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "order": 2,
+    "choice": 3,
+    "sort": 1,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g2.rus.sent_types",
+   "title": "Предложение. Виды предложений",
+   "section": "Предложение",
+   "grade": 2,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "fill": 5,
+    "choice": 2,
+    "build": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.rus.main_members",
+   "title": "Главные члены предложения",
+   "section": "Предложение",
+   "grade": 2,
+   "subject": "rus",
+   "tasks": 11,
+   "types": {
+    "choice": 8,
+    "match": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.rus.word_links",
+   "title": "Связь слов в предложении",
+   "section": "Предложение",
+   "grade": 2,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 3,
+    "build": 1,
+    "order": 1,
+    "fill": 1,
+    "match": 1,
+    "tf": 1,
+    "fix": 1,
+    "multi": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.rus.lex_meaning",
+   "title": "Лексическое значение слова",
+   "section": "Слово и его значение",
+   "grade": 2,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "match": 1,
+    "fill": 1,
+    "tf": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.rus.synonyms",
+   "title": "Синонимы",
+   "section": "Слово и его значение",
+   "grade": 2,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "match": 1,
+    "multi": 1,
+    "fill": 1,
+    "tf": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.rus.antonyms",
+   "title": "Антонимы",
+   "section": "Слово и его значение",
+   "grade": 2,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "match": 1,
+    "fill": 1,
+    "sort": 1,
+    "tf": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.rus.cognates",
+   "title": "Однокоренные слова. Корень слова",
+   "section": "Слово и его значение",
+   "grade": 2,
+   "subject": "rus",
+   "tasks": 11,
+   "types": {
+    "multi": 3,
+    "choice": 4,
+    "tf": 1,
+    "sort": 1,
+    "fill": 1,
+    "fix": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g2.rus.syllables",
+   "title": "Слог",
+   "section": "Слово и его значение",
+   "grade": 2,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "input": 6,
+    "choice": 2,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.rus.stress",
+   "title": "Ударение",
+   "section": "Слово и его значение",
+   "grade": 2,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 9,
+    "tf": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.rus.hyphen",
+   "title": "Перенос слов",
+   "section": "Слово и его значение",
+   "grade": 2,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.rus.alphabet",
+   "title": "Алфавит",
+   "section": "Звуки и буквы",
+   "grade": 2,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "input": 1,
+    "order": 3,
+    "fill": 3,
+    "choice": 1,
+    "tf": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.rus.vowels",
+   "title": "Гласные звуки и буквы",
+   "section": "Звуки и буквы",
+   "grade": 2,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "input": 3,
+    "multi": 2,
+    "sort": 1,
+    "choice": 1,
+    "tf": 1,
+    "fix": 1,
+    "fill": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.rus.unstressed",
+   "title": "Безударные гласные в корне",
+   "section": "Звуки и буквы",
+   "grade": 2,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "fill": 6,
+    "choice": 1,
+    "match": 1,
+    "tf": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.rus.consonants",
+   "title": "Согласные звуки и буквы",
+   "section": "Звуки и буквы",
+   "grade": 2,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "input": 2,
+    "multi": 1,
+    "sort": 1,
+    "choice": 3,
+    "tf": 1,
+    "fix": 1,
+    "fill": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.rus.hard_soft",
+   "title": "Твёрдые и мягкие согласные",
+   "section": "Звуки и буквы",
+   "grade": 2,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "sort": 1,
+    "multi": 1,
+    "tf": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.rus.soft_sign",
+   "title": "Мягкий знак для обозначения мягкости",
+   "section": "Звуки и буквы",
+   "grade": 2,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "fill": 4,
+    "choice": 1,
+    "match": 1,
+    "sort": 1,
+    "tf": 1,
+    "fix": 1,
+    "input": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.rus.chk",
+   "title": "Буквосочетания чк, чн, чт, щн, нч",
+   "section": "Звуки и буквы",
+   "grade": 2,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "multi": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 5,
+   "uncovered": []
+  },
+  {
+   "id": "g2.rus.zhishi",
+   "title": "Жи–ши, ча–ща, чу–щу",
+   "section": "Звуки и буквы",
+   "grade": 2,
+   "subject": "rus",
+   "tasks": 11,
+   "types": {
+    "fill": 7,
+    "tf": 1,
+    "multi": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g2.rus.paired",
+   "title": "Парные звонкие и глухие согласные",
+   "section": "Звуки и буквы",
+   "grade": 2,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "fill": 6,
+    "choice": 1,
+    "match": 1,
+    "tf": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.rus.sep_soft",
+   "title": "Разделительный мягкий знак",
+   "section": "Звуки и буквы",
+   "grade": 2,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "sort": 1,
+    "match": 1,
+    "tf": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.rus.pos",
+   "title": "Части речи: общее понятие",
+   "section": "Части речи",
+   "grade": 2,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "sort": 1,
+    "match": 1,
+    "multi": 1,
+    "fix": 1,
+    "tf": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.rus.noun_anim",
+   "title": "Одушевлённые и неодушевлённые существительные",
+   "section": "Части речи",
+   "grade": 2,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "sort": 1,
+    "tf": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.rus.noun_proper",
+   "title": "Собственные и нарицательные существительные",
+   "section": "Части речи",
+   "grade": 2,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 7,
+    "sort": 1,
+    "fix": 1,
+    "match": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.rus.noun_number",
+   "title": "Число имён существительных",
+   "section": "Части речи",
+   "grade": 2,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "sort": 1,
+    "multi": 1,
+    "match": 1,
+    "tf": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.rus.verb_meaning",
+   "title": "Глагол: значение и вопросы",
+   "section": "Части речи",
+   "grade": 2,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "multi": 1,
+    "match": 1,
+    "fill": 1,
+    "sort": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.rus.verb_number",
+   "title": "Число глаголов",
+   "section": "Части речи",
+   "grade": 2,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "sort": 1,
+    "fill": 1,
+    "tf": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.rus.ne_verb",
+   "title": "Частица не с глаголами",
+   "section": "Части речи",
+   "grade": 2,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "tf": 1,
+    "fix": 1,
+    "fill": 1,
+    "multi": 1,
+    "build": 1,
+    "order": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.rus.adj_meaning",
+   "title": "Имя прилагательное: значение и вопросы",
+   "section": "Части речи",
+   "grade": 2,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "multi": 1,
+    "match": 1,
+    "fill": 1,
+    "sort": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.rus.adj_noun",
+   "title": "Связь прилагательного с существительным",
+   "section": "Части речи",
+   "grade": 2,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "fill": 4,
+    "choice": 1,
+    "match": 1,
+    "fix": 1,
+    "build": 1,
+    "multi": 1,
+    "tf": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.rus.adj_number",
+   "title": "Число имён прилагательных",
+   "section": "Части речи",
+   "grade": 2,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "sort": 1,
+    "tf": 1,
+    "fill": 1,
+    "fix": 1,
+    "match": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.rus.pronoun",
+   "title": "Личные местоимения",
+   "section": "Части речи",
+   "grade": 2,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "multi": 1,
+    "choice": 5,
+    "fix": 1,
+    "sort": 1,
+    "fill": 1,
+    "tf": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.rus.preposition",
+   "title": "Предлоги",
+   "section": "Части речи",
+   "grade": 2,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "fill": 4,
+    "choice": 2,
+    "fix": 1,
+    "multi": 1,
+    "build": 1,
+    "tf": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.country",
+   "title": "Родная страна",
+   "section": "Где мы живём",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "multi": 1,
+    "order": 1,
+    "tf": 1,
+    "match": 1,
+    "fill": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.city_village",
+   "title": "Город и село",
+   "section": "Где мы живём",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "sort": 1,
+    "choice": 4,
+    "tf": 2,
+    "multi": 1,
+    "fill": 1,
+    "match": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.nature_made",
+   "title": "Природа и рукотворный мир",
+   "section": "Где мы живём",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "sort": 1,
+    "choice": 4,
+    "tf": 1,
+    "multi": 1,
+    "fill": 1,
+    "fix": 1,
+    "match": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.nonliving_living",
+   "title": "Неживая и живая природа",
+   "section": "Природа",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "sort": 1,
+    "choice": 4,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "fix": 1,
+    "order": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.phenomena",
+   "title": "Явления природы",
+   "section": "Природа",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "sort": 1,
+    "choice": 4,
+    "input": 1,
+    "tf": 1,
+    "multi": 1,
+    "fill": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.weather",
+   "title": "Что такое погода",
+   "section": "Природа",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "multi": 1,
+    "sort": 1,
+    "tf": 1,
+    "fill": 1,
+    "match": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.autumn",
+   "title": "Осенние изменения в природе",
+   "section": "Природа",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "order": 1,
+    "multi": 1,
+    "choice": 4,
+    "sort": 1,
+    "tf": 1,
+    "fill": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.sky",
+   "title": "Звёздное небо",
+   "section": "Природа",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 11,
+   "types": {
+    "choice": 5,
+    "multi": 1,
+    "tf": 2,
+    "fill": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.rocks",
+   "title": "Горные породы и минералы",
+   "section": "Природа",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "multi": 1,
+    "tf": 1,
+    "match": 1,
+    "fill": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.air",
+   "title": "Воздух",
+   "section": "Природа",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "multi": 2,
+    "choice": 4,
+    "tf": 1,
+    "fill": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.water",
+   "title": "Вода",
+   "section": "Природа",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "multi": 2,
+    "sort": 1,
+    "choice": 3,
+    "tf": 1,
+    "fill": 1,
+    "order": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.plants",
+   "title": "Какие бывают растения",
+   "section": "Природа",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "sort": 2,
+    "choice": 3,
+    "match": 1,
+    "tf": 1,
+    "multi": 1,
+    "fill": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.animals",
+   "title": "Какие бывают животные",
+   "section": "Природа",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "sort": 2,
+    "choice": 5,
+    "multi": 1,
+    "tf": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.links",
+   "title": "Невидимые нити в природе",
+   "section": "Природа",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "order": 2,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.wild_cult",
+   "title": "Дикорастущие и культурные растения",
+   "section": "Природа",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "sort": 1,
+    "choice": 4,
+    "multi": 1,
+    "match": 1,
+    "tf": 1,
+    "fill": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.wild_dom",
+   "title": "Дикие и домашние животные",
+   "section": "Природа",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "sort": 1,
+    "choice": 4,
+    "match": 1,
+    "tf": 1,
+    "multi": 1,
+    "fill": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.houseplants",
+   "title": "Комнатные растения",
+   "section": "Природа",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "multi": 1,
+    "choice": 4,
+    "tf": 1,
+    "fill": 1,
+    "order": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.petcorner",
+   "title": "Животные живого уголка",
+   "section": "Природа",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "multi": 1,
+    "choice": 4,
+    "tf": 1,
+    "fill": 1,
+    "order": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.cats_dogs",
+   "title": "Про кошек и собак",
+   "section": "Природа",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "multi": 2,
+    "choice": 4,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.redbook",
+   "title": "Красная книга",
+   "section": "Природа",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "multi": 2,
+    "tf": 1,
+    "fill": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.protect",
+   "title": "Будь природе другом",
+   "section": "Природа",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "multi": 1,
+    "choice": 4,
+    "tf": 1,
+    "fill": 1,
+    "sort": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.economy",
+   "title": "Что такое экономика",
+   "section": "Жизнь города и села",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "multi": 1,
+    "match": 1,
+    "tf": 1,
+    "fill": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.materials",
+   "title": "Из чего что сделано",
+   "section": "Жизнь города и села",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "match": 1,
+    "choice": 3,
+    "order": 1,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.building",
+   "title": "Как построить дом",
+   "section": "Жизнь города и села",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "order": 1,
+    "choice": 4,
+    "match": 1,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.transport",
+   "title": "Какой бывает транспорт",
+   "section": "Жизнь города и села",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "sort": 2,
+    "match": 1,
+    "choice": 3,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.culture",
+   "title": "Культура и образование",
+   "section": "Жизнь города и села",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "sort": 1,
+    "choice": 4,
+    "tf": 1,
+    "multi": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.professions",
+   "title": "Все профессии важны",
+   "section": "Жизнь города и села",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "match": 1,
+    "choice": 4,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "order": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.winter",
+   "title": "Зимние изменения в природе",
+   "section": "Жизнь города и села",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "order": 1,
+    "multi": 2,
+    "choice": 4,
+    "tf": 1,
+    "fill": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.body",
+   "title": "Строение тела человека",
+   "section": "Здоровье и безопасность",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "sort": 1,
+    "choice": 4,
+    "match": 1,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.routine",
+   "title": "Режим дня и здоровый образ жизни",
+   "section": "Здоровье и безопасность",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "order": 1,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.traffic",
+   "title": "Правила дорожного движения",
+   "section": "Здоровье и безопасность",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "match": 1,
+    "multi": 1,
+    "tf": 1,
+    "order": 1,
+    "fill": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.home_danger",
+   "title": "Домашние опасности",
+   "section": "Здоровье и безопасность",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "multi": 1,
+    "choice": 4,
+    "tf": 1,
+    "fill": 1,
+    "sort": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.fire",
+   "title": "Пожарная безопасность",
+   "section": "Здоровье и безопасность",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "multi": 1,
+    "order": 1,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.water_forest",
+   "title": "Безопасность на воде и в лесу",
+   "section": "Здоровье и безопасность",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "multi": 2,
+    "choice": 4,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.strangers",
+   "title": "Опасные незнакомцы",
+   "section": "Здоровье и безопасность",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "sort": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.family",
+   "title": "Наша дружная семья",
+   "section": "Общение",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "match": 1,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "order": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.school_rules",
+   "title": "Правила поведения в школе",
+   "section": "Общение",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "multi": 1,
+    "choice": 4,
+    "tf": 1,
+    "fill": 1,
+    "sort": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.politeness",
+   "title": "Правила вежливости",
+   "section": "Общение",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "multi": 1,
+    "match": 1,
+    "choice": 4,
+    "tf": 1,
+    "fill": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.friendship",
+   "title": "Ты и твои друзья",
+   "section": "Общение",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "sort": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.public_behavior",
+   "title": "Мы — зрители и пассажиры",
+   "section": "Общение",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "multi": 1,
+    "choice": 4,
+    "tf": 1,
+    "fill": 1,
+    "sort": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.horizon",
+   "title": "Посмотри вокруг: линия горизонта",
+   "section": "Путешествия",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "order": 1,
+    "match": 1,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.orient",
+   "title": "Ориентирование на местности. Компас",
+   "section": "Путешествия",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "order": 1,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.landforms",
+   "title": "Формы земной поверхности",
+   "section": "Путешествия",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 11,
+   "types": {
+    "sort": 1,
+    "match": 1,
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 4,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.waters",
+   "title": "Водные богатства",
+   "section": "Путешествия",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "sort": 1,
+    "match": 1,
+    "choice": 4,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.spring",
+   "title": "Весенние изменения в природе",
+   "section": "Путешествия",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "order": 1,
+    "multi": 1,
+    "choice": 4,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.russia_map",
+   "title": "Россия на карте",
+   "section": "Путешествия",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "match": 1,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.moscow",
+   "title": "Москва и Московский Кремль",
+   "section": "Путешествия",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.spb",
+   "title": "Город на Неве",
+   "section": "Путешествия",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.world_map",
+   "title": "Карта мира. Материки и океаны",
+   "section": "Путешествия",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "multi": 1,
+    "match": 1,
+    "tf": 1,
+    "fill": 1,
+    "fix": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.countries",
+   "title": "Страны мира",
+   "section": "Путешествия",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "match": 1,
+    "tf": 1,
+    "multi": 1,
+    "fill": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.world.summer",
+   "title": "Впереди лето",
+   "section": "Путешествия",
+   "grade": 2,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "order": 1,
+    "multi": 1,
+    "choice": 4,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.eng.greetings",
+   "title": "Знакомство и приветствия",
+   "section": "Вводный курс",
+   "grade": 2,
+   "subject": "eng",
+   "tasks": 10,
+   "types": {
+    "listen": 4,
+    "choice": 2,
+    "match": 1,
+    "order": 1,
+    "build": 1,
+    "fill": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.eng.alphabet",
+   "title": "Английский алфавит",
+   "section": "Вводный курс",
+   "grade": 2,
+   "subject": "eng",
+   "tasks": 11,
+   "types": {
+    "choice": 5,
+    "order": 2,
+    "input": 1,
+    "match": 1,
+    "listen": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.eng.phonics",
+   "title": "Звуки и правила чтения",
+   "section": "Вводный курс",
+   "grade": 2,
+   "subject": "eng",
+   "tasks": 16,
+   "types": {
+    "choice": 13,
+    "sort": 1,
+    "listen": 1,
+    "tf": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.eng.colours",
+   "title": "Цвета",
+   "section": "Вводный курс",
+   "grade": 2,
+   "subject": "eng",
+   "tasks": 13,
+   "types": {
+    "listen": 3,
+    "choice": 8,
+    "input": 1,
+    "match": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.eng.family",
+   "title": "Члены семьи",
+   "section": "Семья и дом",
+   "grade": 2,
+   "subject": "eng",
+   "tasks": 12,
+   "types": {
+    "listen": 3,
+    "choice": 6,
+    "input": 1,
+    "match": 1,
+    "fill": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.eng.rooms",
+   "title": "Комнаты в доме",
+   "section": "Семья и дом",
+   "grade": 2,
+   "subject": "eng",
+   "tasks": 13,
+   "types": {
+    "listen": 3,
+    "choice": 8,
+    "input": 1,
+    "match": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.eng.furniture",
+   "title": "Мебель",
+   "section": "Семья и дом",
+   "grade": 2,
+   "subject": "eng",
+   "tasks": 11,
+   "types": {
+    "listen": 3,
+    "choice": 6,
+    "input": 1,
+    "match": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.eng.prepositions",
+   "title": "Предлоги места in, on, under",
+   "section": "Семья и дом",
+   "grade": 2,
+   "subject": "eng",
+   "tasks": 10,
+   "types": {
+    "fill": 6,
+    "match": 1,
+    "listen": 1,
+    "choice": 1,
+    "build": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g2.eng.numbers10",
+   "title": "Числа от 1 до 10",
+   "section": "День рождения и еда",
+   "grade": 2,
+   "subject": "eng",
+   "tasks": 13,
+   "types": {
+    "listen": 3,
+    "choice": 6,
+    "input": 2,
+    "match": 1,
+    "order": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.eng.age",
+   "title": "Сколько тебе лет?",
+   "section": "День рождения и еда",
+   "grade": 2,
+   "subject": "eng",
+   "tasks": 11,
+   "types": {
+    "listen": 3,
+    "choice": 4,
+    "order": 1,
+    "fill": 1,
+    "build": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.eng.food",
+   "title": "Еда и напитки",
+   "section": "День рождения и еда",
+   "grade": 2,
+   "subject": "eng",
+   "tasks": 16,
+   "types": {
+    "listen": 3,
+    "choice": 6,
+    "input": 1,
+    "match": 3,
+    "multi": 2,
+    "sort": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.eng.like",
+   "title": "I like / I don't like",
+   "section": "День рождения и еда",
+   "grade": 2,
+   "subject": "eng",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "match": 1,
+    "listen": 1,
+    "fill": 1,
+    "build": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.eng.animals",
+   "title": "Животные",
+   "section": "Животные и действия",
+   "grade": 2,
+   "subject": "eng",
+   "tasks": 11,
+   "types": {
+    "listen": 3,
+    "choice": 6,
+    "input": 1,
+    "match": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.eng.actions",
+   "title": "Глаголы движения",
+   "section": "Животные и действия",
+   "grade": 2,
+   "subject": "eng",
+   "tasks": 12,
+   "types": {
+    "listen": 3,
+    "choice": 7,
+    "input": 1,
+    "match": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.eng.can",
+   "title": "Глагол can",
+   "section": "Животные и действия",
+   "grade": 2,
+   "subject": "eng",
+   "tasks": 10,
+   "types": {
+    "tf": 5,
+    "fill": 1,
+    "match": 1,
+    "choice": 1,
+    "build": 1,
+    "listen": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.eng.circus",
+   "title": "В цирке",
+   "section": "Животные и действия",
+   "grade": 2,
+   "subject": "eng",
+   "tasks": 12,
+   "types": {
+    "listen": 3,
+    "choice": 7,
+    "input": 1,
+    "match": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.eng.toys",
+   "title": "Игрушки",
+   "section": "Игрушки и внешность",
+   "grade": 2,
+   "subject": "eng",
+   "tasks": 11,
+   "types": {
+    "listen": 3,
+    "choice": 6,
+    "input": 1,
+    "match": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.eng.face_body",
+   "title": "Лицо и тело",
+   "section": "Игрушки и внешность",
+   "grade": 2,
+   "subject": "eng",
+   "tasks": 17,
+   "types": {
+    "listen": 3,
+    "choice": 7,
+    "input": 1,
+    "match": 3,
+    "multi": 2,
+    "sort": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.eng.appearance",
+   "title": "Описание внешности",
+   "section": "Игрушки и внешность",
+   "grade": 2,
+   "subject": "eng",
+   "tasks": 12,
+   "types": {
+    "listen": 3,
+    "choice": 7,
+    "input": 1,
+    "match": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.eng.have_got",
+   "title": "have got / has got",
+   "section": "Игрушки и внешность",
+   "grade": 2,
+   "subject": "eng",
+   "tasks": 10,
+   "types": {
+    "fill": 6,
+    "match": 1,
+    "choice": 1,
+    "build": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.eng.clothes",
+   "title": "Одежда",
+   "section": "Каникулы и погода",
+   "grade": 2,
+   "subject": "eng",
+   "tasks": 11,
+   "types": {
+    "listen": 3,
+    "choice": 6,
+    "input": 1,
+    "match": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.eng.weather",
+   "title": "Погода",
+   "section": "Каникулы и погода",
+   "grade": 2,
+   "subject": "eng",
+   "tasks": 12,
+   "types": {
+    "listen": 3,
+    "choice": 7,
+    "input": 1,
+    "match": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.eng.seasons",
+   "title": "Времена года",
+   "section": "Каникулы и погода",
+   "grade": 2,
+   "subject": "eng",
+   "tasks": 11,
+   "types": {
+    "listen": 2,
+    "choice": 6,
+    "input": 1,
+    "match": 1,
+    "order": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.eng.summer",
+   "title": "Летний отдых",
+   "section": "Каникулы и погода",
+   "grade": 2,
+   "subject": "eng",
+   "tasks": 12,
+   "types": {
+    "listen": 3,
+    "choice": 7,
+    "input": 1,
+    "match": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.book",
+   "title": "Знакомство с книгой. Библиотеки",
+   "section": "Самое великое чудо на свете",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 11,
+   "types": {
+    "choice": 6,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "order": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.folk_songs",
+   "title": "Народные песни, потешки, прибаутки",
+   "section": "Устное народное творчество",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "multi": 1,
+    "tf": 1,
+    "match": 1,
+    "fill": 1,
+    "fix": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.folk_small",
+   "title": "Считалки, скороговорки, небылицы",
+   "section": "Устное народное творчество",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "multi": 1,
+    "tf": 1,
+    "sort": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.riddles",
+   "title": "Загадки, пословицы и поговорки",
+   "section": "Устное народное творчество",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "multi": 1,
+    "tf": 1,
+    "match": 1,
+    "fill": 1,
+    "fix": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.petushok",
+   "title": "«Петушок и бобовое зёрнышко»",
+   "section": "Устное народное творчество",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "order": 1,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.u_strakha",
+   "title": "«У страха глаза велики»",
+   "section": "Устное народное творчество",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.lisa_teterev",
+   "title": "«Лиса и тетерев»",
+   "section": "Устное народное творчество",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.lisa_zhuravl",
+   "title": "«Лиса и журавль»",
+   "section": "Устное народное творчество",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "tf": 1,
+    "fill": 1,
+    "order": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.kasha",
+   "title": "«Каша из топора»",
+   "section": "Устное народное творчество",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.gusi",
+   "title": "«Гуси-лебеди»",
+   "section": "Устное народное творчество",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "order": 1,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.autumn_poems",
+   "title": "Осенние загадки и стихи",
+   "section": "Люблю природу русскую. Осень",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "multi": 1,
+    "tf": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 6,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.autumn_prose",
+   "title": "М. Пришвин и В. Берестов об осени",
+   "section": "Люблю природу русскую. Осень",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.pushkin_poems",
+   "title": "А. С. Пушкин. Стихи о природе",
+   "section": "Русские писатели",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.rybak",
+   "title": "А. С. Пушкин «Сказка о рыбаке и рыбке»",
+   "section": "Русские писатели",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "order": 1,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.krylov",
+   "title": "И. А. Крылов. Басни",
+   "section": "Русские писатели",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.tolstoy_stories",
+   "title": "Л. Н. Толстой «Старый дед и внучек», «Котёнок»",
+   "section": "Русские писатели",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.filipok",
+   "title": "Л. Н. Толстой «Филипок»",
+   "section": "Русские писатели",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.animal_poems",
+   "title": "Стихи о животных: Б. Заходер, В. Берестов",
+   "section": "О братьях наших меньших",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.prishvin_ducks",
+   "title": "М. Пришвин «Ребята и утята»",
+   "section": "О братьях наших меньших",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.charushin_zhitkov",
+   "title": "Е. Чарушин «Страшный рассказ», Б. Житков «Храбрый утёнок»",
+   "section": "О братьях наших меньших",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.bianki",
+   "title": "В. Бианки «Музыкант», «Сова»",
+   "section": "О братьях наших меньших",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "order": 1,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.harms",
+   "title": "Д. Хармс. Весёлые стихи",
+   "section": "Из детских журналов. Весёлые стихи",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.fun_poems",
+   "title": "С. Маршак, Ю. Владимиров, А. Введенский",
+   "section": "Из детских журналов. Весёлые стихи",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 4,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.winter_poems",
+   "title": "Стихи о зиме",
+   "section": "Люблю природу русскую. Зима",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 5,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.two_frosts",
+   "title": "Русская народная сказка «Два Мороза»",
+   "section": "Люблю природу русскую. Зима",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.chukovsky",
+   "title": "К. Чуковский",
+   "section": "Писатели — детям",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.marshak",
+   "title": "С. Маршак «Кот и лодыри»",
+   "section": "Писатели — детям",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.mikhalkov",
+   "title": "С. Михалков",
+   "section": "Писатели — детям",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.barto",
+   "title": "А. Барто",
+   "section": "Писатели — детям",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 4,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.nosov",
+   "title": "Н. Носов «Затейники», «Живая шляпа»",
+   "section": "Писатели — детям",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.friend_poems",
+   "title": "Стихи о дружбе: В. Берестов, Э. Мошковская",
+   "section": "Я и мои друзья",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.ermolaev",
+   "title": "Ю. Ермолаев «Два пирожных»",
+   "section": "Я и мои друзья",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.oseeva",
+   "title": "В. Осеева",
+   "section": "Я и мои друзья",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "order": 1,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.spring_poems",
+   "title": "Стихи о весне",
+   "section": "Люблю природу русскую. Весна",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 7,
+    "tf": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 7,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.zakhoder_uspensky",
+   "title": "Б. Заходер и Э. Успенский",
+   "section": "И в шутку и всерьёз",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 4,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.tokmakova_oster",
+   "title": "И. Токмакова и Г. Остер",
+   "section": "И в шутку и всерьёз",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.dragunsky",
+   "title": "В. Драгунский «Тайное становится явным»",
+   "section": "И в шутку и всерьёз",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.foreign_songs",
+   "title": "Песенки разных стран",
+   "section": "Литература зарубежных стран",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 4,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.perrault",
+   "title": "Ш. Перро «Кот в сапогах», «Красная Шапочка»",
+   "section": "Литература зарубежных стран",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.andersen",
+   "title": "Х. К. Андерсен «Принцесса на горошине»",
+   "section": "Литература зарубежных стран",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g2.read.hogarth",
+   "title": "Э. Хогарт «Мафин и паук»",
+   "section": "Литература зарубежных стран",
+   "grade": 2,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.math.rep_addsub",
+   "title": "Повторение приёмов сложения и вычитания",
+   "section": "Числа от 1 до 100. Сложение и вычитание (продолжение)",
+   "grade": 3,
+   "subject": "math",
+   "tasks": 11,
+   "types": {
+    "input": 5,
+    "choice": 1,
+    "match": 1,
+    "multi": 1,
+    "fill": 1,
+    "fix": 1,
+    "order": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.math.equations",
+   "title": "Решение уравнений",
+   "section": "Числа от 1 до 100. Сложение и вычитание (продолжение)",
+   "grade": 3,
+   "subject": "math",
+   "tasks": 11,
+   "types": {
+    "input": 6,
+    "match": 1,
+    "sort": 1,
+    "order": 1,
+    "fix": 1,
+    "tf": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.math.geo_letters",
+   "title": "Обозначение геометрических фигур буквами",
+   "section": "Числа от 1 до 100. Сложение и вычитание (продолжение)",
+   "grade": 3,
+   "subject": "math",
+   "tasks": 11,
+   "types": {
+    "choice": 4,
+    "input": 3,
+    "multi": 1,
+    "tf": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.math.muldiv_link",
+   "title": "Связь умножения и деления",
+   "section": "Табличное умножение и деление (продолжение)",
+   "grade": 3,
+   "subject": "math",
+   "tasks": 11,
+   "types": {
+    "choice": 3,
+    "multi": 1,
+    "fill": 1,
+    "input": 1,
+    "tf": 1,
+    "match": 1,
+    "order": 1,
+    "fix": 1,
+    "sort": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.math.t5",
+   "title": "Таблица умножения и деления на 5",
+   "section": "Табличное умножение и деление (продолжение)",
+   "grade": 3,
+   "subject": "math",
+   "tasks": 13,
+   "types": {
+    "input": 7,
+    "fill": 1,
+    "choice": 1,
+    "match": 1,
+    "order": 1,
+    "fix": 1,
+    "multi": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.math.t6",
+   "title": "Таблица умножения и деления на 6",
+   "section": "Табличное умножение и деление (продолжение)",
+   "grade": 3,
+   "subject": "math",
+   "tasks": 13,
+   "types": {
+    "input": 7,
+    "fill": 1,
+    "choice": 1,
+    "match": 1,
+    "order": 1,
+    "fix": 1,
+    "multi": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.math.t7",
+   "title": "Таблица умножения и деления на 7",
+   "section": "Табличное умножение и деление (продолжение)",
+   "grade": 3,
+   "subject": "math",
+   "tasks": 13,
+   "types": {
+    "input": 7,
+    "fill": 1,
+    "choice": 1,
+    "match": 1,
+    "order": 1,
+    "fix": 1,
+    "multi": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.math.area",
+   "title": "Площадь. Сравнение площадей",
+   "section": "Табличное умножение и деление (продолжение)",
+   "grade": 3,
+   "subject": "math",
+   "tasks": 11,
+   "types": {
+    "input": 3,
+    "choice": 3,
+    "tf": 1,
+    "multi": 1,
+    "order": 1,
+    "fix": 1,
+    "sort": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.math.sqcm",
+   "title": "Квадратный сантиметр",
+   "section": "Табличное умножение и деление (продолжение)",
+   "grade": 3,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "input": 4,
+    "choice": 2,
+    "fill": 1,
+    "tf": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.math.rect_area",
+   "title": "Площадь прямоугольника",
+   "section": "Табличное умножение и деление (продолжение)",
+   "grade": 3,
+   "subject": "math",
+   "tasks": 11,
+   "types": {
+    "input": 4,
+    "choice": 1,
+    "match": 1,
+    "fill": 1,
+    "order": 1,
+    "tf": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.math.t8",
+   "title": "Таблица умножения и деления на 8",
+   "section": "Табличное умножение и деление (продолжение)",
+   "grade": 3,
+   "subject": "math",
+   "tasks": 13,
+   "types": {
+    "input": 7,
+    "fill": 1,
+    "choice": 1,
+    "match": 1,
+    "order": 1,
+    "fix": 1,
+    "multi": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.math.t9",
+   "title": "Таблица умножения и деления на 9",
+   "section": "Табличное умножение и деление (продолжение)",
+   "grade": 3,
+   "subject": "math",
+   "tasks": 13,
+   "types": {
+    "input": 7,
+    "fill": 1,
+    "choice": 1,
+    "match": 1,
+    "order": 1,
+    "fix": 1,
+    "multi": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.math.sqdm",
+   "title": "Квадратный дециметр",
+   "section": "Табличное умножение и деление (продолжение)",
+   "grade": 3,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "input": 4,
+    "choice": 2,
+    "fill": 1,
+    "tf": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.math.sqm",
+   "title": "Квадратный метр",
+   "section": "Табличное умножение и деление (продолжение)",
+   "grade": 3,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "input": 4,
+    "choice": 2,
+    "fill": 1,
+    "tf": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.math.mul01",
+   "title": "Умножение на 1 и на 0",
+   "section": "Табличное умножение и деление (продолжение)",
+   "grade": 3,
+   "subject": "math",
+   "tasks": 12,
+   "types": {
+    "input": 6,
+    "choice": 1,
+    "tf": 1,
+    "sort": 1,
+    "match": 1,
+    "fix": 1,
+    "fill": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.math.zero_div",
+   "title": "Деление нуля на число",
+   "section": "Табличное умножение и деление (продолжение)",
+   "grade": 3,
+   "subject": "math",
+   "tasks": 11,
+   "types": {
+    "input": 5,
+    "choice": 1,
+    "tf": 2,
+    "sort": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.math.fractions",
+   "title": "Доли",
+   "section": "Доли. Окружность. Время",
+   "grade": 3,
+   "subject": "math",
+   "tasks": 11,
+   "types": {
+    "choice": 5,
+    "input": 4,
+    "order": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.math.circle",
+   "title": "Окружность и круг",
+   "section": "Доли. Окружность. Время",
+   "grade": 3,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "choice": 3,
+    "input": 1,
+    "tf": 1,
+    "sort": 1,
+    "multi": 1,
+    "fill": 1,
+    "fix": 1,
+    "match": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.math.diameter",
+   "title": "Диаметр окружности (круга)",
+   "section": "Доли. Окружность. Время",
+   "grade": 3,
+   "subject": "math",
+   "tasks": 11,
+   "types": {
+    "input": 5,
+    "choice": 1,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "order": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.math.timeunits",
+   "title": "Единицы времени: год, месяц, сутки",
+   "section": "Доли. Окружность. Время",
+   "grade": 3,
+   "subject": "math",
+   "tasks": 11,
+   "types": {
+    "input": 4,
+    "choice": 2,
+    "multi": 1,
+    "order": 1,
+    "fill": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g3.math.round_muldiv",
+   "title": "Умножение и деление круглых чисел",
+   "section": "Внетабличное умножение и деление",
+   "grade": 3,
+   "subject": "math",
+   "tasks": 11,
+   "types": {
+    "input": 7,
+    "choice": 1,
+    "match": 1,
+    "fix": 1,
+    "tf": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.math.sum_by_num",
+   "title": "Умножение и деление суммы на число",
+   "section": "Внетабличное умножение и деление",
+   "grade": 3,
+   "subject": "math",
+   "tasks": 12,
+   "types": {
+    "input": 8,
+    "choice": 1,
+    "order": 1,
+    "fix": 1,
+    "tf": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.math.div_2d2d",
+   "title": "Деление двузначного числа на двузначное",
+   "section": "Внетабличное умножение и деление",
+   "grade": 3,
+   "subject": "math",
+   "tasks": 11,
+   "types": {
+    "input": 5,
+    "choice": 2,
+    "multi": 1,
+    "fix": 1,
+    "order": 1,
+    "tf": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.math.check_muldiv",
+   "title": "Проверка умножения и деления",
+   "section": "Внетабличное умножение и деление",
+   "grade": 3,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "choice": 3,
+    "tf": 3,
+    "fill": 1,
+    "match": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.math.remainder",
+   "title": "Деление с остатком",
+   "section": "Внетабличное умножение и деление",
+   "grade": 3,
+   "subject": "math",
+   "tasks": 12,
+   "types": {
+    "input": 6,
+    "choice": 1,
+    "tf": 1,
+    "fill": 1,
+    "order": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.math.three_digit",
+   "title": "Трёхзначные числа: образование, чтение, запись",
+   "section": "Числа от 1 до 1000. Нумерация",
+   "grade": 3,
+   "subject": "math",
+   "tasks": 14,
+   "types": {
+    "input": 6,
+    "choice": 4,
+    "match": 2,
+    "order": 1,
+    "fix": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g3.math.place_value",
+   "title": "Разрядный состав трёхзначных чисел",
+   "section": "Числа от 1 до 1000. Нумерация",
+   "grade": 3,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "choice": 3,
+    "input": 2,
+    "fill": 2,
+    "match": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.math.compare1000",
+   "title": "Сравнение трёхзначных чисел",
+   "section": "Числа от 1 до 1000. Нумерация",
+   "grade": 3,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "order": 1,
+    "multi": 1,
+    "fill": 1,
+    "tf": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.math.mass",
+   "title": "Единицы массы: килограмм и грамм",
+   "section": "Числа от 1 до 1000. Нумерация",
+   "grade": 3,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "input": 3,
+    "choice": 3,
+    "fill": 1,
+    "order": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.math.oral1000",
+   "title": "Устные приёмы сложения и вычитания",
+   "section": "Сложение и вычитание в пределах 1000",
+   "grade": 3,
+   "subject": "math",
+   "tasks": 11,
+   "types": {
+    "input": 8,
+    "choice": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.math.col1000",
+   "title": "Письменное сложение и вычитание",
+   "section": "Сложение и вычитание в пределах 1000",
+   "grade": 3,
+   "subject": "math",
+   "tasks": 11,
+   "types": {
+    "input": 6,
+    "choice": 1,
+    "tf": 1,
+    "fix": 1,
+    "order": 1,
+    "multi": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.math.tri_sides",
+   "title": "Виды треугольников по сторонам",
+   "section": "Сложение и вычитание в пределах 1000",
+   "grade": 3,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "input": 1,
+    "tf": 1,
+    "sort": 1,
+    "fill": 1,
+    "fix": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g3.math.oral_muldiv",
+   "title": "Устные приёмы умножения и деления",
+   "section": "Умножение и деление в пределах 1000",
+   "grade": 3,
+   "subject": "math",
+   "tasks": 12,
+   "types": {
+    "input": 9,
+    "choice": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.math.tri_angles",
+   "title": "Виды треугольников по углам",
+   "section": "Умножение и деление в пределах 1000",
+   "grade": 3,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "sort": 1,
+    "fix": 1,
+    "multi": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g3.math.col_mul",
+   "title": "Письменное умножение на однозначное число",
+   "section": "Умножение и деление в пределах 1000",
+   "grade": 3,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "input": 6,
+    "choice": 1,
+    "tf": 1,
+    "fix": 1,
+    "order": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.math.col_div",
+   "title": "Письменное деление на однозначное число",
+   "section": "Умножение и деление в пределах 1000",
+   "grade": 3,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "input": 6,
+    "choice": 2,
+    "tf": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.speech",
+   "title": "Виды и формы речи",
+   "section": "Язык и речь",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "sort": 1,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.text_types",
+   "title": "Типы текстов",
+   "section": "Текст. Предложение. Словосочетание",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "match": 1,
+    "order": 1,
+    "tf": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.sent_purpose",
+   "title": "Виды предложений по цели высказывания и интонации",
+   "section": "Текст. Предложение. Словосочетание",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 8,
+    "sort": 1,
+    "tf": 1
+   },
+   "items": 4,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.address",
+   "title": "Обращение",
+   "section": "Текст. Предложение. Словосочетание",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "fix": 1,
+    "multi": 1,
+    "build": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.members",
+   "title": "Главные и второстепенные члены предложения",
+   "section": "Текст. Предложение. Словосочетание",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "multi": 1,
+    "sort": 1,
+    "tf": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.simple_complex",
+   "title": "Простое и сложное предложение",
+   "section": "Текст. Предложение. Словосочетание",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "fill": 1,
+    "build": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.phrase",
+   "title": "Словосочетание",
+   "section": "Текст. Предложение. Словосочетание",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "multi": 1,
+    "match": 1,
+    "fill": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.polysemy",
+   "title": "Однозначные и многозначные слова",
+   "section": "Слово в языке и речи",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "tf": 4,
+    "choice": 2,
+    "sort": 1,
+    "match": 1,
+    "fill": 1,
+    "multi": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.figurative",
+   "title": "Прямое и переносное значение",
+   "section": "Слово в языке и речи",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 7,
+    "sort": 1,
+    "tf": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.syn_ant",
+   "title": "Синонимы и антонимы",
+   "section": "Слово в языке и речи",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "sort": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.homonyms",
+   "title": "Омонимы",
+   "section": "Слово в языке и речи",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "match": 1,
+    "tf": 1,
+    "multi": 1,
+    "fill": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.idioms",
+   "title": "Фразеологизмы",
+   "section": "Слово в языке и речи",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 7,
+    "match": 1,
+    "fill": 1,
+    "tf": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.pos",
+   "title": "Части речи",
+   "section": "Слово в языке и речи",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "sort": 1,
+    "match": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.cognates",
+   "title": "Однокоренные слова",
+   "section": "Слово в языке и речи",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "multi": 5,
+    "tf": 1,
+    "choice": 1,
+    "fill": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.root_ending",
+   "title": "Корень и окончание",
+   "section": "Состав слова",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 7,
+    "tf": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.prefix",
+   "title": "Приставка",
+   "section": "Состав слова",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 7,
+    "match": 1,
+    "build": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.suffix",
+   "title": "Суффикс",
+   "section": "Состав слова",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 7,
+    "match": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.stem",
+   "title": "Основа слова",
+   "section": "Состав слова",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.morph",
+   "title": "Разбор слова по составу",
+   "section": "Состав слова",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "order": 1,
+    "build": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.unstressed",
+   "title": "Безударные гласные в корне",
+   "section": "Правописание частей слова",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "fill": 7,
+    "choice": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.paired",
+   "title": "Парные звонкие и глухие согласные",
+   "section": "Правописание частей слова",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "fill": 7,
+    "choice": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.silent",
+   "title": "Непроизносимые согласные",
+   "section": "Правописание частей слова",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "fill": 6,
+    "choice": 1,
+    "sort": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.double",
+   "title": "Удвоенные согласные",
+   "section": "Правописание частей слова",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 8,
+    "tf": 1,
+    "multi": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.prefix_prep",
+   "title": "Приставки и предлоги",
+   "section": "Правописание частей слова",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 7,
+    "sort": 1,
+    "fix": 1,
+    "tf": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.hard_sign",
+   "title": "Разделительный твёрдый знак",
+   "section": "Правописание частей слова",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "sort": 1,
+    "multi": 1,
+    "fix": 1,
+    "fill": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.noun_anim_proper",
+   "title": "Одушевлённые и неодушевлённые, собственные и нарицательные",
+   "section": "Имя существительное",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 8,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.noun_number",
+   "title": "Число имён существительных",
+   "section": "Имя существительное",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "sort": 1,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.noun_gender",
+   "title": "Род имён существительных",
+   "section": "Имя существительное",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 8,
+    "sort": 1,
+    "tf": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.noun_soft_hiss",
+   "title": "Мягкий знак после шипящих на конце существительных",
+   "section": "Имя существительное",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 8,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.cases",
+   "title": "Падежи имён существительных",
+   "section": "Имя существительное",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "order": 1,
+    "match": 1,
+    "choice": 6,
+    "input": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.adj_link",
+   "title": "Значение прилагательного и связь с существительным",
+   "section": "Имя прилагательное",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 13,
+   "types": {
+    "fill": 4,
+    "choice": 4,
+    "multi": 2,
+    "match": 1,
+    "tf": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.adj_gender_num",
+   "title": "Род и число прилагательных",
+   "section": "Имя прилагательное",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "match": 2,
+    "choice": 5,
+    "sort": 1,
+    "fill": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.adj_cases",
+   "title": "Изменение прилагательных по падежам",
+   "section": "Имя прилагательное",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "fill": 4,
+    "choice": 2,
+    "match": 1,
+    "tf": 1,
+    "fix": 1,
+    "multi": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.pronoun",
+   "title": "Личные местоимения: лицо и число",
+   "section": "Местоимение",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "sort": 1,
+    "match": 1,
+    "fill": 1,
+    "fix": 1
+   },
+   "items": 4,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.infinitive",
+   "title": "Неопределённая форма глагола",
+   "section": "Глагол",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.verb_number",
+   "title": "Число глаголов",
+   "section": "Глагол",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "sort": 1,
+    "tf": 1,
+    "fill": 1,
+    "fix": 1,
+    "match": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.verb_tense",
+   "title": "Времена глаголов",
+   "section": "Глагол",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 7,
+    "match": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.verb_past_gender",
+   "title": "Род глаголов в прошедшем времени",
+   "section": "Глагол",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "fill": 5,
+    "match": 1,
+    "tf": 1,
+    "sort": 1,
+    "fix": 1,
+    "choice": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.rus.ne_verb",
+   "title": "Частица не с глаголами",
+   "section": "Глагол",
+   "grade": 3,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "multi": 1,
+    "fix": 1,
+    "tf": 1,
+    "fill": 1,
+    "build": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.world",
+   "title": "Природа, человек, общество",
+   "section": "Как устроен мир",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "sort": 1,
+    "multi": 1,
+    "match": 1,
+    "tf": 1,
+    "fill": 1,
+    "fix": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.ecology",
+   "title": "Экология и охрана природы",
+   "section": "Как устроен мир",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "multi": 2,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.bodies",
+   "title": "Тела, вещества, частицы",
+   "section": "Эта удивительная природа",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "sort": 2,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.air",
+   "title": "Воздух и его охрана",
+   "section": "Эта удивительная природа",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "multi": 2,
+    "choice": 4,
+    "tf": 1,
+    "fill": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.water",
+   "title": "Вода. Свойства и круговорот",
+   "section": "Эта удивительная природа",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "multi": 2,
+    "sort": 1,
+    "order": 1,
+    "choice": 3,
+    "tf": 1,
+    "fill": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.soil",
+   "title": "Разрушение камней. Почва",
+   "section": "Эта удивительная природа",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "order": 1,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.plants",
+   "title": "Разнообразие растений",
+   "section": "Эта удивительная природа",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "sort": 1,
+    "choice": 4,
+    "tf": 1,
+    "multi": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.plant_life",
+   "title": "Размножение и развитие растений",
+   "section": "Эта удивительная природа",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "order": 1,
+    "choice": 3,
+    "multi": 1,
+    "match": 1,
+    "tf": 1,
+    "fill": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.animals",
+   "title": "Разнообразие животных",
+   "section": "Эта удивительная природа",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "sort": 2,
+    "multi": 1,
+    "choice": 3,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.animal_life",
+   "title": "Размножение и развитие животных",
+   "section": "Эта удивительная природа",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "order": 2,
+    "match": 1,
+    "choice": 3,
+    "tf": 1,
+    "fill": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.chains",
+   "title": "Цепи питания",
+   "section": "Эта удивительная природа",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 3,
+    "order": 2,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.fungi",
+   "title": "Грибы",
+   "section": "Эта удивительная природа",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "sort": 1,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.cycle",
+   "title": "Великий круговорот жизни",
+   "section": "Эта удивительная природа",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 3,
+    "match": 1,
+    "order": 1,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.organism",
+   "title": "Организм человека",
+   "section": "Мы и наше здоровье",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "match": 1,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.senses",
+   "title": "Органы чувств",
+   "section": "Мы и наше здоровье",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "match": 1,
+    "choice": 4,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.skin",
+   "title": "Надёжная защита организма: кожа",
+   "section": "Мы и наше здоровье",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "multi": 2,
+    "choice": 4,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.musculo",
+   "title": "Опора тела и движение",
+   "section": "Мы и наше здоровье",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "multi": 2,
+    "tf": 1,
+    "fill": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.digestion",
+   "title": "Питание и пищеварение",
+   "section": "Мы и наше здоровье",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "order": 1,
+    "multi": 1,
+    "match": 1,
+    "choice": 3,
+    "tf": 1,
+    "fill": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.breath_blood",
+   "title": "Дыхание и кровообращение",
+   "section": "Мы и наше здоровье",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "order": 1,
+    "choice": 4,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.hardening",
+   "title": "Закаливание и профилактика болезней",
+   "section": "Мы и наше здоровье",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 3,
+    "multi": 2,
+    "match": 1,
+    "tf": 1,
+    "fill": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.healthy",
+   "title": "Здоровый образ жизни",
+   "section": "Мы и наше здоровье",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "multi": 1,
+    "choice": 3,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "order": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.fire_water_gas",
+   "title": "Огонь, вода и газ",
+   "section": "Наша безопасность",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.road_signs",
+   "title": "Дорожные знаки",
+   "section": "Наша безопасность",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "sort": 1,
+    "choice": 4,
+    "tf": 1,
+    "multi": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.danger_places",
+   "title": "Опасные места",
+   "section": "Наша безопасность",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "multi": 1,
+    "choice": 4,
+    "tf": 1,
+    "fill": 1,
+    "sort": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.nature_danger",
+   "title": "Природа и наша безопасность",
+   "section": "Наша безопасность",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "multi": 1,
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.eco_safety",
+   "title": "Экологическая безопасность",
+   "section": "Наша безопасность",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "sort": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.needs",
+   "title": "Потребности и товары",
+   "section": "Чему учит экономика",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "sort": 2,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.minerals",
+   "title": "Полезные ископаемые",
+   "section": "Чему учит экономика",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "sort": 1,
+    "match": 1,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.crops",
+   "title": "Растениеводство",
+   "section": "Чему учит экономика",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 3,
+    "sort": 1,
+    "match": 1,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "order": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.livestock",
+   "title": "Животноводство",
+   "section": "Чему учит экономика",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 3,
+    "match": 2,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.industry",
+   "title": "Промышленность",
+   "section": "Чему учит экономика",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "match": 1,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.money",
+   "title": "Деньги",
+   "section": "Чему учит экономика",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "match": 1,
+    "tf": 1,
+    "fill": 1,
+    "sort": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.budget",
+   "title": "Государственный и семейный бюджет",
+   "section": "Чему учит экономика",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "sort": 1,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.eco_econ",
+   "title": "Экономика и экология",
+   "section": "Чему учит экономика",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "sort": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.golden_ring",
+   "title": "Золотое кольцо России",
+   "section": "Путешествие по городам и странам",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "multi": 1,
+    "match": 1,
+    "tf": 1,
+    "fill": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.neighbors",
+   "title": "Наши ближайшие соседи",
+   "section": "Путешествие по городам и странам",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "multi": 1,
+    "match": 1,
+    "choice": 4,
+    "tf": 1,
+    "fill": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.europe_north",
+   "title": "Страны Северной Европы",
+   "section": "Путешествие по городам и странам",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "multi": 1,
+    "match": 1,
+    "choice": 4,
+    "tf": 1,
+    "fill": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.europe_central",
+   "title": "Страны Бенилюкса и центра Европы",
+   "section": "Путешествие по городам и странам",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "multi": 1,
+    "match": 1,
+    "choice": 4,
+    "tf": 1,
+    "fill": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.europe_west",
+   "title": "Франция и Великобритания",
+   "section": "Путешествие по городам и странам",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "match": 1,
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.europe_south",
+   "title": "На юге Европы",
+   "section": "Путешествие по городам и странам",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "match": 1,
+    "choice": 4,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.world.famous",
+   "title": "По знаменитым местам мира",
+   "section": "Путешествие по городам и странам",
+   "grade": 3,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "match": 1,
+    "choice": 4,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.eng.supplies",
+   "title": "Школьные принадлежности",
+   "section": "School days — Школьные дни",
+   "grade": 3,
+   "subject": "eng",
+   "tasks": 11,
+   "types": {
+    "listen": 3,
+    "choice": 6,
+    "input": 1,
+    "match": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.eng.numbers20",
+   "title": "Числа от 11 до 20",
+   "section": "School days — Школьные дни",
+   "grade": 3,
+   "subject": "eng",
+   "tasks": 13,
+   "types": {
+    "listen": 4,
+    "choice": 5,
+    "input": 2,
+    "match": 1,
+    "order": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.eng.subjects",
+   "title": "Школьные предметы",
+   "section": "School days — Школьные дни",
+   "grade": 3,
+   "subject": "eng",
+   "tasks": 11,
+   "types": {
+    "listen": 3,
+    "choice": 6,
+    "input": 1,
+    "match": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.eng.to_be",
+   "title": "Глагол to be",
+   "section": "School days — Школьные дни",
+   "grade": 3,
+   "subject": "eng",
+   "tasks": 14,
+   "types": {
+    "fill": 7,
+    "choice": 4,
+    "build": 1,
+    "fix": 1,
+    "match": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g3.eng.family",
+   "title": "Члены семьи",
+   "section": "Family moments — Семья",
+   "grade": 3,
+   "subject": "eng",
+   "tasks": 11,
+   "types": {
+    "listen": 3,
+    "choice": 6,
+    "input": 1,
+    "match": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.eng.possessives",
+   "title": "Притяжательные местоимения",
+   "section": "Family moments — Семья",
+   "grade": 3,
+   "subject": "eng",
+   "tasks": 10,
+   "types": {
+    "fill": 6,
+    "match": 1,
+    "choice": 1,
+    "fix": 1,
+    "listen": 1
+   },
+   "items": 6,
+   "uncovered": []
+  },
+  {
+   "id": "g3.eng.plurals",
+   "title": "Множественное число существительных",
+   "section": "Family moments — Семья",
+   "grade": 3,
+   "subject": "eng",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "sort": 1,
+    "fill": 1,
+    "fix": 1,
+    "input": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.eng.food",
+   "title": "Продукты и напитки",
+   "section": "All the things I like — Еда",
+   "grade": 3,
+   "subject": "eng",
+   "tasks": 14,
+   "types": {
+    "listen": 3,
+    "choice": 6,
+    "input": 1,
+    "match": 1,
+    "multi": 2,
+    "sort": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.eng.likes",
+   "title": "Вкусы: like в Present Simple",
+   "section": "All the things I like — Еда",
+   "grade": 3,
+   "subject": "eng",
+   "tasks": 10,
+   "types": {
+    "fill": 5,
+    "choice": 2,
+    "build": 1,
+    "fix": 1,
+    "listen": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.eng.some_any",
+   "title": "some и any",
+   "section": "All the things I like — Еда",
+   "grade": 3,
+   "subject": "eng",
+   "tasks": 10,
+   "types": {
+    "fill": 6,
+    "sort": 1,
+    "choice": 1,
+    "fix": 1,
+    "tf": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.eng.toys_room",
+   "title": "Игрушки и предметы в комнате",
+   "section": "Come in and play — Игрушки",
+   "grade": 3,
+   "subject": "eng",
+   "tasks": 14,
+   "types": {
+    "listen": 3,
+    "choice": 6,
+    "input": 1,
+    "match": 2,
+    "multi": 1,
+    "sort": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.eng.demonstratives",
+   "title": "this, that, these, those",
+   "section": "Come in and play — Игрушки",
+   "grade": 3,
+   "subject": "eng",
+   "tasks": 10,
+   "types": {
+    "fill": 4,
+    "match": 1,
+    "choice": 2,
+    "fix": 1,
+    "listen": 1,
+    "tf": 1
+   },
+   "items": 4,
+   "uncovered": []
+  },
+  {
+   "id": "g3.eng.articles",
+   "title": "Артикли a и an",
+   "section": "Come in and play — Игрушки",
+   "grade": 3,
+   "subject": "eng",
+   "tasks": 10,
+   "types": {
+    "choice": 8,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.eng.animal_body",
+   "title": "Животные и части тела",
+   "section": "Furry friends — Животные",
+   "grade": 3,
+   "subject": "eng",
+   "tasks": 16,
+   "types": {
+    "listen": 3,
+    "choice": 8,
+    "input": 1,
+    "match": 2,
+    "fill": 1,
+    "multi": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.eng.numbers50",
+   "title": "Числа до 50",
+   "section": "Furry friends — Животные",
+   "grade": 3,
+   "subject": "eng",
+   "tasks": 12,
+   "types": {
+    "listen": 4,
+    "choice": 4,
+    "input": 2,
+    "match": 1,
+    "order": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.eng.can_have",
+   "title": "can и have got / has got",
+   "section": "Furry friends — Животные",
+   "grade": 3,
+   "subject": "eng",
+   "tasks": 10,
+   "types": {
+    "fill": 5,
+    "choice": 1,
+    "tf": 1,
+    "build": 1,
+    "fix": 1,
+    "listen": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.eng.irregular_plurals",
+   "title": "Исключения множественного числа",
+   "section": "Furry friends — Животные",
+   "grade": 3,
+   "subject": "eng",
+   "tasks": 11,
+   "types": {
+    "choice": 8,
+    "match": 1,
+    "fix": 1,
+    "input": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g3.eng.rooms_furniture",
+   "title": "Комнаты и мебель",
+   "section": "Home, sweet home — Дом",
+   "grade": 3,
+   "subject": "eng",
+   "tasks": 16,
+   "types": {
+    "listen": 3,
+    "choice": 6,
+    "input": 1,
+    "match": 3,
+    "multi": 2,
+    "sort": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.eng.prepositions",
+   "title": "Предлоги места",
+   "section": "Home, sweet home — Дом",
+   "grade": 3,
+   "subject": "eng",
+   "tasks": 10,
+   "types": {
+    "fill": 6,
+    "match": 1,
+    "choice": 2,
+    "listen": 1
+   },
+   "items": 6,
+   "uncovered": []
+  },
+  {
+   "id": "g3.eng.there_is",
+   "title": "there is / there are",
+   "section": "Home, sweet home — Дом",
+   "grade": 3,
+   "subject": "eng",
+   "tasks": 10,
+   "types": {
+    "fill": 6,
+    "choice": 1,
+    "fix": 1,
+    "build": 1,
+    "tf": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.eng.park",
+   "title": "В парке: занятия на прогулке",
+   "section": "Day off — Выходной",
+   "grade": 3,
+   "subject": "eng",
+   "tasks": 11,
+   "types": {
+    "listen": 3,
+    "choice": 6,
+    "input": 1,
+    "match": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.eng.present_cont",
+   "title": "Present Continuous",
+   "section": "Day off — Выходной",
+   "grade": 3,
+   "subject": "eng",
+   "tasks": 10,
+   "types": {
+    "fill": 5,
+    "choice": 2,
+    "build": 1,
+    "fix": 1,
+    "listen": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.eng.days",
+   "title": "Дни недели",
+   "section": "Day by day — Распорядок дня",
+   "grade": 3,
+   "subject": "eng",
+   "tasks": 11,
+   "types": {
+    "listen": 3,
+    "choice": 5,
+    "input": 1,
+    "match": 1,
+    "order": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.eng.routine",
+   "title": "Режим дня",
+   "section": "Day by day — Распорядок дня",
+   "grade": 3,
+   "subject": "eng",
+   "tasks": 12,
+   "types": {
+    "listen": 3,
+    "choice": 6,
+    "input": 1,
+    "match": 1,
+    "order": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.eng.times_of_day",
+   "title": "Время суток",
+   "section": "Day by day — Распорядок дня",
+   "grade": 3,
+   "subject": "eng",
+   "tasks": 12,
+   "types": {
+    "listen": 2,
+    "choice": 6,
+    "input": 1,
+    "match": 1,
+    "order": 1,
+    "fill": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.eng.present_simple",
+   "title": "Present Simple для регулярных действий",
+   "section": "Day by day — Распорядок дня",
+   "grade": 3,
+   "subject": "eng",
+   "tasks": 10,
+   "types": {
+    "fill": 5,
+    "choice": 2,
+    "sort": 1,
+    "fix": 1,
+    "build": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.book",
+   "title": "Книга — источник знаний",
+   "section": "Самое великое чудо на свете",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.folk_songs",
+   "title": "Народные песни и докучные сказки",
+   "section": "Устное народное творчество",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "sort": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.alenushka",
+   "title": "«Сестрица Алёнушка и братец Иванушка»",
+   "section": "Устное народное творчество",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "order": 1,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.ivan_volk",
+   "title": "«Иван-царевич и Серый Волк»",
+   "section": "Устное народное творчество",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.sivka",
+   "title": "«Сивка-Бурка»",
+   "section": "Устное народное творчество",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.tyutchev_fet",
+   "title": "Ф. Тютчев и А. Фет",
+   "section": "Поэтическая тетрадь: осень и зима",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 4,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.nikitin_surikov",
+   "title": "И. Никитин и И. Суриков",
+   "section": "Поэтическая тетрадь: осень и зима",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 4,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.nekrasov",
+   "title": "Н. Некрасов",
+   "section": "Поэтическая тетрадь: осень и зима",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.bunin_balmont",
+   "title": "И. Бунин и К. Бальмонт",
+   "section": "Поэтическая тетрадь: осень и зима",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 4,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.pushkin_poems",
+   "title": "А. С. Пушкин. Стихи",
+   "section": "Великие русские писатели",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 5,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.saltan",
+   "title": "А. С. Пушкин «Сказка о царе Салтане…»",
+   "section": "Великие русские писатели",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.krylov",
+   "title": "И. А. Крылов. Басни",
+   "section": "Великие русские писатели",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.lermontov",
+   "title": "М. Ю. Лермонтов. Стихи",
+   "section": "Великие русские писатели",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 4,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.tolstoy_shark",
+   "title": "Л. Н. Толстой «Акула», «Прыжок»",
+   "section": "Великие русские писатели",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.tolstoy_lion",
+   "title": "Л. Н. Толстой «Лев и собачка»",
+   "section": "Великие русские писатели",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.mamin",
+   "title": "Д. Мамин-Сибиряк «Сказка про храброго Зайца…»",
+   "section": "Литературные сказки",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.garshin",
+   "title": "В. Гаршин «Лягушка-путешественница»",
+   "section": "Литературные сказки",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.odoevsky",
+   "title": "В. Одоевский «Мороз Иванович»",
+   "section": "Литературные сказки",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.gorky",
+   "title": "М. Горький «Случай с Евсейкой»",
+   "section": "Были-небылицы",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.paustovsky",
+   "title": "К. Паустовский «Растрёпанный воробей»",
+   "section": "Были-небылицы",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.kuprin",
+   "title": "А. Куприн «Слон»",
+   "section": "Были-небылицы",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.sasha_cherny",
+   "title": "Саша Чёрный",
+   "section": "Поэтическая тетрадь: начало XX века",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.blok_esenin",
+   "title": "А. Блок и С. Есенин",
+   "section": "Поэтическая тетрадь: начало XX века",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 4,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.prishvin_sokolov",
+   "title": "М. Пришвин «Моя Родина», И. Соколов-Микитов «Листопадничек»",
+   "section": "Люби живое",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.belov",
+   "title": "В. Белов «Малька провинилась», «Ещё раз про Мальку»",
+   "section": "Люби живое",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.bianki",
+   "title": "В. Бианки «Мышонок Пик»",
+   "section": "Люби живое",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.zhitkov",
+   "title": "Б. Житков «Про обезьянку»",
+   "section": "Люби живое",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.durov_astafiev",
+   "title": "В. Дуров «Наша Жучка», В. Астафьев «Капалуха»",
+   "section": "Люби живое",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.marshak_barto",
+   "title": "С. Маршак и А. Барто",
+   "section": "Поэтическая тетрадь: стихи для детей",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 4,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.mikhalkov_blaginina",
+   "title": "С. Михалков и Е. Благинина",
+   "section": "Поэтическая тетрадь: стихи для детей",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.shergin",
+   "title": "Б. Шергин «Собирай по ягодке — наберёшь кузовок»",
+   "section": "Собирай по ягодке — наберёшь кузовок",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.platonov",
+   "title": "А. Платонов «Цветок на земле», «Ещё мама»",
+   "section": "Собирай по ягодке — наберёшь кузовок",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.zoshchenko",
+   "title": "М. Зощенко «Золотые слова», «Великие путешественники»",
+   "section": "Собирай по ягодке — наберёшь кузовок",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.nosov",
+   "title": "Н. Носов «Федина задача», «Телефон»",
+   "section": "Собирай по ягодке — наберёшь кузовок",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.dragunsky",
+   "title": "В. Драгунский «Друг детства»",
+   "section": "Собирай по ягодке — наберёшь кузовок",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.kassil",
+   "title": "Л. Кассиль «Отметки Риммы Лебедевой»",
+   "section": "По страницам детских журналов",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.ermolaev",
+   "title": "Ю. Ермолаев «Проговорился», «Воспитатели»",
+   "section": "По страницам детских журналов",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.oster_sef",
+   "title": "Г. Остер и Р. Сеф",
+   "section": "По страницам детских журналов",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.perseus",
+   "title": "Древнегреческий миф «Храбрый Персей»",
+   "section": "Зарубежная литература",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g3.read.ugly_duckling",
+   "title": "Х. К. Андерсен «Гадкий утёнок»",
+   "section": "Зарубежная литература",
+   "grade": 3,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.rep_num",
+   "title": "Нумерация чисел до 1000",
+   "section": "Числа от 1 до 1000. Повторение",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "input": 4,
+    "choice": 1,
+    "order": 1,
+    "match": 1,
+    "multi": 1,
+    "fill": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.rep_ops",
+   "title": "Арифметические действия",
+   "section": "Числа от 1 до 1000. Повторение",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "input": 6,
+    "sort": 1,
+    "match": 1,
+    "order": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.diagrams",
+   "title": "Чтение и построение диаграмм",
+   "section": "Числа от 1 до 1000. Повторение",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "input": 3,
+    "tf": 1,
+    "order": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.classes",
+   "title": "Классы и разряды",
+   "section": "Числа, которые больше 1000. Нумерация",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "choice": 2,
+    "input": 4,
+    "order": 1,
+    "match": 1,
+    "fill": 1,
+    "fix": 1
+   },
+   "items": 4,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.readwrite",
+   "title": "Чтение и запись многозначных чисел",
+   "section": "Числа, которые больше 1000. Нумерация",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "choice": 3,
+    "input": 2,
+    "match": 1,
+    "order": 1,
+    "fill": 1,
+    "tf": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.compare_big",
+   "title": "Сравнение многозначных чисел",
+   "section": "Числа, которые больше 1000. Нумерация",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "order": 1,
+    "multi": 1,
+    "fill": 1,
+    "tf": 1,
+    "fix": 1,
+    "input": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.place_sum",
+   "title": "Разрядные слагаемые",
+   "section": "Числа, которые больше 1000. Нумерация",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "choice": 3,
+    "fill": 2,
+    "input": 1,
+    "match": 1,
+    "sort": 1,
+    "fix": 1,
+    "tf": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.mul10",
+   "title": "Умножение и деление на 10, 100, 1000",
+   "section": "Числа, которые больше 1000. Нумерация",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "input": 6,
+    "choice": 1,
+    "match": 1,
+    "fix": 1,
+    "tf": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.length",
+   "title": "Единицы длины. Километр",
+   "section": "Величины",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "input": 3,
+    "fill": 1,
+    "choice": 2,
+    "order": 1,
+    "match": 1,
+    "fix": 1,
+    "tf": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.area_units",
+   "title": "Единицы площади",
+   "section": "Величины",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 11,
+   "types": {
+    "fill": 4,
+    "choice": 3,
+    "order": 1,
+    "input": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 4,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.paletka",
+   "title": "Измерение площади палеткой",
+   "section": "Величины",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "input": 4,
+    "choice": 3,
+    "order": 1,
+    "tf": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.mass_big",
+   "title": "Единицы массы: тонна и центнер",
+   "section": "Величины",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "input": 4,
+    "fill": 1,
+    "choice": 2,
+    "order": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.time_units",
+   "title": "Единицы времени: секунда, век",
+   "section": "Величины",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "input": 3,
+    "choice": 3,
+    "fill": 1,
+    "order": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.unit_tables",
+   "title": "Таблицы единиц величин",
+   "section": "Величины",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "match": 3,
+    "sort": 1,
+    "fill": 1,
+    "input": 1,
+    "choice": 1,
+    "order": 1,
+    "tf": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.addsub_big",
+   "title": "Сложение и вычитание многозначных чисел",
+   "section": "Сложение и вычитание",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 13,
+   "types": {
+    "input": 9,
+    "fix": 1,
+    "tf": 1,
+    "choice": 1,
+    "order": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.unknowns",
+   "title": "Нахождение неизвестного слагаемого, уменьшаемого, вычитаемого",
+   "section": "Сложение и вычитание",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "input": 5,
+    "match": 1,
+    "order": 1,
+    "sort": 1,
+    "fix": 1,
+    "tf": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.quantities",
+   "title": "Сложение и вычитание величин",
+   "section": "Сложение и вычитание",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "fill": 4,
+    "input": 1,
+    "choice": 1,
+    "match": 1,
+    "fix": 1,
+    "tf": 1,
+    "order": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.parts_whole",
+   "title": "Нахождение нескольких долей целого",
+   "section": "Сложение и вычитание",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 11,
+   "types": {
+    "input": 5,
+    "choice": 3,
+    "order": 1,
+    "fix": 1,
+    "tf": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.props",
+   "title": "Свойства умножения",
+   "section": "Умножение и деление на однозначное число",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "fill": 1,
+    "input": 3,
+    "choice": 2,
+    "match": 1,
+    "multi": 1,
+    "fix": 1,
+    "tf": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.mul_1d",
+   "title": "Письменное умножение на однозначное число",
+   "section": "Умножение и деление на однозначное число",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "input": 6,
+    "order": 1,
+    "fix": 1,
+    "tf": 1,
+    "choice": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.div_1d",
+   "title": "Письменное деление на однозначное число",
+   "section": "Умножение и деление на однозначное число",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "input": 6,
+    "choice": 1,
+    "order": 1,
+    "fix": 1,
+    "tf": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.zeros",
+   "title": "Умножение и деление чисел с нулями",
+   "section": "Умножение и деление на однозначное число",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 11,
+   "types": {
+    "input": 7,
+    "choice": 1,
+    "fix": 1,
+    "tf": 1,
+    "match": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.proportional",
+   "title": "Задачи на пропорциональное деление",
+   "section": "Умножение и деление на однозначное число",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "input": 5,
+    "choice": 1,
+    "order": 1,
+    "tf": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.two_diff",
+   "title": "Нахождение неизвестного по двум разностям",
+   "section": "Умножение и деление на однозначное число",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "input": 5,
+    "choice": 1,
+    "order": 1,
+    "tf": 1,
+    "fix": 1,
+    "multi": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.speed",
+   "title": "Скорость, время, расстояние",
+   "section": "Скорость, время, расстояние",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "input": 4,
+    "choice": 2,
+    "match": 1,
+    "sort": 1,
+    "fix": 1,
+    "tf": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.meet",
+   "title": "Встречное движение",
+   "section": "Скорость, время, расстояние",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "input": 5,
+    "choice": 1,
+    "order": 1,
+    "tf": 1,
+    "fix": 1,
+    "multi": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.opposite",
+   "title": "Движение в противоположных направлениях",
+   "section": "Скорость, время, расстояние",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "input": 4,
+    "choice": 1,
+    "tf": 1,
+    "order": 1,
+    "sort": 1,
+    "fix": 1,
+    "multi": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.chase",
+   "title": "Движение вдогонку и с отставанием",
+   "section": "Скорость, время, расстояние",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "input": 4,
+    "choice": 1,
+    "tf": 1,
+    "order": 1,
+    "fix": 1,
+    "sort": 1,
+    "multi": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.mul_zeros",
+   "title": "Умножение на числа, оканчивающиеся нулями",
+   "section": "Умножение и деление на числа, оканчивающиеся нулями",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 11,
+   "types": {
+    "input": 6,
+    "choice": 1,
+    "order": 1,
+    "fix": 1,
+    "tf": 1,
+    "match": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.div_zeros",
+   "title": "Деление на числа, оканчивающиеся нулями",
+   "section": "Умножение и деление на числа, оканчивающиеся нулями",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 11,
+   "types": {
+    "input": 6,
+    "choice": 1,
+    "order": 1,
+    "fix": 1,
+    "tf": 1,
+    "match": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.mul_2d",
+   "title": "Умножение на двузначное число",
+   "section": "Умножение и деление на двузначное и трёхзначное число",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "input": 6,
+    "choice": 1,
+    "order": 1,
+    "fix": 1,
+    "tf": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.mul_3d",
+   "title": "Умножение на трёхзначное число",
+   "section": "Умножение и деление на двузначное и трёхзначное число",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "input": 6,
+    "choice": 2,
+    "fix": 1,
+    "tf": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.div_2d",
+   "title": "Деление на двузначное число",
+   "section": "Умножение и деление на двузначное и трёхзначное число",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "input": 6,
+    "choice": 1,
+    "order": 1,
+    "fix": 1,
+    "tf": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.div_3d",
+   "title": "Деление на трёхзначное число",
+   "section": "Умножение и деление на двузначное и трёхзначное число",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "input": 6,
+    "choice": 1,
+    "fix": 1,
+    "tf": 1,
+    "order": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.div_rem_big",
+   "title": "Деление с остатком на двузначное число",
+   "section": "Умножение и деление на двузначное и трёхзначное число",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 11,
+   "types": {
+    "input": 7,
+    "tf": 1,
+    "fill": 1,
+    "fix": 1,
+    "order": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.fin_problems",
+   "title": "Текстовые задачи",
+   "section": "Итоговое повторение",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "input": 6,
+    "choice": 1,
+    "order": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.fin_expr",
+   "title": "Выражения и порядок действий",
+   "section": "Итоговое повторение",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "input": 4,
+    "order": 1,
+    "build": 1,
+    "choice": 1,
+    "match": 1,
+    "fix": 1,
+    "tf": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.fin_eq",
+   "title": "Уравнения",
+   "section": "Итоговое повторение",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "input": 6,
+    "match": 1,
+    "sort": 1,
+    "fix": 1,
+    "tf": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.math.fin_geo",
+   "title": "Геометрические фигуры и величины",
+   "section": "Итоговое повторение",
+   "grade": 4,
+   "subject": "math",
+   "tasks": 10,
+   "types": {
+    "input": 5,
+    "choice": 1,
+    "sort": 1,
+    "match": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.rus.speech_text",
+   "title": "Речь и текст",
+   "section": "Повторение",
+   "grade": 4,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "order": 1,
+    "multi": 1,
+    "tf": 1,
+    "sort": 1,
+    "fill": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.rus.sentence",
+   "title": "Предложение и обращение",
+   "section": "Повторение",
+   "grade": 4,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "fix": 1,
+    "tf": 1,
+    "multi": 1,
+    "fill": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.rus.homogeneous",
+   "title": "Однородные члены предложения",
+   "section": "Повторение",
+   "grade": 4,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "multi": 3,
+    "choice": 2,
+    "tf": 1,
+    "sort": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.rus.homog_punct",
+   "title": "Знаки препинания при однородных членах",
+   "section": "Повторение",
+   "grade": 4,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "fill": 4,
+    "choice": 2,
+    "fix": 1,
+    "multi": 1,
+    "tf": 1,
+    "build": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.rus.simple_complex",
+   "title": "Простые и сложные предложения",
+   "section": "Повторение",
+   "grade": 4,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "fill": 1,
+    "sort": 1,
+    "fix": 1,
+    "multi": 1,
+    "tf": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.rus.lexis",
+   "title": "Лексическое значение слова",
+   "section": "Слово в языке и речи",
+   "grade": 4,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "match": 1,
+    "sort": 1,
+    "fill": 1,
+    "multi": 1,
+    "tf": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.rus.composition",
+   "title": "Состав слова",
+   "section": "Слово в языке и речи",
+   "grade": 4,
+   "subject": "rus",
+   "tasks": 11,
+   "types": {
+    "choice": 8,
+    "order": 1,
+    "tf": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.rus.root_spelling",
+   "title": "Правописание гласных и согласных в корне",
+   "section": "Слово в языке и речи",
+   "grade": 4,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "fill": 7,
+    "match": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.rus.prefix_suffix",
+   "title": "Приставки и суффиксы",
+   "section": "Слово в языке и речи",
+   "grade": 4,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 9,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.rus.pos",
+   "title": "Части речи",
+   "section": "Слово в языке и речи",
+   "grade": 4,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "sort": 1,
+    "match": 1,
+    "fix": 1,
+    "multi": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.rus.adverb",
+   "title": "Наречие",
+   "section": "Слово в языке и речи",
+   "grade": 4,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 7,
+    "multi": 1,
+    "fill": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.rus.declensions",
+   "title": "Три склонения имён существительных",
+   "section": "Имя существительное",
+   "grade": 4,
+   "subject": "rus",
+   "tasks": 11,
+   "types": {
+    "choice": 9,
+    "sort": 1,
+    "tf": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g4.rus.cases",
+   "title": "Падежи имён существительных",
+   "section": "Имя существительное",
+   "grade": 4,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 7,
+    "match": 1,
+    "order": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.rus.endings_sg",
+   "title": "Безударные падежные окончания в единственном числе",
+   "section": "Имя существительное",
+   "grade": 4,
+   "subject": "rus",
+   "tasks": 11,
+   "types": {
+    "fill": 9,
+    "choice": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.rus.endings_pl",
+   "title": "Падежные окончания во множественном числе",
+   "section": "Имя существительное",
+   "grade": 4,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "fill": 5,
+    "match": 1,
+    "choice": 1,
+    "tf": 1,
+    "fix": 1,
+    "multi": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.rus.indeclinable",
+   "title": "Несклоняемые существительные",
+   "section": "Имя существительное",
+   "grade": 4,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 8,
+    "fix": 1,
+    "multi": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.rus.adj_decl_mn",
+   "title": "Склонение прилагательных мужского и среднего рода",
+   "section": "Имя прилагательное",
+   "grade": 4,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "fill": 5,
+    "choice": 1,
+    "match": 1,
+    "tf": 1,
+    "fix": 1,
+    "sort": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.rus.adj_decl_f",
+   "title": "Склонение прилагательных женского рода",
+   "section": "Имя прилагательное",
+   "grade": 4,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "fill": 5,
+    "choice": 2,
+    "fix": 1,
+    "tf": 1,
+    "match": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.rus.adj_decl_pl",
+   "title": "Склонение прилагательных во множественном числе",
+   "section": "Имя прилагательное",
+   "grade": 4,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "fill": 5,
+    "choice": 1,
+    "match": 1,
+    "tf": 1,
+    "fix": 1,
+    "multi": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.rus.adj_endings",
+   "title": "Безударные окончания прилагательных",
+   "section": "Имя прилагательное",
+   "grade": 4,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "fill": 6,
+    "choice": 2,
+    "tf": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.rus.pron_decl",
+   "title": "Склонение личных местоимений",
+   "section": "Местоимение",
+   "grade": 4,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 7,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.rus.pron_prep",
+   "title": "Местоимения с предлогами",
+   "section": "Местоимение",
+   "grade": 4,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "fill": 1,
+    "tf": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.rus.verb_tense_inf",
+   "title": "Времена и неопределённая форма глагола",
+   "section": "Глагол",
+   "grade": 4,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 8,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.rus.conjugation",
+   "title": "I и II спряжение глаголов",
+   "section": "Глагол",
+   "grade": 4,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 8,
+    "match": 1,
+    "sort": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.rus.verb_exceptions",
+   "title": "Глаголы-исключения",
+   "section": "Глагол",
+   "grade": 4,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "multi": 1,
+    "choice": 1,
+    "input": 1,
+    "fill": 5,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.rus.verb_endings",
+   "title": "Безударные личные окончания глаголов",
+   "section": "Глагол",
+   "grade": 4,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "fill": 7,
+    "order": 1,
+    "fix": 1,
+    "tf": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.rus.tsya",
+   "title": "-тся и -ться в глаголах",
+   "section": "Глагол",
+   "grade": 4,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "fill": 6,
+    "choice": 1,
+    "sort": 1,
+    "fix": 1,
+    "tf": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.rus.verb_soft_2p",
+   "title": "Мягкий знак после шипящих во 2-м лице",
+   "section": "Глагол",
+   "grade": 4,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "sort": 1,
+    "fix": 1,
+    "fill": 1,
+    "tf": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.rus.verb_past_suffix",
+   "title": "Суффиксы глаголов прошедшего времени",
+   "section": "Глагол",
+   "grade": 4,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "fill": 6,
+    "choice": 1,
+    "order": 1,
+    "fix": 1,
+    "tf": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.rus.final_spelling",
+   "title": "Итоговое повторение: орфография",
+   "section": "Итоговое повторение",
+   "grade": 4,
+   "subject": "rus",
+   "tasks": 10,
+   "types": {
+    "fill": 5,
+    "multi": 1,
+    "match": 1,
+    "fix": 1,
+    "tf": 1,
+    "sort": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.rus.final_grammar",
+   "title": "Итоговое повторение: части речи и предложение",
+   "section": "Итоговое повторение",
+   "grade": 4,
+   "subject": "rus",
+   "tasks": 13,
+   "types": {
+    "match": 1,
+    "multi": 2,
+    "choice": 5,
+    "sort": 1,
+    "order": 1,
+    "fill": 1,
+    "fix": 1,
+    "tf": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.solar",
+   "title": "Солнечная система",
+   "section": "Земля и человечество",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "order": 1,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.stars",
+   "title": "Звёздное небо",
+   "section": "Земля и человечество",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.maps",
+   "title": "География и карты",
+   "section": "Земля и человечество",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "match": 1,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.timeline",
+   "title": "История и лента времени",
+   "section": "Земля и человечество",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "order": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.ecology",
+   "title": "Экология",
+   "section": "Земля и человечество",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "sort": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.heritage",
+   "title": "Всемирное наследие",
+   "section": "Земля и человечество",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "sort": 1,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.plains_mountains",
+   "title": "Равнины и горы России",
+   "section": "Природа России",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "match": 1,
+    "choice": 4,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.seas_lakes_rivers",
+   "title": "Моря, озёра и реки России",
+   "section": "Природа России",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 13,
+   "types": {
+    "multi": 3,
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.arctic",
+   "title": "Зона арктических пустынь",
+   "section": "Природа России",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "multi": 2,
+    "tf": 1,
+    "fill": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.tundra",
+   "title": "Тундра",
+   "section": "Природа России",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "multi": 2,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.forests",
+   "title": "Леса России",
+   "section": "Природа России",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "sort": 1,
+    "choice": 4,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.steppe",
+   "title": "Зона степей",
+   "section": "Природа России",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "multi": 2,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.desert",
+   "title": "Пустыни",
+   "section": "Природа России",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 3,
+    "multi": 3,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.subtropics",
+   "title": "У Чёрного моря",
+   "section": "Природа России",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "multi": 2,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.relief",
+   "title": "Поверхность нашего края",
+   "section": "Родной край — часть большой страны",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "match": 1,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.region_waters",
+   "title": "Водные богатства края",
+   "section": "Родной край — часть большой страны",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "sort": 1,
+    "match": 1,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.region_minerals",
+   "title": "Наши подземные богатства",
+   "section": "Родной край — часть большой страны",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "match": 1,
+    "choice": 4,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.soils",
+   "title": "Земля-кормилица",
+   "section": "Родной край — часть большой страны",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "multi": 2,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.forest_comm",
+   "title": "Жизнь леса",
+   "section": "Родной край — часть большой страны",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 3,
+    "order": 2,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.meadow",
+   "title": "Жизнь луга",
+   "section": "Родной край — часть большой страны",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 3,
+    "multi": 2,
+    "order": 1,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.pond",
+   "title": "Жизнь в пресных водах",
+   "section": "Родной край — часть большой страны",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 3,
+    "multi": 2,
+    "order": 1,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.agriculture",
+   "title": "Сельское хозяйство края",
+   "section": "Родной край — часть большой страны",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "match": 1,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "sort": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.primitive",
+   "title": "Начало истории человечества",
+   "section": "Страницы всемирной истории",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "order": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.ancient",
+   "title": "Мир древности",
+   "section": "Страницы всемирной истории",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "match": 1,
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.middle_ages",
+   "title": "Средние века",
+   "section": "Страницы всемирной истории",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.modern",
+   "title": "Новое время",
+   "section": "Страницы всемирной истории",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.newest",
+   "title": "Новейшее время",
+   "section": "Страницы всемирной истории",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.slavs",
+   "title": "Жизнь древних славян",
+   "section": "Страницы истории России",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.ancient_rus",
+   "title": "Во времена Древней Руси. Крещение Руси",
+   "section": "Страницы истории России",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "order": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.rus_cities",
+   "title": "Города и письменность Древней Руси",
+   "section": "Страницы истории России",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 13,
+   "types": {
+    "choice": 8,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.nevsky",
+   "title": "Трудные времена на Русской земле",
+   "section": "Страницы истории России",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "order": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.kulikovo",
+   "title": "Куликовская битва",
+   "section": "Страницы истории России",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.ivan3",
+   "title": "Иван Третий",
+   "section": "Страницы истории России",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "order": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.printing",
+   "title": "Мастера печатных дел",
+   "section": "Страницы истории России",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.troubles",
+   "title": "Патриоты России. Смутное время",
+   "section": "Страницы истории России",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "order": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.peter",
+   "title": "Пётр Великий",
+   "section": "Страницы истории России",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.lomonosov",
+   "title": "Михаил Васильевич Ломоносов",
+   "section": "Страницы истории России",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.catherine",
+   "title": "Екатерина Великая",
+   "section": "Страницы истории России",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.war1812",
+   "title": "Отечественная война 1812 года",
+   "section": "Страницы истории России",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.c19",
+   "title": "Страницы истории XIX века",
+   "section": "Страницы истории России",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.c20",
+   "title": "Россия вступает в XX век",
+   "section": "Страницы истории России",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 4,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "order": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.ww2",
+   "title": "Великая Отечественная война",
+   "section": "Страницы истории России",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.space",
+   "title": "Освоение космоса",
+   "section": "Страницы истории России",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.constitution",
+   "title": "Основной закон России",
+   "section": "Современная Россия",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.rights",
+   "title": "Права и обязанности гражданина",
+   "section": "Современная Россия",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "multi": 2,
+    "choice": 3,
+    "tf": 1,
+    "fill": 1,
+    "sort": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.symbols",
+   "title": "Государственные символы России",
+   "section": "Современная Россия",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "order": 1,
+    "choice": 4,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.holidays",
+   "title": "Праздники России",
+   "section": "Современная Россия",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "match": 1,
+    "choice": 4,
+    "tf": 1,
+    "fill": 1,
+    "sort": 1,
+    "order": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.world.regions",
+   "title": "Путешествие по России",
+   "section": "Современная Россия",
+   "grade": 4,
+   "subject": "world",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "match": 1,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.eng.appearance",
+   "title": "Внешность и характер",
+   "section": "Family and friends — Семья и друзья",
+   "grade": 4,
+   "subject": "eng",
+   "tasks": 16,
+   "types": {
+    "listen": 3,
+    "choice": 6,
+    "input": 1,
+    "match": 3,
+    "multi": 2,
+    "sort": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.eng.belongings",
+   "title": "Личные вещи",
+   "section": "Family and friends — Семья и друзья",
+   "grade": 4,
+   "subject": "eng",
+   "tasks": 11,
+   "types": {
+    "listen": 3,
+    "choice": 6,
+    "input": 1,
+    "match": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.eng.numbers100",
+   "title": "Числа до 100",
+   "section": "Family and friends — Семья и друзья",
+   "grade": 4,
+   "subject": "eng",
+   "tasks": 13,
+   "types": {
+    "listen": 4,
+    "choice": 5,
+    "input": 2,
+    "match": 1,
+    "order": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.eng.prepositions",
+   "title": "Предлоги места",
+   "section": "Family and friends — Семья и друзья",
+   "grade": 4,
+   "subject": "eng",
+   "tasks": 10,
+   "types": {
+    "fill": 6,
+    "match": 1,
+    "listen": 1,
+    "fix": 1,
+    "choice": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.eng.havegot_pc",
+   "title": "Повторение have got и Present Continuous",
+   "section": "Family and friends — Семья и друзья",
+   "grade": 4,
+   "subject": "eng",
+   "tasks": 10,
+   "types": {
+    "fill": 5,
+    "sort": 1,
+    "choice": 2,
+    "fix": 1,
+    "build": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.eng.jobs",
+   "title": "Профессии",
+   "section": "A working day — Рабочий день",
+   "grade": 4,
+   "subject": "eng",
+   "tasks": 11,
+   "types": {
+    "listen": 3,
+    "choice": 6,
+    "input": 1,
+    "match": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.eng.workplaces",
+   "title": "Места работы в городе",
+   "section": "A working day — Рабочий день",
+   "grade": 4,
+   "subject": "eng",
+   "tasks": 12,
+   "types": {
+    "listen": 3,
+    "choice": 7,
+    "input": 1,
+    "match": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.eng.clock",
+   "title": "Который час?",
+   "section": "A working day — Рабочий день",
+   "grade": 4,
+   "subject": "eng",
+   "tasks": 10,
+   "types": {
+    "choice": 7,
+    "match": 1,
+    "listen": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.eng.frequency",
+   "title": "Наречия частотности",
+   "section": "A working day — Рабочий день",
+   "grade": 4,
+   "subject": "eng",
+   "tasks": 10,
+   "types": {
+    "fill": 4,
+    "order": 1,
+    "match": 1,
+    "choice": 1,
+    "fix": 1,
+    "listen": 1,
+    "build": 1
+   },
+   "items": 4,
+   "uncovered": []
+  },
+  {
+   "id": "g4.eng.have_to",
+   "title": "have to",
+   "section": "A working day — Рабочий день",
+   "grade": 4,
+   "subject": "eng",
+   "tasks": 10,
+   "types": {
+    "fill": 4,
+    "choice": 2,
+    "match": 1,
+    "fix": 1,
+    "build": 1,
+    "tf": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.eng.shop_food",
+   "title": "Продукты в магазине",
+   "section": "Tasty treats — Еда и покупки",
+   "grade": 4,
+   "subject": "eng",
+   "tasks": 11,
+   "types": {
+    "listen": 3,
+    "choice": 6,
+    "input": 1,
+    "match": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.eng.containers",
+   "title": "Упаковки и ёмкости",
+   "section": "Tasty treats — Еда и покупки",
+   "grade": 4,
+   "subject": "eng",
+   "tasks": 10,
+   "types": {
+    "fill": 7,
+    "match": 1,
+    "listen": 1,
+    "fix": 1
+   },
+   "items": 5,
+   "uncovered": []
+  },
+  {
+   "id": "g4.eng.count_uncount",
+   "title": "Исчисляемые и неисчисляемые: much, many, a lot of",
+   "section": "Tasty treats — Еда и покупки",
+   "grade": 4,
+   "subject": "eng",
+   "tasks": 10,
+   "types": {
+    "fill": 5,
+    "sort": 1,
+    "choice": 2,
+    "fix": 1,
+    "tf": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g4.eng.may_i",
+   "title": "Вежливые просьбы: May I…?",
+   "section": "Tasty treats — Еда и покупки",
+   "grade": 4,
+   "subject": "eng",
+   "tasks": 10,
+   "types": {
+    "listen": 2,
+    "choice": 3,
+    "order": 1,
+    "build": 1,
+    "fill": 1,
+    "fix": 1,
+    "tf": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.eng.wild_animals",
+   "title": "Дикие животные",
+   "section": "At the zoo — В зоопарке",
+   "grade": 4,
+   "subject": "eng",
+   "tasks": 11,
+   "types": {
+    "listen": 3,
+    "choice": 6,
+    "input": 1,
+    "match": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.eng.months",
+   "title": "Месяцы года",
+   "section": "At the zoo — В зоопарке",
+   "grade": 4,
+   "subject": "eng",
+   "tasks": 11,
+   "types": {
+    "listen": 3,
+    "choice": 5,
+    "input": 1,
+    "match": 1,
+    "order": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.eng.comparative",
+   "title": "Сравнительная степень прилагательных",
+   "section": "At the zoo — В зоопарке",
+   "grade": 4,
+   "subject": "eng",
+   "tasks": 10,
+   "types": {
+    "choice": 7,
+    "fill": 1,
+    "fix": 1,
+    "build": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.eng.must",
+   "title": "must / mustn't",
+   "section": "At the zoo — В зоопарке",
+   "grade": 4,
+   "subject": "eng",
+   "tasks": 10,
+   "types": {
+    "tf": 4,
+    "match": 1,
+    "fill": 2,
+    "choice": 1,
+    "fix": 1,
+    "build": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.eng.ps_vs_pc",
+   "title": "Present Simple и Present Continuous",
+   "section": "At the zoo — В зоопарке",
+   "grade": 4,
+   "subject": "eng",
+   "tasks": 10,
+   "types": {
+    "fill": 5,
+    "sort": 1,
+    "choice": 2,
+    "fix": 1,
+    "tf": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.eng.ordinals",
+   "title": "Порядковые числительные и даты",
+   "section": "Where were you yesterday? — Вчера",
+   "grade": 4,
+   "subject": "eng",
+   "tasks": 13,
+   "types": {
+    "choice": 9,
+    "match": 2,
+    "listen": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.eng.feelings",
+   "title": "Чувства и эмоции",
+   "section": "Where were you yesterday? — Вчера",
+   "grade": 4,
+   "subject": "eng",
+   "tasks": 12,
+   "types": {
+    "listen": 3,
+    "choice": 7,
+    "input": 1,
+    "match": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.eng.was_were",
+   "title": "was / were",
+   "section": "Where were you yesterday? — Вчера",
+   "grade": 4,
+   "subject": "eng",
+   "tasks": 10,
+   "types": {
+    "fill": 6,
+    "choice": 2,
+    "fix": 1,
+    "build": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.eng.past_regular",
+   "title": "Past Simple: правильные глаголы (утверждения)",
+   "section": "Tell the tale — Сказки",
+   "grade": 4,
+   "subject": "eng",
+   "tasks": 11,
+   "types": {
+    "choice": 7,
+    "fill": 1,
+    "sort": 1,
+    "fix": 1,
+    "listen": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.eng.past_neg_q",
+   "title": "Past Simple: отрицания и вопросы",
+   "section": "Tell the tale — Сказки",
+   "grade": 4,
+   "subject": "eng",
+   "tasks": 10,
+   "types": {
+    "fill": 4,
+    "choice": 1,
+    "build": 1,
+    "fix": 1,
+    "sort": 1,
+    "order": 1,
+    "tf": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.eng.entertainment",
+   "title": "Развлечения",
+   "section": "Days to remember — Памятные дни",
+   "grade": 4,
+   "subject": "eng",
+   "tasks": 11,
+   "types": {
+    "listen": 3,
+    "choice": 6,
+    "input": 1,
+    "match": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.eng.superlative",
+   "title": "Превосходная степень прилагательных",
+   "section": "Days to remember — Памятные дни",
+   "grade": 4,
+   "subject": "eng",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "fill": 1,
+    "sort": 1,
+    "fix": 1,
+    "build": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.eng.past_irregular",
+   "title": "Past Simple: неправильные глаголы",
+   "section": "Days to remember — Памятные дни",
+   "grade": 4,
+   "subject": "eng",
+   "tasks": 11,
+   "types": {
+    "choice": 8,
+    "match": 1,
+    "fix": 1,
+    "listen": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.eng.countries",
+   "title": "Страны",
+   "section": "Places to go — Путешествия",
+   "grade": 4,
+   "subject": "eng",
+   "tasks": 12,
+   "types": {
+    "listen": 3,
+    "choice": 7,
+    "input": 1,
+    "match": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.eng.holiday_types",
+   "title": "Виды отдыха, погода и одежда",
+   "section": "Places to go — Путешествия",
+   "grade": 4,
+   "subject": "eng",
+   "tasks": 16,
+   "types": {
+    "listen": 3,
+    "choice": 7,
+    "input": 1,
+    "match": 1,
+    "multi": 3,
+    "sort": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g4.eng.going_to",
+   "title": "be going to",
+   "section": "Places to go — Путешествия",
+   "grade": 4,
+   "subject": "eng",
+   "tasks": 10,
+   "types": {
+    "fill": 4,
+    "choice": 2,
+    "build": 1,
+    "fix": 1,
+    "listen": 1,
+    "tf": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.eng.will",
+   "title": "will",
+   "section": "Places to go — Путешествия",
+   "grade": 4,
+   "subject": "eng",
+   "tasks": 10,
+   "types": {
+    "fill": 4,
+    "choice": 2,
+    "sort": 1,
+    "fix": 1,
+    "build": 1,
+    "tf": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.read.chronicles",
+   "title": "Летописи",
+   "section": "Летописи, былины, жития",
+   "grade": 4,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.read.ilya",
+   "title": "Былина «Ильины три поездочки»",
+   "section": "Летописи, былины, жития",
+   "grade": 4,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.read.sergius",
+   "title": "«Житие Сергия Радонежского»",
+   "section": "Летописи, былины, жития",
+   "grade": 4,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.read.ershov",
+   "title": "П. Ершов «Конёк-Горбунок»",
+   "section": "Чудесный мир классики",
+   "grade": 4,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "multi": 1,
+    "tf": 1,
+    "fill": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.read.pushkin_poems",
+   "title": "А. С. Пушкин. Стихи",
+   "section": "Чудесный мир классики",
+   "grade": 4,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g4.read.tsarevna",
+   "title": "А. С. Пушкин «Сказка о мёртвой царевне и о семи богатырях»",
+   "section": "Чудесный мир классики",
+   "grade": 4,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 7,
+    "tf": 1,
+    "fill": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.read.lermontov",
+   "title": "М. Ю. Лермонтов «Дары Терека», «Ашик-Кериб»",
+   "section": "Чудесный мир классики",
+   "grade": 4,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.read.tolstoy",
+   "title": "Л. Н. Толстой «Детство», «Как мужик убрал камень»",
+   "section": "Чудесный мир классики",
+   "grade": 4,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.read.chekhov",
+   "title": "А. П. Чехов «Мальчики»",
+   "section": "Чудесный мир классики",
+   "grade": 4,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.read.poetry_a",
+   "title": "Ф. Тютчев, А. Фет, Е. Баратынский",
+   "section": "Поэтическая тетрадь (XIX век)",
+   "grade": 4,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 5,
+   "uncovered": []
+  },
+  {
+   "id": "g4.read.poetry_b",
+   "title": "А. Плещеев, И. Никитин, Н. Некрасов, И. Бунин",
+   "section": "Поэтическая тетрадь (XIX век)",
+   "grade": 4,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 7,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1
+   },
+   "items": 5,
+   "uncovered": []
+  },
+  {
+   "id": "g4.read.tabakerka",
+   "title": "В. Одоевский «Городок в табакерке»",
+   "section": "Литературные сказки",
+   "grade": 4,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 7,
+    "tf": 1,
+    "fill": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.read.bazhov",
+   "title": "П. Бажов «Серебряное копытце»",
+   "section": "Литературные сказки",
+   "grade": 4,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.read.aksakov",
+   "title": "С. Аксаков «Аленький цветочек»",
+   "section": "Литературные сказки",
+   "grade": 4,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.read.garshin",
+   "title": "В. Гаршин «Сказка о жабе и розе»",
+   "section": "Литературные сказки",
+   "grade": 4,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.read.shvarts",
+   "title": "Е. Шварц «Сказка о потерянном времени»",
+   "section": "Делу время — потехе час",
+   "grade": 4,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.read.dragunsky",
+   "title": "В. Драгунский «Главные реки», «Что любит Мишка»",
+   "section": "Делу время — потехе час",
+   "grade": 4,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.read.golyavkin",
+   "title": "В. Голявкин «Никакой я горчицы не ел»",
+   "section": "Делу время — потехе час",
+   "grade": 4,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.read.zhitkov",
+   "title": "Б. Житков «Как я ловил человечков»",
+   "section": "Страна детства",
+   "grade": 4,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.read.paustovsky",
+   "title": "К. Паустовский «Корзина с еловыми шишками»",
+   "section": "Страна детства",
+   "grade": 4,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.read.zoshchenko",
+   "title": "М. Зощенко «Ёлка»",
+   "section": "Страна детства",
+   "grade": 4,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.read.silver",
+   "title": "В. Брюсов, С. Есенин, М. Цветаева",
+   "section": "Поэтическая тетрадь (Серебряный век)",
+   "grade": 4,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 5,
+   "uncovered": []
+  },
+  {
+   "id": "g4.read.mamin",
+   "title": "Д. Мамин-Сибиряк «Приёмыш»",
+   "section": "Природа и мы",
+   "grade": 4,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.read.kuprin",
+   "title": "А. Куприн «Барбос и Жулька»",
+   "section": "Природа и мы",
+   "grade": 4,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.read.prishvin_charushin",
+   "title": "М. Пришвин «Выскочка», Е. Чарушин «Кабан»",
+   "section": "Природа и мы",
+   "grade": 4,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "multi": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  },
+  {
+   "id": "g4.read.astafiev",
+   "title": "В. Астафьев «Стрижонок Скрип»",
+   "section": "Природа и мы",
+   "grade": 4,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.read.poetry_xx",
+   "title": "Б. Пастернак, С. Клычков, Д. Кедрин, Н. Рубцов, С. Есенин",
+   "section": "Поэзия о Родине и природе (XX век)",
+   "grade": 4,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 7,
+    "tf": 1,
+    "multi": 1,
+    "match": 1
+   },
+   "items": 5,
+   "uncovered": []
+  },
+  {
+   "id": "g4.read.homeland",
+   "title": "Стихи о Родине: И. Никитин, С. Дрожжин, А. Жигулин",
+   "section": "Поэзия о Родине и природе (XX век)",
+   "grade": 4,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 5,
+    "tf": 1,
+    "multi": 1,
+    "fill": 1,
+    "match": 1,
+    "fix": 1
+   },
+   "items": 3,
+   "uncovered": []
+  },
+  {
+   "id": "g4.read.veltistov",
+   "title": "Е. Велтистов «Приключения Электроника»",
+   "section": "Страна Фантазия",
+   "grade": 4,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.read.bulychev",
+   "title": "Кир Булычёв «Путешествие Алисы»",
+   "section": "Страна Фантазия",
+   "grade": 4,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.read.gulliver",
+   "title": "Дж. Свифт «Путешествие Гулливера»",
+   "section": "Зарубежная литература",
+   "grade": 4,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.read.mermaid",
+   "title": "Х. К. Андерсен «Русалочка»",
+   "section": "Зарубежная литература",
+   "grade": 4,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.read.tom_sawyer",
+   "title": "М. Твен «Приключения Тома Сойера»",
+   "section": "Зарубежная литература",
+   "grade": 4,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 1,
+   "uncovered": []
+  },
+  {
+   "id": "g4.read.lagerlof",
+   "title": "С. Лагерлёф «Святая ночь», «В Назарете»",
+   "section": "Зарубежная литература",
+   "grade": 4,
+   "subject": "read",
+   "tasks": 10,
+   "types": {
+    "choice": 6,
+    "tf": 1,
+    "fill": 1,
+    "multi": 1,
+    "fix": 1
+   },
+   "items": 2,
+   "uncovered": []
+  }
+ ]
+}

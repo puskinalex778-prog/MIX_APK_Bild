@@ -1,0 +1,6910 @@
+{
+ "version": 1,
+ "grades": [
+  {
+   "grade": 2,
+   "subjects": [
+    {
+     "code": "math",
+     "title": "Математика",
+     "source": "Моро М. И., Бантова М. А., Бельтюкова Г. В. и др. Математика. 2 класс. В 2 ч. — М.: Просвещение (УМК «Школа России»), изд. 2023",
+     "sections": [
+      {
+       "code": "num",
+       "title": "Числа от 1 до 100. Нумерация",
+       "id": "g2.math.num",
+       "topics": [
+        {
+         "id": "g2.math.rep20",
+         "code": "rep20",
+         "title": "Повторение: числа от 1 до 20",
+         "items": [
+          "числа от 1 до 20"
+         ],
+         "order": 1,
+         "count": 13
+        },
+        {
+         "id": "g2.math.tens",
+         "code": "tens",
+         "title": "Счёт десятками",
+         "items": [
+          "счёт десятками"
+         ],
+         "order": 2,
+         "count": 12
+        },
+        {
+         "id": "g2.math.twodigit",
+         "code": "twodigit",
+         "title": "Двузначные числа: образование и запись",
+         "items": [
+          "образование двузначных чисел",
+          "запись двузначных чисел"
+         ],
+         "order": 3,
+         "count": 12
+        },
+        {
+         "id": "g2.math.mm",
+         "code": "mm",
+         "title": "Миллиметр",
+         "items": [
+          "миллиметр"
+         ],
+         "order": 4,
+         "count": 12
+        },
+        {
+         "id": "g2.math.meter",
+         "code": "meter",
+         "title": "Метр",
+         "items": [
+          "метр"
+         ],
+         "order": 5,
+         "count": 11
+        },
+        {
+         "id": "g2.math.money",
+         "code": "money",
+         "title": "Рубль и копейка",
+         "items": [
+          "рубль",
+          "копейка"
+         ],
+         "order": 6,
+         "count": 11
+        }
+       ]
+      },
+      {
+       "code": "addsub",
+       "title": "Сложение и вычитание",
+       "id": "g2.math.addsub",
+       "topics": [
+        {
+         "id": "g2.math.inverse",
+         "code": "inverse",
+         "title": "Задачи, обратные данной",
+         "items": [
+          "обратные задачи"
+         ],
+         "order": 7,
+         "count": 11
+        },
+        {
+         "id": "g2.math.time",
+         "code": "time",
+         "title": "Час и минута",
+         "items": [
+          "час",
+          "минута"
+         ],
+         "order": 8,
+         "count": 12
+        },
+        {
+         "id": "g2.math.polyline",
+         "code": "polyline",
+         "title": "Длина ломаной",
+         "items": [
+          "длина ломаной"
+         ],
+         "order": 9,
+         "count": 11
+        },
+        {
+         "id": "g2.math.order",
+         "code": "order",
+         "title": "Порядок действий и скобки",
+         "items": [
+          "порядок действий",
+          "скобки"
+         ],
+         "order": 10,
+         "count": 11
+        },
+        {
+         "id": "g2.math.numexpr",
+         "code": "numexpr",
+         "title": "Числовые выражения",
+         "items": [
+          "числовые выражения",
+          "сравнение выражений"
+         ],
+         "order": 11,
+         "count": 10
+        },
+        {
+         "id": "g2.math.perimeter",
+         "code": "perimeter",
+         "title": "Периметр многоугольника",
+         "items": [
+          "периметр многоугольника"
+         ],
+         "order": 12,
+         "count": 11
+        },
+        {
+         "id": "g2.math.addprops",
+         "code": "addprops",
+         "title": "Свойства сложения",
+         "items": [
+          "переместительное свойство сложения",
+          "сочетательное свойство сложения"
+         ],
+         "order": 13,
+         "count": 10
+        },
+        {
+         "id": "g2.math.bars",
+         "code": "bars",
+         "title": "Столбчатые диаграммы",
+         "items": [
+          "столбчатые диаграммы"
+         ],
+         "order": 14,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "oral",
+       "title": "Устные вычисления в пределах 100",
+       "id": "g2.math.oral",
+       "topics": [
+        {
+         "id": "g2.math.oral_nocarry",
+         "code": "oral_nocarry",
+         "title": "Сложение и вычитание без перехода через десяток",
+         "items": [
+          "приёмы без перехода через десяток"
+         ],
+         "order": 15,
+         "count": 11
+        },
+        {
+         "id": "g2.math.oral_carry",
+         "code": "oral_carry",
+         "title": "Сложение и вычитание с переходом через десяток",
+         "items": [
+          "приёмы с переходом через десяток"
+         ],
+         "order": 16,
+         "count": 12
+        },
+        {
+         "id": "g2.math.letterexpr",
+         "code": "letterexpr",
+         "title": "Буквенные выражения",
+         "items": [
+          "буквенные выражения"
+         ],
+         "order": 17,
+         "count": 11
+        },
+        {
+         "id": "g2.math.equations",
+         "code": "equations",
+         "title": "Уравнения",
+         "items": [
+          "уравнения"
+         ],
+         "order": 18,
+         "count": 11
+        },
+        {
+         "id": "g2.math.check",
+         "code": "check",
+         "title": "Проверка сложения и вычитания",
+         "items": [
+          "проверка сложения",
+          "проверка вычитания"
+         ],
+         "order": 19,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "written",
+       "title": "Письменные вычисления (столбиком)",
+       "id": "g2.math.written",
+       "topics": [
+        {
+         "id": "g2.math.col_add",
+         "code": "col_add",
+         "title": "Сложение двузначных чисел столбиком",
+         "items": [
+          "сложение столбиком"
+         ],
+         "order": 20,
+         "count": 10
+        },
+        {
+         "id": "g2.math.col_sub",
+         "code": "col_sub",
+         "title": "Вычитание двузначных чисел столбиком",
+         "items": [
+          "вычитание столбиком"
+         ],
+         "order": 21,
+         "count": 10
+        },
+        {
+         "id": "g2.math.angles",
+         "code": "angles",
+         "title": "Виды углов",
+         "items": [
+          "прямой угол",
+          "острый угол",
+          "тупой угол"
+         ],
+         "order": 22,
+         "count": 11
+        },
+        {
+         "id": "g2.math.rect_sides",
+         "code": "rect_sides",
+         "title": "Противоположные стороны прямоугольника",
+         "items": [
+          "противоположные стороны прямоугольника",
+          "квадрат"
+         ],
+         "order": 23,
+         "count": 10
+        },
+        {
+         "id": "g2.math.symmetry",
+         "code": "symmetry",
+         "title": "Симметричные фигуры",
+         "items": [
+          "симметричные фигуры",
+          "ось симметрии"
+         ],
+         "order": 24,
+         "count": 11
+        }
+       ]
+      },
+      {
+       "code": "muldiv",
+       "title": "Умножение и деление",
+       "id": "g2.math.muldiv",
+       "topics": [
+        {
+         "id": "g2.math.mul_meaning",
+         "code": "mul_meaning",
+         "title": "Смысл умножения",
+         "items": [
+          "конкретный смысл умножения"
+         ],
+         "order": 25,
+         "count": 12
+        },
+        {
+         "id": "g2.math.rect_perimeter",
+         "code": "rect_perimeter",
+         "title": "Периметр прямоугольника",
+         "items": [
+          "периметр прямоугольника"
+         ],
+         "order": 26,
+         "count": 11
+        },
+        {
+         "id": "g2.math.mul_names",
+         "code": "mul_names",
+         "title": "Названия компонентов умножения",
+         "items": [
+          "множитель",
+          "произведение"
+         ],
+         "order": 27,
+         "count": 10
+        },
+        {
+         "id": "g2.math.mul_commut",
+         "code": "mul_commut",
+         "title": "Переместительное свойство умножения",
+         "items": [
+          "переместительное свойство умножения"
+         ],
+         "order": 28,
+         "count": 10
+        },
+        {
+         "id": "g2.math.div_meaning",
+         "code": "div_meaning",
+         "title": "Смысл деления и названия компонентов",
+         "items": [
+          "конкретный смысл деления",
+          "делимое",
+          "делитель",
+          "частное"
+         ],
+         "order": 29,
+         "count": 11
+        }
+       ]
+      },
+      {
+       "code": "table",
+       "title": "Табличное умножение и деление",
+       "id": "g2.math.table",
+       "topics": [
+        {
+         "id": "g2.math.x2",
+         "code": "x2",
+         "title": "Умножение и деление на 2",
+         "items": [
+          "умножение на 2",
+          "деление на 2"
+         ],
+         "order": 30,
+         "count": 12
+        },
+        {
+         "id": "g2.math.evenodd",
+         "code": "evenodd",
+         "title": "Чётные и нечётные числа",
+         "items": [
+          "чётные числа",
+          "нечётные числа"
+         ],
+         "order": 31,
+         "count": 11
+        },
+        {
+         "id": "g2.math.x3",
+         "code": "x3",
+         "title": "Умножение и деление на 3",
+         "items": [
+          "умножение на 3",
+          "деление на 3"
+         ],
+         "order": 32,
+         "count": 12
+        },
+        {
+         "id": "g2.math.order2",
+         "code": "order2",
+         "title": "Порядок действий в выражениях со скобками и без",
+         "items": [
+          "порядок действий со скобками",
+          "порядок действий без скобок"
+         ],
+         "order": 33,
+         "count": 11
+        },
+        {
+         "id": "g2.math.x4",
+         "code": "x4",
+         "title": "Умножение и деление на 4",
+         "items": [
+          "умножение на 4",
+          "деление на 4"
+         ],
+         "order": 34,
+         "count": 12
+        },
+        {
+         "id": "g2.math.times_more",
+         "code": "times_more",
+         "title": "Увеличение и уменьшение в несколько раз",
+         "items": [
+          "увеличение в несколько раз",
+          "уменьшение в несколько раз"
+         ],
+         "order": 35,
+         "count": 10
+        },
+        {
+         "id": "g2.math.ratio_compare",
+         "code": "ratio_compare",
+         "title": "Во сколько раз больше или меньше",
+         "items": [
+          "кратное сравнение"
+         ],
+         "order": 36,
+         "count": 11
+        },
+        {
+         "id": "g2.math.x5",
+         "code": "x5",
+         "title": "Умножение и деление с числом 5",
+         "items": [
+          "умножение на 5",
+          "деление на 5"
+         ],
+         "order": 37,
+         "count": 12
+        },
+        {
+         "id": "g2.math.x6",
+         "code": "x6",
+         "title": "Умножение и деление с числом 6",
+         "items": [
+          "умножение на 6",
+          "деление на 6"
+         ],
+         "order": 38,
+         "count": 12
+        },
+        {
+         "id": "g2.math.x7",
+         "code": "x7",
+         "title": "Умножение и деление с числом 7",
+         "items": [
+          "умножение на 7",
+          "деление на 7"
+         ],
+         "order": 39,
+         "count": 12
+        },
+        {
+         "id": "g2.math.x8",
+         "code": "x8",
+         "title": "Умножение и деление с числом 8",
+         "items": [
+          "умножение на 8",
+          "деление на 8"
+         ],
+         "order": 40,
+         "count": 12
+        },
+        {
+         "id": "g2.math.x9",
+         "code": "x9",
+         "title": "Умножение и деление с числом 9",
+         "items": [
+          "умножение на 9",
+          "деление на 9"
+         ],
+         "order": 41,
+         "count": 13
+        },
+        {
+         "id": "g2.math.table",
+         "code": "table",
+         "title": "Таблица умножения",
+         "items": [
+          "таблица умножения"
+         ],
+         "order": 42,
+         "count": 12
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "rus",
+     "title": "Русский язык",
+     "source": "Канакина В. П., Горецкий В. Г. Русский язык. 2 класс. В 2 ч. — М.: Просвещение (УМК «Школа России»), изд. 2023",
+     "sections": [
+      {
+       "code": "speech",
+       "title": "Наша речь",
+       "id": "g2.rus.speech",
+       "topics": [
+        {
+         "id": "g2.rus.speech",
+         "code": "speech",
+         "title": "Устная и письменная речь",
+         "items": [
+          "устная речь",
+          "письменная речь"
+         ],
+         "order": 43,
+         "count": 10
+        },
+        {
+         "id": "g2.rus.dialog",
+         "code": "dialog",
+         "title": "Диалог и монолог",
+         "items": [
+          "диалог",
+          "монолог"
+         ],
+         "order": 44,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "text",
+       "title": "Текст",
+       "id": "g2.rus.text",
+       "topics": [
+        {
+         "id": "g2.rus.text_signs",
+         "code": "text_signs",
+         "title": "Признаки текста",
+         "items": [
+          "признаки текста"
+         ],
+         "order": 45,
+         "count": 10
+        },
+        {
+         "id": "g2.rus.text_theme",
+         "code": "text_theme",
+         "title": "Тема и главная мысль текста",
+         "items": [
+          "тема текста",
+          "главная мысль"
+         ],
+         "order": 46,
+         "count": 10
+        },
+        {
+         "id": "g2.rus.text_parts",
+         "code": "text_parts",
+         "title": "Части текста",
+         "items": [
+          "вступление",
+          "основная часть",
+          "заключение"
+         ],
+         "order": 47,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "sentence",
+       "title": "Предложение",
+       "id": "g2.rus.sentence",
+       "topics": [
+        {
+         "id": "g2.rus.sent_types",
+         "code": "sent_types",
+         "title": "Предложение. Виды предложений",
+         "items": [
+          "предложение",
+          "знаки в конце предложения"
+         ],
+         "order": 48,
+         "count": 10
+        },
+        {
+         "id": "g2.rus.main_members",
+         "code": "main_members",
+         "title": "Главные члены предложения",
+         "items": [
+          "подлежащее",
+          "сказуемое"
+         ],
+         "order": 49,
+         "count": 11
+        },
+        {
+         "id": "g2.rus.word_links",
+         "code": "word_links",
+         "title": "Связь слов в предложении",
+         "items": [
+          "связь слов в предложении"
+         ],
+         "order": 50,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "word",
+       "title": "Слово и его значение",
+       "id": "g2.rus.word",
+       "topics": [
+        {
+         "id": "g2.rus.lex_meaning",
+         "code": "lex_meaning",
+         "title": "Лексическое значение слова",
+         "items": [
+          "лексическое значение слова"
+         ],
+         "order": 51,
+         "count": 10
+        },
+        {
+         "id": "g2.rus.synonyms",
+         "code": "synonyms",
+         "title": "Синонимы",
+         "items": [
+          "синонимы"
+         ],
+         "order": 52,
+         "count": 10
+        },
+        {
+         "id": "g2.rus.antonyms",
+         "code": "antonyms",
+         "title": "Антонимы",
+         "items": [
+          "антонимы"
+         ],
+         "order": 53,
+         "count": 10
+        },
+        {
+         "id": "g2.rus.cognates",
+         "code": "cognates",
+         "title": "Однокоренные слова. Корень слова",
+         "items": [
+          "однокоренные слова",
+          "корень слова",
+          "состав слова"
+         ],
+         "order": 54,
+         "count": 11
+        },
+        {
+         "id": "g2.rus.syllables",
+         "code": "syllables",
+         "title": "Слог",
+         "items": [
+          "слог"
+         ],
+         "order": 55,
+         "count": 10
+        },
+        {
+         "id": "g2.rus.stress",
+         "code": "stress",
+         "title": "Ударение",
+         "items": [
+          "ударение"
+         ],
+         "order": 56,
+         "count": 10
+        },
+        {
+         "id": "g2.rus.hyphen",
+         "code": "hyphen",
+         "title": "Перенос слов",
+         "items": [
+          "правила переноса слов"
+         ],
+         "order": 57,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "sounds",
+       "title": "Звуки и буквы",
+       "id": "g2.rus.sounds",
+       "topics": [
+        {
+         "id": "g2.rus.alphabet",
+         "code": "alphabet",
+         "title": "Алфавит",
+         "items": [
+          "алфавит"
+         ],
+         "order": 58,
+         "count": 10
+        },
+        {
+         "id": "g2.rus.vowels",
+         "code": "vowels",
+         "title": "Гласные звуки и буквы",
+         "items": [
+          "гласные звуки"
+         ],
+         "order": 59,
+         "count": 10
+        },
+        {
+         "id": "g2.rus.unstressed",
+         "code": "unstressed",
+         "title": "Безударные гласные в корне",
+         "items": [
+          "правописание безударных гласных в корне"
+         ],
+         "order": 60,
+         "count": 10
+        },
+        {
+         "id": "g2.rus.consonants",
+         "code": "consonants",
+         "title": "Согласные звуки и буквы",
+         "items": [
+          "согласные звуки"
+         ],
+         "order": 61,
+         "count": 10
+        },
+        {
+         "id": "g2.rus.hard_soft",
+         "code": "hard_soft",
+         "title": "Твёрдые и мягкие согласные",
+         "items": [
+          "твёрдые согласные",
+          "мягкие согласные"
+         ],
+         "order": 62,
+         "count": 10
+        },
+        {
+         "id": "g2.rus.soft_sign",
+         "code": "soft_sign",
+         "title": "Мягкий знак для обозначения мягкости",
+         "items": [
+          "мягкий знак"
+         ],
+         "order": 63,
+         "count": 10
+        },
+        {
+         "id": "g2.rus.chk",
+         "code": "chk",
+         "title": "Буквосочетания чк, чн, чт, щн, нч",
+         "items": [
+          "чк",
+          "чн",
+          "чт",
+          "щн",
+          "нч"
+         ],
+         "order": 64,
+         "count": 10
+        },
+        {
+         "id": "g2.rus.zhishi",
+         "code": "zhishi",
+         "title": "Жи–ши, ча–ща, чу–щу",
+         "items": [
+          "жи–ши",
+          "ча–ща",
+          "чу–щу"
+         ],
+         "order": 65,
+         "count": 11
+        },
+        {
+         "id": "g2.rus.paired",
+         "code": "paired",
+         "title": "Парные звонкие и глухие согласные",
+         "items": [
+          "парные согласные на конце слова",
+          "парные согласные перед согласным"
+         ],
+         "order": 66,
+         "count": 10
+        },
+        {
+         "id": "g2.rus.sep_soft",
+         "code": "sep_soft",
+         "title": "Разделительный мягкий знак",
+         "items": [
+          "разделительный мягкий знак"
+         ],
+         "order": 67,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "pos",
+       "title": "Части речи",
+       "id": "g2.rus.pos",
+       "topics": [
+        {
+         "id": "g2.rus.pos",
+         "code": "pos",
+         "title": "Части речи: общее понятие",
+         "items": [
+          "части речи"
+         ],
+         "order": 68,
+         "count": 10
+        },
+        {
+         "id": "g2.rus.noun_anim",
+         "code": "noun_anim",
+         "title": "Одушевлённые и неодушевлённые существительные",
+         "items": [
+          "одушевлённые",
+          "неодушевлённые"
+         ],
+         "order": 69,
+         "count": 10
+        },
+        {
+         "id": "g2.rus.noun_proper",
+         "code": "noun_proper",
+         "title": "Собственные и нарицательные существительные",
+         "items": [
+          "собственные",
+          "нарицательные"
+         ],
+         "order": 70,
+         "count": 10
+        },
+        {
+         "id": "g2.rus.noun_number",
+         "code": "noun_number",
+         "title": "Число имён существительных",
+         "items": [
+          "единственное число",
+          "множественное число"
+         ],
+         "order": 71,
+         "count": 10
+        },
+        {
+         "id": "g2.rus.verb_meaning",
+         "code": "verb_meaning",
+         "title": "Глагол: значение и вопросы",
+         "items": [
+          "значение глагола",
+          "вопросы глагола"
+         ],
+         "order": 72,
+         "count": 10
+        },
+        {
+         "id": "g2.rus.verb_number",
+         "code": "verb_number",
+         "title": "Число глаголов",
+         "items": [
+          "число глаголов"
+         ],
+         "order": 73,
+         "count": 10
+        },
+        {
+         "id": "g2.rus.ne_verb",
+         "code": "ne_verb",
+         "title": "Частица не с глаголами",
+         "items": [
+          "не с глаголами"
+         ],
+         "order": 74,
+         "count": 10
+        },
+        {
+         "id": "g2.rus.adj_meaning",
+         "code": "adj_meaning",
+         "title": "Имя прилагательное: значение и вопросы",
+         "items": [
+          "значение прилагательного",
+          "вопросы прилагательного"
+         ],
+         "order": 75,
+         "count": 10
+        },
+        {
+         "id": "g2.rus.adj_noun",
+         "code": "adj_noun",
+         "title": "Связь прилагательного с существительным",
+         "items": [
+          "связь прилагательного с существительным"
+         ],
+         "order": 76,
+         "count": 10
+        },
+        {
+         "id": "g2.rus.adj_number",
+         "code": "adj_number",
+         "title": "Число имён прилагательных",
+         "items": [
+          "число прилагательных"
+         ],
+         "order": 77,
+         "count": 10
+        },
+        {
+         "id": "g2.rus.pronoun",
+         "code": "pronoun",
+         "title": "Личные местоимения",
+         "items": [
+          "личные местоимения"
+         ],
+         "order": 78,
+         "count": 10
+        },
+        {
+         "id": "g2.rus.preposition",
+         "code": "preposition",
+         "title": "Предлоги",
+         "items": [
+          "роль предлогов",
+          "раздельное написание предлогов"
+         ],
+         "order": 79,
+         "count": 10
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "world",
+     "title": "Окружающий мир",
+     "source": "Плешаков А. А. Окружающий мир. 2 класс. В 2 ч. — М.: Просвещение (УМК «Школа России»), изд. 2023",
+     "sections": [
+      {
+       "code": "home",
+       "title": "Где мы живём",
+       "id": "g2.world.home",
+       "topics": [
+        {
+         "id": "g2.world.country",
+         "code": "country",
+         "title": "Родная страна",
+         "items": [
+          "родная страна"
+         ],
+         "order": 80,
+         "count": 10
+        },
+        {
+         "id": "g2.world.city_village",
+         "code": "city_village",
+         "title": "Город и село",
+         "items": [
+          "город",
+          "село"
+         ],
+         "order": 81,
+         "count": 10
+        },
+        {
+         "id": "g2.world.nature_made",
+         "code": "nature_made",
+         "title": "Природа и рукотворный мир",
+         "items": [
+          "природа",
+          "рукотворный мир"
+         ],
+         "order": 82,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "nature",
+       "title": "Природа",
+       "id": "g2.world.nature",
+       "topics": [
+        {
+         "id": "g2.world.nonliving_living",
+         "code": "nonliving_living",
+         "title": "Неживая и живая природа",
+         "items": [
+          "неживая природа",
+          "живая природа"
+         ],
+         "order": 83,
+         "count": 10
+        },
+        {
+         "id": "g2.world.phenomena",
+         "code": "phenomena",
+         "title": "Явления природы",
+         "items": [
+          "явления природы"
+         ],
+         "order": 84,
+         "count": 10
+        },
+        {
+         "id": "g2.world.weather",
+         "code": "weather",
+         "title": "Что такое погода",
+         "items": [
+          "погода"
+         ],
+         "order": 85,
+         "count": 10
+        },
+        {
+         "id": "g2.world.autumn",
+         "code": "autumn",
+         "title": "Осенние изменения в природе",
+         "items": [
+          "осень"
+         ],
+         "order": 86,
+         "count": 10
+        },
+        {
+         "id": "g2.world.sky",
+         "code": "sky",
+         "title": "Звёздное небо",
+         "items": [
+          "звёздное небо",
+          "созвездия"
+         ],
+         "order": 87,
+         "count": 11
+        },
+        {
+         "id": "g2.world.rocks",
+         "code": "rocks",
+         "title": "Горные породы и минералы",
+         "items": [
+          "горные породы",
+          "минералы"
+         ],
+         "order": 88,
+         "count": 10
+        },
+        {
+         "id": "g2.world.air",
+         "code": "air",
+         "title": "Воздух",
+         "items": [
+          "воздух"
+         ],
+         "order": 89,
+         "count": 10
+        },
+        {
+         "id": "g2.world.water",
+         "code": "water",
+         "title": "Вода",
+         "items": [
+          "вода"
+         ],
+         "order": 90,
+         "count": 10
+        },
+        {
+         "id": "g2.world.plants",
+         "code": "plants",
+         "title": "Какие бывают растения",
+         "items": [
+          "разнообразие растений"
+         ],
+         "order": 91,
+         "count": 10
+        },
+        {
+         "id": "g2.world.animals",
+         "code": "animals",
+         "title": "Какие бывают животные",
+         "items": [
+          "разнообразие животных"
+         ],
+         "order": 92,
+         "count": 10
+        },
+        {
+         "id": "g2.world.links",
+         "code": "links",
+         "title": "Невидимые нити в природе",
+         "items": [
+          "взаимосвязи в природе"
+         ],
+         "order": 93,
+         "count": 10
+        },
+        {
+         "id": "g2.world.wild_cult",
+         "code": "wild_cult",
+         "title": "Дикорастущие и культурные растения",
+         "items": [
+          "дикорастущие растения",
+          "культурные растения"
+         ],
+         "order": 94,
+         "count": 10
+        },
+        {
+         "id": "g2.world.wild_dom",
+         "code": "wild_dom",
+         "title": "Дикие и домашние животные",
+         "items": [
+          "дикие животные",
+          "домашние животные"
+         ],
+         "order": 95,
+         "count": 10
+        },
+        {
+         "id": "g2.world.houseplants",
+         "code": "houseplants",
+         "title": "Комнатные растения",
+         "items": [
+          "комнатные растения"
+         ],
+         "order": 96,
+         "count": 10
+        },
+        {
+         "id": "g2.world.petcorner",
+         "code": "petcorner",
+         "title": "Животные живого уголка",
+         "items": [
+          "живой уголок"
+         ],
+         "order": 97,
+         "count": 10
+        },
+        {
+         "id": "g2.world.cats_dogs",
+         "code": "cats_dogs",
+         "title": "Про кошек и собак",
+         "items": [
+          "кошки",
+          "собаки"
+         ],
+         "order": 98,
+         "count": 10
+        },
+        {
+         "id": "g2.world.redbook",
+         "code": "redbook",
+         "title": "Красная книга",
+         "items": [
+          "Красная книга"
+         ],
+         "order": 99,
+         "count": 10
+        },
+        {
+         "id": "g2.world.protect",
+         "code": "protect",
+         "title": "Будь природе другом",
+         "items": [
+          "охрана природы"
+         ],
+         "order": 100,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "life",
+       "title": "Жизнь города и села",
+       "id": "g2.world.life",
+       "topics": [
+        {
+         "id": "g2.world.economy",
+         "code": "economy",
+         "title": "Что такое экономика",
+         "items": [
+          "экономика"
+         ],
+         "order": 101,
+         "count": 10
+        },
+        {
+         "id": "g2.world.materials",
+         "code": "materials",
+         "title": "Из чего что сделано",
+         "items": [
+          "материалы"
+         ],
+         "order": 102,
+         "count": 10
+        },
+        {
+         "id": "g2.world.building",
+         "code": "building",
+         "title": "Как построить дом",
+         "items": [
+          "строительство"
+         ],
+         "order": 103,
+         "count": 10
+        },
+        {
+         "id": "g2.world.transport",
+         "code": "transport",
+         "title": "Какой бывает транспорт",
+         "items": [
+          "виды транспорта"
+         ],
+         "order": 104,
+         "count": 10
+        },
+        {
+         "id": "g2.world.culture",
+         "code": "culture",
+         "title": "Культура и образование",
+         "items": [
+          "культура",
+          "образование"
+         ],
+         "order": 105,
+         "count": 10
+        },
+        {
+         "id": "g2.world.professions",
+         "code": "professions",
+         "title": "Все профессии важны",
+         "items": [
+          "профессии"
+         ],
+         "order": 106,
+         "count": 10
+        },
+        {
+         "id": "g2.world.winter",
+         "code": "winter",
+         "title": "Зимние изменения в природе",
+         "items": [
+          "зима"
+         ],
+         "order": 107,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "health",
+       "title": "Здоровье и безопасность",
+       "id": "g2.world.health",
+       "topics": [
+        {
+         "id": "g2.world.body",
+         "code": "body",
+         "title": "Строение тела человека",
+         "items": [
+          "строение тела"
+         ],
+         "order": 108,
+         "count": 10
+        },
+        {
+         "id": "g2.world.routine",
+         "code": "routine",
+         "title": "Режим дня и здоровый образ жизни",
+         "items": [
+          "режим дня",
+          "здоровый образ жизни"
+         ],
+         "order": 109,
+         "count": 10
+        },
+        {
+         "id": "g2.world.traffic",
+         "code": "traffic",
+         "title": "Правила дорожного движения",
+         "items": [
+          "правила дорожного движения"
+         ],
+         "order": 110,
+         "count": 10
+        },
+        {
+         "id": "g2.world.home_danger",
+         "code": "home_danger",
+         "title": "Домашние опасности",
+         "items": [
+          "домашние опасности"
+         ],
+         "order": 111,
+         "count": 10
+        },
+        {
+         "id": "g2.world.fire",
+         "code": "fire",
+         "title": "Пожарная безопасность",
+         "items": [
+          "пожар"
+         ],
+         "order": 112,
+         "count": 10
+        },
+        {
+         "id": "g2.world.water_forest",
+         "code": "water_forest",
+         "title": "Безопасность на воде и в лесу",
+         "items": [
+          "на воде",
+          "в лесу"
+         ],
+         "order": 113,
+         "count": 10
+        },
+        {
+         "id": "g2.world.strangers",
+         "code": "strangers",
+         "title": "Опасные незнакомцы",
+         "items": [
+          "незнакомцы"
+         ],
+         "order": 114,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "talk",
+       "title": "Общение",
+       "id": "g2.world.talk",
+       "topics": [
+        {
+         "id": "g2.world.family",
+         "code": "family",
+         "title": "Наша дружная семья",
+         "items": [
+          "семья"
+         ],
+         "order": 115,
+         "count": 10
+        },
+        {
+         "id": "g2.world.school_rules",
+         "code": "school_rules",
+         "title": "Правила поведения в школе",
+         "items": [
+          "правила в школе"
+         ],
+         "order": 116,
+         "count": 10
+        },
+        {
+         "id": "g2.world.politeness",
+         "code": "politeness",
+         "title": "Правила вежливости",
+         "items": [
+          "вежливость"
+         ],
+         "order": 117,
+         "count": 10
+        },
+        {
+         "id": "g2.world.friendship",
+         "code": "friendship",
+         "title": "Ты и твои друзья",
+         "items": [
+          "дружба"
+         ],
+         "order": 118,
+         "count": 10
+        },
+        {
+         "id": "g2.world.public_behavior",
+         "code": "public_behavior",
+         "title": "Мы — зрители и пассажиры",
+         "items": [
+          "поведение в транспорте",
+          "поведение в общественных местах"
+         ],
+         "order": 119,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "travel",
+       "title": "Путешествия",
+       "id": "g2.world.travel",
+       "topics": [
+        {
+         "id": "g2.world.horizon",
+         "code": "horizon",
+         "title": "Посмотри вокруг: линия горизонта",
+         "items": [
+          "горизонт",
+          "стороны горизонта"
+         ],
+         "order": 120,
+         "count": 10
+        },
+        {
+         "id": "g2.world.orient",
+         "code": "orient",
+         "title": "Ориентирование на местности. Компас",
+         "items": [
+          "ориентирование",
+          "компас"
+         ],
+         "order": 121,
+         "count": 10
+        },
+        {
+         "id": "g2.world.landforms",
+         "code": "landforms",
+         "title": "Формы земной поверхности",
+         "items": [
+          "равнины",
+          "горы",
+          "холмы",
+          "овраги"
+         ],
+         "order": 122,
+         "count": 11
+        },
+        {
+         "id": "g2.world.waters",
+         "code": "waters",
+         "title": "Водные богатства",
+         "items": [
+          "водоёмы"
+         ],
+         "order": 123,
+         "count": 10
+        },
+        {
+         "id": "g2.world.spring",
+         "code": "spring",
+         "title": "Весенние изменения в природе",
+         "items": [
+          "весна"
+         ],
+         "order": 124,
+         "count": 10
+        },
+        {
+         "id": "g2.world.russia_map",
+         "code": "russia_map",
+         "title": "Россия на карте",
+         "items": [
+          "карта России"
+         ],
+         "order": 125,
+         "count": 10
+        },
+        {
+         "id": "g2.world.moscow",
+         "code": "moscow",
+         "title": "Москва и Московский Кремль",
+         "items": [
+          "Москва",
+          "Московский Кремль"
+         ],
+         "order": 126,
+         "count": 10
+        },
+        {
+         "id": "g2.world.spb",
+         "code": "spb",
+         "title": "Город на Неве",
+         "items": [
+          "Санкт-Петербург"
+         ],
+         "order": 127,
+         "count": 10
+        },
+        {
+         "id": "g2.world.world_map",
+         "code": "world_map",
+         "title": "Карта мира. Материки и океаны",
+         "items": [
+          "карта мира",
+          "материки",
+          "океаны"
+         ],
+         "order": 128,
+         "count": 10
+        },
+        {
+         "id": "g2.world.countries",
+         "code": "countries",
+         "title": "Страны мира",
+         "items": [
+          "страны мира"
+         ],
+         "order": 129,
+         "count": 10
+        },
+        {
+         "id": "g2.world.summer",
+         "code": "summer",
+         "title": "Впереди лето",
+         "items": [
+          "лето"
+         ],
+         "order": 130,
+         "count": 10
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "eng",
+     "title": "Английский язык",
+     "source": "Быкова Н. И., Дули Д., Поспелова М. Д., Эванс В. Английский в фокусе (Spotlight). 2 класс. В 2 ч. — М.: Просвещение, изд. 2024",
+     "sections": [
+      {
+       "code": "starter",
+       "title": "Вводный курс",
+       "id": "g2.eng.starter",
+       "topics": [
+        {
+         "id": "g2.eng.greetings",
+         "code": "greetings",
+         "title": "Знакомство и приветствия",
+         "items": [
+          "знакомство",
+          "приветствия"
+         ],
+         "order": 131,
+         "count": 10
+        },
+        {
+         "id": "g2.eng.alphabet",
+         "code": "alphabet",
+         "title": "Английский алфавит",
+         "items": [
+          "алфавит"
+         ],
+         "order": 132,
+         "count": 11
+        },
+        {
+         "id": "g2.eng.phonics",
+         "code": "phonics",
+         "title": "Звуки и правила чтения",
+         "items": [
+          "звуки",
+          "правила чтения"
+         ],
+         "order": 133,
+         "count": 16
+        },
+        {
+         "id": "g2.eng.colours",
+         "code": "colours",
+         "title": "Цвета",
+         "items": [
+          "цвета"
+         ],
+         "order": 134,
+         "count": 13
+        }
+       ]
+      },
+      {
+       "code": "home",
+       "title": "Семья и дом",
+       "id": "g2.eng.home",
+       "topics": [
+        {
+         "id": "g2.eng.family",
+         "code": "family",
+         "title": "Члены семьи",
+         "items": [
+          "семья"
+         ],
+         "order": 135,
+         "count": 12
+        },
+        {
+         "id": "g2.eng.rooms",
+         "code": "rooms",
+         "title": "Комнаты в доме",
+         "items": [
+          "комнаты"
+         ],
+         "order": 136,
+         "count": 13
+        },
+        {
+         "id": "g2.eng.furniture",
+         "code": "furniture",
+         "title": "Мебель",
+         "items": [
+          "мебель"
+         ],
+         "order": 137,
+         "count": 11
+        },
+        {
+         "id": "g2.eng.prepositions",
+         "code": "prepositions",
+         "title": "Предлоги места in, on, under",
+         "items": [
+          "in",
+          "on",
+          "under"
+         ],
+         "order": 138,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "birthday",
+       "title": "День рождения и еда",
+       "id": "g2.eng.birthday",
+       "topics": [
+        {
+         "id": "g2.eng.numbers10",
+         "code": "numbers10",
+         "title": "Числа от 1 до 10",
+         "items": [
+          "числа 1–10"
+         ],
+         "order": 139,
+         "count": 13
+        },
+        {
+         "id": "g2.eng.age",
+         "code": "age",
+         "title": "Сколько тебе лет?",
+         "items": [
+          "How old are you?"
+         ],
+         "order": 140,
+         "count": 11
+        },
+        {
+         "id": "g2.eng.food",
+         "code": "food",
+         "title": "Еда и напитки",
+         "items": [
+          "продукты",
+          "напитки"
+         ],
+         "order": 141,
+         "count": 16
+        },
+        {
+         "id": "g2.eng.like",
+         "code": "like",
+         "title": "I like / I don't like",
+         "items": [
+          "I like",
+          "I don't like"
+         ],
+         "order": 142,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "animals",
+       "title": "Животные и действия",
+       "id": "g2.eng.animals",
+       "topics": [
+        {
+         "id": "g2.eng.animals",
+         "code": "animals",
+         "title": "Животные",
+         "items": [
+          "животные"
+         ],
+         "order": 143,
+         "count": 11
+        },
+        {
+         "id": "g2.eng.actions",
+         "code": "actions",
+         "title": "Глаголы движения",
+         "items": [
+          "глаголы движения"
+         ],
+         "order": 144,
+         "count": 12
+        },
+        {
+         "id": "g2.eng.can",
+         "code": "can",
+         "title": "Глагол can",
+         "items": [
+          "can",
+          "can't"
+         ],
+         "order": 145,
+         "count": 10
+        },
+        {
+         "id": "g2.eng.circus",
+         "code": "circus",
+         "title": "В цирке",
+         "items": [
+          "цирк"
+         ],
+         "order": 146,
+         "count": 12
+        }
+       ]
+      },
+      {
+       "code": "toys",
+       "title": "Игрушки и внешность",
+       "id": "g2.eng.toys",
+       "topics": [
+        {
+         "id": "g2.eng.toys",
+         "code": "toys",
+         "title": "Игрушки",
+         "items": [
+          "игрушки"
+         ],
+         "order": 147,
+         "count": 11
+        },
+        {
+         "id": "g2.eng.face_body",
+         "code": "face_body",
+         "title": "Лицо и тело",
+         "items": [
+          "части лица",
+          "части тела"
+         ],
+         "order": 148,
+         "count": 17
+        },
+        {
+         "id": "g2.eng.appearance",
+         "code": "appearance",
+         "title": "Описание внешности",
+         "items": [
+          "внешность"
+         ],
+         "order": 149,
+         "count": 12
+        },
+        {
+         "id": "g2.eng.have_got",
+         "code": "have_got",
+         "title": "have got / has got",
+         "items": [
+          "have got",
+          "has got"
+         ],
+         "order": 150,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "holidays",
+       "title": "Каникулы и погода",
+       "id": "g2.eng.holidays",
+       "topics": [
+        {
+         "id": "g2.eng.clothes",
+         "code": "clothes",
+         "title": "Одежда",
+         "items": [
+          "одежда"
+         ],
+         "order": 151,
+         "count": 11
+        },
+        {
+         "id": "g2.eng.weather",
+         "code": "weather",
+         "title": "Погода",
+         "items": [
+          "погода"
+         ],
+         "order": 152,
+         "count": 12
+        },
+        {
+         "id": "g2.eng.seasons",
+         "code": "seasons",
+         "title": "Времена года",
+         "items": [
+          "времена года"
+         ],
+         "order": 153,
+         "count": 11
+        },
+        {
+         "id": "g2.eng.summer",
+         "code": "summer",
+         "title": "Летний отдых",
+         "items": [
+          "летний отдых"
+         ],
+         "order": 154,
+         "count": 12
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "read",
+     "title": "Литературное чтение",
+     "source": "Климанова Л. Ф., Горецкий В. Г., Голованова М. В. и др. Литературное чтение. 2 класс. В 2 ч. — М.: Просвещение (УМК «Школа России»), изд. 2023",
+     "sections": [
+      {
+       "code": "book",
+       "title": "Самое великое чудо на свете",
+       "id": "g2.read.book",
+       "topics": [
+        {
+         "id": "g2.read.book",
+         "code": "book",
+         "title": "Знакомство с книгой. Библиотеки",
+         "items": [
+          "книга",
+          "библиотека"
+         ],
+         "order": 155,
+         "count": 11
+        }
+       ]
+      },
+      {
+       "code": "folk",
+       "title": "Устное народное творчество",
+       "id": "g2.read.folk",
+       "topics": [
+        {
+         "id": "g2.read.folk_songs",
+         "code": "folk_songs",
+         "title": "Народные песни, потешки, прибаутки",
+         "items": [
+          "народные песни",
+          "потешки",
+          "прибаутки"
+         ],
+         "order": 156,
+         "count": 10
+        },
+        {
+         "id": "g2.read.folk_small",
+         "code": "folk_small",
+         "title": "Считалки, скороговорки, небылицы",
+         "items": [
+          "считалки",
+          "скороговорки",
+          "небылицы"
+         ],
+         "order": 157,
+         "count": 10
+        },
+        {
+         "id": "g2.read.riddles",
+         "code": "riddles",
+         "title": "Загадки, пословицы и поговорки",
+         "items": [
+          "загадки",
+          "пословицы",
+          "поговорки"
+         ],
+         "order": 158,
+         "count": 10
+        },
+        {
+         "id": "g2.read.petushok",
+         "code": "petushok",
+         "title": "«Петушок и бобовое зёрнышко»",
+         "items": [
+          "«Петушок и бобовое зёрнышко»"
+         ],
+         "order": 159,
+         "count": 10
+        },
+        {
+         "id": "g2.read.u_strakha",
+         "code": "u_strakha",
+         "title": "«У страха глаза велики»",
+         "items": [
+          "«У страха глаза велики»"
+         ],
+         "order": 160,
+         "count": 10
+        },
+        {
+         "id": "g2.read.lisa_teterev",
+         "code": "lisa_teterev",
+         "title": "«Лиса и тетерев»",
+         "items": [
+          "«Лиса и тетерев»"
+         ],
+         "order": 161,
+         "count": 10
+        },
+        {
+         "id": "g2.read.lisa_zhuravl",
+         "code": "lisa_zhuravl",
+         "title": "«Лиса и журавль»",
+         "items": [
+          "«Лиса и журавль»"
+         ],
+         "order": 162,
+         "count": 10
+        },
+        {
+         "id": "g2.read.kasha",
+         "code": "kasha",
+         "title": "«Каша из топора»",
+         "items": [
+          "«Каша из топора»"
+         ],
+         "order": 163,
+         "count": 10
+        },
+        {
+         "id": "g2.read.gusi",
+         "code": "gusi",
+         "title": "«Гуси-лебеди»",
+         "items": [
+          "«Гуси-лебеди»"
+         ],
+         "order": 164,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "autumn",
+       "title": "Люблю природу русскую. Осень",
+       "id": "g2.read.autumn",
+       "topics": [
+        {
+         "id": "g2.read.autumn_poems",
+         "code": "autumn_poems",
+         "title": "Осенние загадки и стихи",
+         "items": [
+          "осенние загадки",
+          "Ф. Тютчев",
+          "К. Бальмонт",
+          "А. Плещеев",
+          "А. Фет",
+          "И. Бунин"
+         ],
+         "order": 165,
+         "count": 10
+        },
+        {
+         "id": "g2.read.autumn_prose",
+         "code": "autumn_prose",
+         "title": "М. Пришвин и В. Берестов об осени",
+         "items": [
+          "М. Пришвин «Осеннее утро»",
+          "В. Берестов «Хитрые грибы»"
+         ],
+         "order": 166,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "classics",
+       "title": "Русские писатели",
+       "id": "g2.read.classics",
+       "topics": [
+        {
+         "id": "g2.read.pushkin_poems",
+         "code": "pushkin_poems",
+         "title": "А. С. Пушкин. Стихи о природе",
+         "items": [
+          "А. Пушкин «У лукоморья дуб зелёный…»",
+          "А. Пушкин «Вот север, тучи нагоняя…»",
+          "А. Пушкин «Зима!.. Крестьянин, торжествуя…»"
+         ],
+         "order": 167,
+         "count": 10
+        },
+        {
+         "id": "g2.read.rybak",
+         "code": "rybak",
+         "title": "А. С. Пушкин «Сказка о рыбаке и рыбке»",
+         "items": [
+          "«Сказка о рыбаке и рыбке»"
+         ],
+         "order": 168,
+         "count": 10
+        },
+        {
+         "id": "g2.read.krylov",
+         "code": "krylov",
+         "title": "И. А. Крылов. Басни",
+         "items": [
+          "«Лебедь, Рак и Щука»",
+          "«Стрекоза и Муравей»"
+         ],
+         "order": 169,
+         "count": 10
+        },
+        {
+         "id": "g2.read.tolstoy_stories",
+         "code": "tolstoy_stories",
+         "title": "Л. Н. Толстой «Старый дед и внучек», «Котёнок»",
+         "items": [
+          "«Старый дед и внучек»",
+          "«Котёнок»"
+         ],
+         "order": 170,
+         "count": 10
+        },
+        {
+         "id": "g2.read.filipok",
+         "code": "filipok",
+         "title": "Л. Н. Толстой «Филипок»",
+         "items": [
+          "«Филипок»"
+         ],
+         "order": 171,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "animals",
+       "title": "О братьях наших меньших",
+       "id": "g2.read.animals",
+       "topics": [
+        {
+         "id": "g2.read.animal_poems",
+         "code": "animal_poems",
+         "title": "Стихи о животных: Б. Заходер, В. Берестов",
+         "items": [
+          "Б. Заходер «Плачет киска в коридоре»",
+          "В. Берестов «Кошкин щенок»"
+         ],
+         "order": 172,
+         "count": 10
+        },
+        {
+         "id": "g2.read.prishvin_ducks",
+         "code": "prishvin_ducks",
+         "title": "М. Пришвин «Ребята и утята»",
+         "items": [
+          "М. Пришвин «Ребята и утята»"
+         ],
+         "order": 173,
+         "count": 10
+        },
+        {
+         "id": "g2.read.charushin_zhitkov",
+         "code": "charushin_zhitkov",
+         "title": "Е. Чарушин «Страшный рассказ», Б. Житков «Храбрый утёнок»",
+         "items": [
+          "Е. Чарушин «Страшный рассказ»",
+          "Б. Житков «Храбрый утёнок»"
+         ],
+         "order": 174,
+         "count": 10
+        },
+        {
+         "id": "g2.read.bianki",
+         "code": "bianki",
+         "title": "В. Бианки «Музыкант», «Сова»",
+         "items": [
+          "В. Бианки «Музыкант»",
+          "В. Бианки «Сова»"
+         ],
+         "order": 175,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "magazines",
+       "title": "Из детских журналов. Весёлые стихи",
+       "id": "g2.read.magazines",
+       "topics": [
+        {
+         "id": "g2.read.harms",
+         "code": "harms",
+         "title": "Д. Хармс. Весёлые стихи",
+         "items": [
+          "Д. Хармс «Игра»",
+          "Д. Хармс «Вы знаете?..»",
+          "Д. Хармс «Что это было?»"
+         ],
+         "order": 176,
+         "count": 10
+        },
+        {
+         "id": "g2.read.fun_poems",
+         "code": "fun_poems",
+         "title": "С. Маршак, Ю. Владимиров, А. Введенский",
+         "items": [
+          "С. Маршак, Д. Хармс «Весёлые чижи»",
+          "Ю. Владимиров «Чудаки»",
+          "А. Введенский «Учёный Петя»",
+          "А. Введенский «Лошадка»"
+         ],
+         "order": 177,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "winter",
+       "title": "Люблю природу русскую. Зима",
+       "id": "g2.read.winter",
+       "topics": [
+        {
+         "id": "g2.read.winter_poems",
+         "code": "winter_poems",
+         "title": "Стихи о зиме",
+         "items": [
+          "И. Бунин «Первый снег»",
+          "К. Бальмонт «Снежинка»",
+          "С. Есенин «Поёт зима — аукает…»",
+          "С. Есенин «Берёза»",
+          "Ф. Тютчев «Чародейкою Зимою…»"
+         ],
+         "order": 178,
+         "count": 10
+        },
+        {
+         "id": "g2.read.two_frosts",
+         "code": "two_frosts",
+         "title": "Русская народная сказка «Два Мороза»",
+         "items": [
+          "«Два Мороза»"
+         ],
+         "order": 179,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "writers",
+       "title": "Писатели — детям",
+       "id": "g2.read.writers",
+       "topics": [
+        {
+         "id": "g2.read.chukovsky",
+         "code": "chukovsky",
+         "title": "К. Чуковский",
+         "items": [
+          "К. Чуковский «Путаница»",
+          "К. Чуковский «Радость»",
+          "К. Чуковский «Федорино горе»"
+         ],
+         "order": 180,
+         "count": 10
+        },
+        {
+         "id": "g2.read.marshak",
+         "code": "marshak",
+         "title": "С. Маршак «Кот и лодыри»",
+         "items": [
+          "С. Маршак «Кот и лодыри»"
+         ],
+         "order": 181,
+         "count": 10
+        },
+        {
+         "id": "g2.read.mikhalkov",
+         "code": "mikhalkov",
+         "title": "С. Михалков",
+         "items": [
+          "С. Михалков «Мой секрет»",
+          "С. Михалков «Сила воли»",
+          "С. Михалков «Мой щенок»"
+         ],
+         "order": 182,
+         "count": 10
+        },
+        {
+         "id": "g2.read.barto",
+         "code": "barto",
+         "title": "А. Барто",
+         "items": [
+          "А. Барто «Верёвочка»",
+          "А. Барто «Мы не заметили жука»",
+          "А. Барто «В школу»",
+          "А. Барто «Вовка — добрая душа»"
+         ],
+         "order": 183,
+         "count": 10
+        },
+        {
+         "id": "g2.read.nosov",
+         "code": "nosov",
+         "title": "Н. Носов «Затейники», «Живая шляпа»",
+         "items": [
+          "Н. Носов «Затейники»",
+          "Н. Носов «Живая шляпа»"
+         ],
+         "order": 184,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "friends",
+       "title": "Я и мои друзья",
+       "id": "g2.read.friends",
+       "topics": [
+        {
+         "id": "g2.read.friend_poems",
+         "code": "friend_poems",
+         "title": "Стихи о дружбе: В. Берестов, Э. Мошковская",
+         "items": [
+          "В. Берестов «За игрой»",
+          "Э. Мошковская «Я ушёл в свою обиду»",
+          "Э. Мошковская «Не надо больше ссориться!»"
+         ],
+         "order": 185,
+         "count": 10
+        },
+        {
+         "id": "g2.read.ermolaev",
+         "code": "ermolaev",
+         "title": "Ю. Ермолаев «Два пирожных»",
+         "items": [
+          "Ю. Ермолаев «Два пирожных»"
+         ],
+         "order": 186,
+         "count": 10
+        },
+        {
+         "id": "g2.read.oseeva",
+         "code": "oseeva",
+         "title": "В. Осеева",
+         "items": [
+          "В. Осеева «Волшебное слово»",
+          "В. Осеева «Хорошее»",
+          "В. Осеева «Почему?»"
+         ],
+         "order": 187,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "spring",
+       "title": "Люблю природу русскую. Весна",
+       "id": "g2.read.spring",
+       "topics": [
+        {
+         "id": "g2.read.spring_poems",
+         "code": "spring_poems",
+         "title": "Стихи о весне",
+         "items": [
+          "Ф. Тютчев «Зима недаром злится…»",
+          "Ф. Тютчев «Весенние воды»",
+          "А. Плещеев «Весна»",
+          "А. Плещеев «Сельская песенка»",
+          "А. Блок «На лугу»",
+          "С. Маршак «Снег теперь уже не тот…»",
+          "И. Бунин «Матери»"
+         ],
+         "order": 188,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "humor",
+       "title": "И в шутку и всерьёз",
+       "id": "g2.read.humor",
+       "topics": [
+        {
+         "id": "g2.read.zakhoder_uspensky",
+         "code": "zakhoder_uspensky",
+         "title": "Б. Заходер и Э. Успенский",
+         "items": [
+          "Б. Заходер «Что красивей всего?»",
+          "Б. Заходер «Песенки Винни-Пуха»",
+          "Э. Успенский «Чебурашка»",
+          "Э. Успенский «Если был бы я девчонкой…»"
+         ],
+         "order": 189,
+         "count": 10
+        },
+        {
+         "id": "g2.read.tokmakova_oster",
+         "code": "tokmakova_oster",
+         "title": "И. Токмакова и Г. Остер",
+         "items": [
+          "И. Токмакова «Плим»",
+          "И. Токмакова «В чудной стране»",
+          "Г. Остер «Будем знакомы»"
+         ],
+         "order": 190,
+         "count": 10
+        },
+        {
+         "id": "g2.read.dragunsky",
+         "code": "dragunsky",
+         "title": "В. Драгунский «Тайное становится явным»",
+         "items": [
+          "В. Драгунский «Тайное становится явным»"
+         ],
+         "order": 191,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "foreign",
+       "title": "Литература зарубежных стран",
+       "id": "g2.read.foreign",
+       "topics": [
+        {
+         "id": "g2.read.foreign_songs",
+         "code": "foreign_songs",
+         "title": "Песенки разных стран",
+         "items": [
+          "американская песенка «Бульдог по кличке Дог»",
+          "английские песенки «Перчатки», «Храбрецы»",
+          "французская песенка «Сюзон и мотылёк»",
+          "немецкая песенка «Знают мамы, знают дети»"
+         ],
+         "order": 192,
+         "count": 10
+        },
+        {
+         "id": "g2.read.perrault",
+         "code": "perrault",
+         "title": "Ш. Перро «Кот в сапогах», «Красная Шапочка»",
+         "items": [
+          "Ш. Перро «Кот в сапогах»",
+          "Ш. Перро «Красная Шапочка»"
+         ],
+         "order": 193,
+         "count": 10
+        },
+        {
+         "id": "g2.read.andersen",
+         "code": "andersen",
+         "title": "Х. К. Андерсен «Принцесса на горошине»",
+         "items": [
+          "Х. К. Андерсен «Принцесса на горошине»"
+         ],
+         "order": 194,
+         "count": 10
+        },
+        {
+         "id": "g2.read.hogarth",
+         "code": "hogarth",
+         "title": "Э. Хогарт «Мафин и паук»",
+         "items": [
+          "Э. Хогарт «Мафин и паук»"
+         ],
+         "order": 195,
+         "count": 10
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 3,
+   "subjects": [
+    {
+     "code": "math",
+     "title": "Математика",
+     "source": "Моро М. И., Бантова М. А., Бельтюкова Г. В. и др. Математика. 3 класс. В 2 ч. — М.: Просвещение (УМК «Школа России»), изд. 2023",
+     "sections": [
+      {
+       "code": "addsub",
+       "title": "Числа от 1 до 100. Сложение и вычитание (продолжение)",
+       "id": "g3.math.addsub",
+       "topics": [
+        {
+         "id": "g3.math.rep_addsub",
+         "code": "rep_addsub",
+         "title": "Повторение приёмов сложения и вычитания",
+         "items": [
+          "приёмы сложения и вычитания"
+         ],
+         "order": 196,
+         "count": 11
+        },
+        {
+         "id": "g3.math.equations",
+         "code": "equations",
+         "title": "Решение уравнений",
+         "items": [
+          "уравнения"
+         ],
+         "order": 197,
+         "count": 11
+        },
+        {
+         "id": "g3.math.geo_letters",
+         "code": "geo_letters",
+         "title": "Обозначение геометрических фигур буквами",
+         "items": [
+          "обозначение фигур буквами"
+         ],
+         "order": 198,
+         "count": 11
+        }
+       ]
+      },
+      {
+       "code": "table",
+       "title": "Табличное умножение и деление (продолжение)",
+       "id": "g3.math.table",
+       "topics": [
+        {
+         "id": "g3.math.muldiv_link",
+         "code": "muldiv_link",
+         "title": "Связь умножения и деления",
+         "items": [
+          "связь деления с умножением"
+         ],
+         "order": 199,
+         "count": 11
+        },
+        {
+         "id": "g3.math.t5",
+         "code": "t5",
+         "title": "Таблица умножения и деления на 5",
+         "items": [
+          "таблица на 5"
+         ],
+         "order": 200,
+         "count": 13
+        },
+        {
+         "id": "g3.math.t6",
+         "code": "t6",
+         "title": "Таблица умножения и деления на 6",
+         "items": [
+          "таблица на 6"
+         ],
+         "order": 201,
+         "count": 13
+        },
+        {
+         "id": "g3.math.t7",
+         "code": "t7",
+         "title": "Таблица умножения и деления на 7",
+         "items": [
+          "таблица на 7"
+         ],
+         "order": 202,
+         "count": 13
+        },
+        {
+         "id": "g3.math.area",
+         "code": "area",
+         "title": "Площадь. Сравнение площадей",
+         "items": [
+          "площадь"
+         ],
+         "order": 203,
+         "count": 11
+        },
+        {
+         "id": "g3.math.sqcm",
+         "code": "sqcm",
+         "title": "Квадратный сантиметр",
+         "items": [
+          "квадратный сантиметр"
+         ],
+         "order": 204,
+         "count": 10
+        },
+        {
+         "id": "g3.math.rect_area",
+         "code": "rect_area",
+         "title": "Площадь прямоугольника",
+         "items": [
+          "площадь прямоугольника"
+         ],
+         "order": 205,
+         "count": 11
+        },
+        {
+         "id": "g3.math.t8",
+         "code": "t8",
+         "title": "Таблица умножения и деления на 8",
+         "items": [
+          "таблица на 8"
+         ],
+         "order": 206,
+         "count": 13
+        },
+        {
+         "id": "g3.math.t9",
+         "code": "t9",
+         "title": "Таблица умножения и деления на 9",
+         "items": [
+          "таблица на 9"
+         ],
+         "order": 207,
+         "count": 13
+        },
+        {
+         "id": "g3.math.sqdm",
+         "code": "sqdm",
+         "title": "Квадратный дециметр",
+         "items": [
+          "квадратный дециметр"
+         ],
+         "order": 208,
+         "count": 10
+        },
+        {
+         "id": "g3.math.sqm",
+         "code": "sqm",
+         "title": "Квадратный метр",
+         "items": [
+          "квадратный метр"
+         ],
+         "order": 209,
+         "count": 10
+        },
+        {
+         "id": "g3.math.mul01",
+         "code": "mul01",
+         "title": "Умножение на 1 и на 0",
+         "items": [
+          "умножение на 1",
+          "умножение на 0"
+         ],
+         "order": 210,
+         "count": 12
+        },
+        {
+         "id": "g3.math.zero_div",
+         "code": "zero_div",
+         "title": "Деление нуля на число",
+         "items": [
+          "деление нуля на число"
+         ],
+         "order": 211,
+         "count": 11
+        }
+       ]
+      },
+      {
+       "code": "fractions",
+       "title": "Доли. Окружность. Время",
+       "id": "g3.math.fractions",
+       "topics": [
+        {
+         "id": "g3.math.fractions",
+         "code": "fractions",
+         "title": "Доли",
+         "items": [
+          "доли"
+         ],
+         "order": 212,
+         "count": 11
+        },
+        {
+         "id": "g3.math.circle",
+         "code": "circle",
+         "title": "Окружность и круг",
+         "items": [
+          "окружность",
+          "круг"
+         ],
+         "order": 213,
+         "count": 10
+        },
+        {
+         "id": "g3.math.diameter",
+         "code": "diameter",
+         "title": "Диаметр окружности (круга)",
+         "items": [
+          "диаметр"
+         ],
+         "order": 214,
+         "count": 11
+        },
+        {
+         "id": "g3.math.timeunits",
+         "code": "timeunits",
+         "title": "Единицы времени: год, месяц, сутки",
+         "items": [
+          "год",
+          "месяц",
+          "сутки"
+         ],
+         "order": 215,
+         "count": 11
+        }
+       ]
+      },
+      {
+       "code": "extra",
+       "title": "Внетабличное умножение и деление",
+       "id": "g3.math.extra",
+       "topics": [
+        {
+         "id": "g3.math.round_muldiv",
+         "code": "round_muldiv",
+         "title": "Умножение и деление круглых чисел",
+         "items": [
+          "умножение круглых чисел",
+          "деление круглых чисел"
+         ],
+         "order": 216,
+         "count": 11
+        },
+        {
+         "id": "g3.math.sum_by_num",
+         "code": "sum_by_num",
+         "title": "Умножение и деление суммы на число",
+         "items": [
+          "умножение суммы на число",
+          "деление суммы на число"
+         ],
+         "order": 217,
+         "count": 12
+        },
+        {
+         "id": "g3.math.div_2d2d",
+         "code": "div_2d2d",
+         "title": "Деление двузначного числа на двузначное",
+         "items": [
+          "деление методом подбора"
+         ],
+         "order": 218,
+         "count": 11
+        },
+        {
+         "id": "g3.math.check_muldiv",
+         "code": "check_muldiv",
+         "title": "Проверка умножения и деления",
+         "items": [
+          "проверка умножения",
+          "проверка деления"
+         ],
+         "order": 219,
+         "count": 10
+        },
+        {
+         "id": "g3.math.remainder",
+         "code": "remainder",
+         "title": "Деление с остатком",
+         "items": [
+          "деление с остатком"
+         ],
+         "order": 220,
+         "count": 12
+        }
+       ]
+      },
+      {
+       "code": "num1000",
+       "title": "Числа от 1 до 1000. Нумерация",
+       "id": "g3.math.num1000",
+       "topics": [
+        {
+         "id": "g3.math.three_digit",
+         "code": "three_digit",
+         "title": "Трёхзначные числа: образование, чтение, запись",
+         "items": [
+          "образование трёхзначных чисел",
+          "чтение",
+          "запись"
+         ],
+         "order": 221,
+         "count": 14
+        },
+        {
+         "id": "g3.math.place_value",
+         "code": "place_value",
+         "title": "Разрядный состав трёхзначных чисел",
+         "items": [
+          "разрядный состав"
+         ],
+         "order": 222,
+         "count": 10
+        },
+        {
+         "id": "g3.math.compare1000",
+         "code": "compare1000",
+         "title": "Сравнение трёхзначных чисел",
+         "items": [
+          "сравнение чисел"
+         ],
+         "order": 223,
+         "count": 10
+        },
+        {
+         "id": "g3.math.mass",
+         "code": "mass",
+         "title": "Единицы массы: килограмм и грамм",
+         "items": [
+          "килограмм",
+          "грамм"
+         ],
+         "order": 224,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "add1000",
+       "title": "Сложение и вычитание в пределах 1000",
+       "id": "g3.math.add1000",
+       "topics": [
+        {
+         "id": "g3.math.oral1000",
+         "code": "oral1000",
+         "title": "Устные приёмы сложения и вычитания",
+         "items": [
+          "устные приёмы"
+         ],
+         "order": 225,
+         "count": 11
+        },
+        {
+         "id": "g3.math.col1000",
+         "code": "col1000",
+         "title": "Письменное сложение и вычитание",
+         "items": [
+          "сложение в столбик",
+          "вычитание в столбик"
+         ],
+         "order": 226,
+         "count": 11
+        },
+        {
+         "id": "g3.math.tri_sides",
+         "code": "tri_sides",
+         "title": "Виды треугольников по сторонам",
+         "items": [
+          "разносторонний",
+          "равнобедренный",
+          "равносторонний"
+         ],
+         "order": 227,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "mul1000",
+       "title": "Умножение и деление в пределах 1000",
+       "id": "g3.math.mul1000",
+       "topics": [
+        {
+         "id": "g3.math.oral_muldiv",
+         "code": "oral_muldiv",
+         "title": "Устные приёмы умножения и деления",
+         "items": [
+          "устные приёмы умножения и деления"
+         ],
+         "order": 228,
+         "count": 12
+        },
+        {
+         "id": "g3.math.tri_angles",
+         "code": "tri_angles",
+         "title": "Виды треугольников по углам",
+         "items": [
+          "остроугольный",
+          "прямоугольный",
+          "тупоугольный"
+         ],
+         "order": 229,
+         "count": 10
+        },
+        {
+         "id": "g3.math.col_mul",
+         "code": "col_mul",
+         "title": "Письменное умножение на однозначное число",
+         "items": [
+          "письменное умножение"
+         ],
+         "order": 230,
+         "count": 10
+        },
+        {
+         "id": "g3.math.col_div",
+         "code": "col_div",
+         "title": "Письменное деление на однозначное число",
+         "items": [
+          "письменное деление"
+         ],
+         "order": 231,
+         "count": 10
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "rus",
+     "title": "Русский язык",
+     "source": "Канакина В. П., Горецкий В. Г. Русский язык. 3 класс. В 2 ч. — М.: Просвещение (УМК «Школа России»), изд. 2023",
+     "sections": [
+      {
+       "code": "speech",
+       "title": "Язык и речь",
+       "id": "g3.rus.speech",
+       "topics": [
+        {
+         "id": "g3.rus.speech",
+         "code": "speech",
+         "title": "Виды и формы речи",
+         "items": [
+          "виды речи",
+          "формы речи"
+         ],
+         "order": 232,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "text",
+       "title": "Текст. Предложение. Словосочетание",
+       "id": "g3.rus.text",
+       "topics": [
+        {
+         "id": "g3.rus.text_types",
+         "code": "text_types",
+         "title": "Типы текстов",
+         "items": [
+          "повествование",
+          "описание",
+          "рассуждение"
+         ],
+         "order": 233,
+         "count": 10
+        },
+        {
+         "id": "g3.rus.sent_purpose",
+         "code": "sent_purpose",
+         "title": "Виды предложений по цели высказывания и интонации",
+         "items": [
+          "повествовательные",
+          "вопросительные",
+          "побудительные",
+          "восклицательные"
+         ],
+         "order": 234,
+         "count": 10
+        },
+        {
+         "id": "g3.rus.address",
+         "code": "address",
+         "title": "Обращение",
+         "items": [
+          "обращение"
+         ],
+         "order": 235,
+         "count": 10
+        },
+        {
+         "id": "g3.rus.members",
+         "code": "members",
+         "title": "Главные и второстепенные члены предложения",
+         "items": [
+          "главные члены",
+          "второстепенные члены"
+         ],
+         "order": 236,
+         "count": 10
+        },
+        {
+         "id": "g3.rus.simple_complex",
+         "code": "simple_complex",
+         "title": "Простое и сложное предложение",
+         "items": [
+          "простое предложение",
+          "сложное предложение"
+         ],
+         "order": 237,
+         "count": 10
+        },
+        {
+         "id": "g3.rus.phrase",
+         "code": "phrase",
+         "title": "Словосочетание",
+         "items": [
+          "словосочетание"
+         ],
+         "order": 238,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "word",
+       "title": "Слово в языке и речи",
+       "id": "g3.rus.word",
+       "topics": [
+        {
+         "id": "g3.rus.polysemy",
+         "code": "polysemy",
+         "title": "Однозначные и многозначные слова",
+         "items": [
+          "однозначные слова",
+          "многозначные слова"
+         ],
+         "order": 239,
+         "count": 10
+        },
+        {
+         "id": "g3.rus.figurative",
+         "code": "figurative",
+         "title": "Прямое и переносное значение",
+         "items": [
+          "прямое значение",
+          "переносное значение"
+         ],
+         "order": 240,
+         "count": 10
+        },
+        {
+         "id": "g3.rus.syn_ant",
+         "code": "syn_ant",
+         "title": "Синонимы и антонимы",
+         "items": [
+          "синонимы",
+          "антонимы"
+         ],
+         "order": 241,
+         "count": 10
+        },
+        {
+         "id": "g3.rus.homonyms",
+         "code": "homonyms",
+         "title": "Омонимы",
+         "items": [
+          "омонимы"
+         ],
+         "order": 242,
+         "count": 10
+        },
+        {
+         "id": "g3.rus.idioms",
+         "code": "idioms",
+         "title": "Фразеологизмы",
+         "items": [
+          "фразеологизмы"
+         ],
+         "order": 243,
+         "count": 10
+        },
+        {
+         "id": "g3.rus.pos",
+         "code": "pos",
+         "title": "Части речи",
+         "items": [
+          "части речи"
+         ],
+         "order": 244,
+         "count": 10
+        },
+        {
+         "id": "g3.rus.cognates",
+         "code": "cognates",
+         "title": "Однокоренные слова",
+         "items": [
+          "однокоренные слова"
+         ],
+         "order": 245,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "morph",
+       "title": "Состав слова",
+       "id": "g3.rus.morph",
+       "topics": [
+        {
+         "id": "g3.rus.root_ending",
+         "code": "root_ending",
+         "title": "Корень и окончание",
+         "items": [
+          "корень",
+          "окончание"
+         ],
+         "order": 246,
+         "count": 10
+        },
+        {
+         "id": "g3.rus.prefix",
+         "code": "prefix",
+         "title": "Приставка",
+         "items": [
+          "приставка"
+         ],
+         "order": 247,
+         "count": 10
+        },
+        {
+         "id": "g3.rus.suffix",
+         "code": "suffix",
+         "title": "Суффикс",
+         "items": [
+          "суффикс"
+         ],
+         "order": 248,
+         "count": 10
+        },
+        {
+         "id": "g3.rus.stem",
+         "code": "stem",
+         "title": "Основа слова",
+         "items": [
+          "основа слова"
+         ],
+         "order": 249,
+         "count": 10
+        },
+        {
+         "id": "g3.rus.morph",
+         "code": "morph",
+         "title": "Разбор слова по составу",
+         "items": [
+          "разбор по составу"
+         ],
+         "order": 250,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "spelling",
+       "title": "Правописание частей слова",
+       "id": "g3.rus.spelling",
+       "topics": [
+        {
+         "id": "g3.rus.unstressed",
+         "code": "unstressed",
+         "title": "Безударные гласные в корне",
+         "items": [
+          "безударные гласные"
+         ],
+         "order": 251,
+         "count": 10
+        },
+        {
+         "id": "g3.rus.paired",
+         "code": "paired",
+         "title": "Парные звонкие и глухие согласные",
+         "items": [
+          "парные согласные"
+         ],
+         "order": 252,
+         "count": 10
+        },
+        {
+         "id": "g3.rus.silent",
+         "code": "silent",
+         "title": "Непроизносимые согласные",
+         "items": [
+          "непроизносимые согласные"
+         ],
+         "order": 253,
+         "count": 10
+        },
+        {
+         "id": "g3.rus.double",
+         "code": "double",
+         "title": "Удвоенные согласные",
+         "items": [
+          "удвоенные согласные"
+         ],
+         "order": 254,
+         "count": 10
+        },
+        {
+         "id": "g3.rus.prefix_prep",
+         "code": "prefix_prep",
+         "title": "Приставки и предлоги",
+         "items": [
+          "правописание приставок",
+          "правописание предлогов"
+         ],
+         "order": 255,
+         "count": 10
+        },
+        {
+         "id": "g3.rus.hard_sign",
+         "code": "hard_sign",
+         "title": "Разделительный твёрдый знак",
+         "items": [
+          "разделительный ъ"
+         ],
+         "order": 256,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "noun",
+       "title": "Имя существительное",
+       "id": "g3.rus.noun",
+       "topics": [
+        {
+         "id": "g3.rus.noun_anim_proper",
+         "code": "noun_anim_proper",
+         "title": "Одушевлённые и неодушевлённые, собственные и нарицательные",
+         "items": [
+          "одушевлённые и неодушевлённые",
+          "собственные и нарицательные"
+         ],
+         "order": 257,
+         "count": 10
+        },
+        {
+         "id": "g3.rus.noun_number",
+         "code": "noun_number",
+         "title": "Число имён существительных",
+         "items": [
+          "число"
+         ],
+         "order": 258,
+         "count": 10
+        },
+        {
+         "id": "g3.rus.noun_gender",
+         "code": "noun_gender",
+         "title": "Род имён существительных",
+         "items": [
+          "мужской род",
+          "женский род",
+          "средний род"
+         ],
+         "order": 259,
+         "count": 10
+        },
+        {
+         "id": "g3.rus.noun_soft_hiss",
+         "code": "noun_soft_hiss",
+         "title": "Мягкий знак после шипящих на конце существительных",
+         "items": [
+          "ь после шипящих"
+         ],
+         "order": 260,
+         "count": 10
+        },
+        {
+         "id": "g3.rus.cases",
+         "code": "cases",
+         "title": "Падежи имён существительных",
+         "items": [
+          "склонение",
+          "падежи"
+         ],
+         "order": 261,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "adj",
+       "title": "Имя прилагательное",
+       "id": "g3.rus.adj",
+       "topics": [
+        {
+         "id": "g3.rus.adj_link",
+         "code": "adj_link",
+         "title": "Значение прилагательного и связь с существительным",
+         "items": [
+          "значение",
+          "связь с существительным"
+         ],
+         "order": 262,
+         "count": 13
+        },
+        {
+         "id": "g3.rus.adj_gender_num",
+         "code": "adj_gender_num",
+         "title": "Род и число прилагательных",
+         "items": [
+          "изменение по родам",
+          "изменение по числам"
+         ],
+         "order": 263,
+         "count": 10
+        },
+        {
+         "id": "g3.rus.adj_cases",
+         "code": "adj_cases",
+         "title": "Изменение прилагательных по падежам",
+         "items": [
+          "изменение по падежам"
+         ],
+         "order": 264,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "pronoun",
+       "title": "Местоимение",
+       "id": "g3.rus.pronoun",
+       "topics": [
+        {
+         "id": "g3.rus.pronoun",
+         "code": "pronoun",
+         "title": "Личные местоимения: лицо и число",
+         "items": [
+          "1-е лицо",
+          "2-е лицо",
+          "3-е лицо",
+          "число"
+         ],
+         "order": 265,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "verb",
+       "title": "Глагол",
+       "id": "g3.rus.verb",
+       "topics": [
+        {
+         "id": "g3.rus.infinitive",
+         "code": "infinitive",
+         "title": "Неопределённая форма глагола",
+         "items": [
+          "неопределённая форма"
+         ],
+         "order": 266,
+         "count": 10
+        },
+        {
+         "id": "g3.rus.verb_number",
+         "code": "verb_number",
+         "title": "Число глаголов",
+         "items": [
+          "число"
+         ],
+         "order": 267,
+         "count": 10
+        },
+        {
+         "id": "g3.rus.verb_tense",
+         "code": "verb_tense",
+         "title": "Времена глаголов",
+         "items": [
+          "настоящее",
+          "прошедшее",
+          "будущее"
+         ],
+         "order": 268,
+         "count": 10
+        },
+        {
+         "id": "g3.rus.verb_past_gender",
+         "code": "verb_past_gender",
+         "title": "Род глаголов в прошедшем времени",
+         "items": [
+          "изменение по родам"
+         ],
+         "order": 269,
+         "count": 10
+        },
+        {
+         "id": "g3.rus.ne_verb",
+         "code": "ne_verb",
+         "title": "Частица не с глаголами",
+         "items": [
+          "не с глаголами"
+         ],
+         "order": 270,
+         "count": 10
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "world",
+     "title": "Окружающий мир",
+     "source": "Плешаков А. А. Окружающий мир. 3 класс. В 2 ч. — М.: Просвещение (УМК «Школа России»), изд. 2023",
+     "sections": [
+      {
+       "code": "world",
+       "title": "Как устроен мир",
+       "id": "g3.world.world",
+       "topics": [
+        {
+         "id": "g3.world.world",
+         "code": "world",
+         "title": "Природа, человек, общество",
+         "items": [
+          "природа",
+          "человек",
+          "общество"
+         ],
+         "order": 271,
+         "count": 10
+        },
+        {
+         "id": "g3.world.ecology",
+         "code": "ecology",
+         "title": "Экология и охрана природы",
+         "items": [
+          "экология",
+          "охрана природы"
+         ],
+         "order": 272,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "nature",
+       "title": "Эта удивительная природа",
+       "id": "g3.world.nature",
+       "topics": [
+        {
+         "id": "g3.world.bodies",
+         "code": "bodies",
+         "title": "Тела, вещества, частицы",
+         "items": [
+          "тела",
+          "вещества",
+          "частицы"
+         ],
+         "order": 273,
+         "count": 10
+        },
+        {
+         "id": "g3.world.air",
+         "code": "air",
+         "title": "Воздух и его охрана",
+         "items": [
+          "воздух",
+          "охрана воздуха"
+         ],
+         "order": 274,
+         "count": 10
+        },
+        {
+         "id": "g3.world.water",
+         "code": "water",
+         "title": "Вода. Свойства и круговорот",
+         "items": [
+          "свойства воды",
+          "круговорот воды"
+         ],
+         "order": 275,
+         "count": 10
+        },
+        {
+         "id": "g3.world.soil",
+         "code": "soil",
+         "title": "Разрушение камней. Почва",
+         "items": [
+          "разрушение камней",
+          "почва"
+         ],
+         "order": 276,
+         "count": 10
+        },
+        {
+         "id": "g3.world.plants",
+         "code": "plants",
+         "title": "Разнообразие растений",
+         "items": [
+          "разнообразие растений"
+         ],
+         "order": 277,
+         "count": 10
+        },
+        {
+         "id": "g3.world.plant_life",
+         "code": "plant_life",
+         "title": "Размножение и развитие растений",
+         "items": [
+          "размножение растений",
+          "развитие растений"
+         ],
+         "order": 278,
+         "count": 10
+        },
+        {
+         "id": "g3.world.animals",
+         "code": "animals",
+         "title": "Разнообразие животных",
+         "items": [
+          "разнообразие животных"
+         ],
+         "order": 279,
+         "count": 10
+        },
+        {
+         "id": "g3.world.animal_life",
+         "code": "animal_life",
+         "title": "Размножение и развитие животных",
+         "items": [
+          "размножение животных",
+          "развитие животных"
+         ],
+         "order": 280,
+         "count": 10
+        },
+        {
+         "id": "g3.world.chains",
+         "code": "chains",
+         "title": "Цепи питания",
+         "items": [
+          "цепи питания"
+         ],
+         "order": 281,
+         "count": 10
+        },
+        {
+         "id": "g3.world.fungi",
+         "code": "fungi",
+         "title": "Грибы",
+         "items": [
+          "грибы"
+         ],
+         "order": 282,
+         "count": 10
+        },
+        {
+         "id": "g3.world.cycle",
+         "code": "cycle",
+         "title": "Великий круговорот жизни",
+         "items": [
+          "круговорот веществ"
+         ],
+         "order": 283,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "health",
+       "title": "Мы и наше здоровье",
+       "id": "g3.world.health",
+       "topics": [
+        {
+         "id": "g3.world.organism",
+         "code": "organism",
+         "title": "Организм человека",
+         "items": [
+          "организм"
+         ],
+         "order": 284,
+         "count": 10
+        },
+        {
+         "id": "g3.world.senses",
+         "code": "senses",
+         "title": "Органы чувств",
+         "items": [
+          "органы чувств"
+         ],
+         "order": 285,
+         "count": 10
+        },
+        {
+         "id": "g3.world.skin",
+         "code": "skin",
+         "title": "Надёжная защита организма: кожа",
+         "items": [
+          "кожа"
+         ],
+         "order": 286,
+         "count": 10
+        },
+        {
+         "id": "g3.world.musculo",
+         "code": "musculo",
+         "title": "Опора тела и движение",
+         "items": [
+          "скелет",
+          "мышцы"
+         ],
+         "order": 287,
+         "count": 10
+        },
+        {
+         "id": "g3.world.digestion",
+         "code": "digestion",
+         "title": "Питание и пищеварение",
+         "items": [
+          "пищеварение",
+          "питание"
+         ],
+         "order": 288,
+         "count": 10
+        },
+        {
+         "id": "g3.world.breath_blood",
+         "code": "breath_blood",
+         "title": "Дыхание и кровообращение",
+         "items": [
+          "дыхание",
+          "кровообращение"
+         ],
+         "order": 289,
+         "count": 10
+        },
+        {
+         "id": "g3.world.hardening",
+         "code": "hardening",
+         "title": "Закаливание и профилактика болезней",
+         "items": [
+          "закаливание",
+          "профилактика болезней"
+         ],
+         "order": 290,
+         "count": 10
+        },
+        {
+         "id": "g3.world.healthy",
+         "code": "healthy",
+         "title": "Здоровый образ жизни",
+         "items": [
+          "здоровый образ жизни"
+         ],
+         "order": 291,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "safety",
+       "title": "Наша безопасность",
+       "id": "g3.world.safety",
+       "topics": [
+        {
+         "id": "g3.world.fire_water_gas",
+         "code": "fire_water_gas",
+         "title": "Огонь, вода и газ",
+         "items": [
+          "огонь",
+          "вода",
+          "газ"
+         ],
+         "order": 292,
+         "count": 10
+        },
+        {
+         "id": "g3.world.road_signs",
+         "code": "road_signs",
+         "title": "Дорожные знаки",
+         "items": [
+          "правила дорожного движения",
+          "дорожные знаки"
+         ],
+         "order": 293,
+         "count": 10
+        },
+        {
+         "id": "g3.world.danger_places",
+         "code": "danger_places",
+         "title": "Опасные места",
+         "items": [
+          "опасные места"
+         ],
+         "order": 294,
+         "count": 10
+        },
+        {
+         "id": "g3.world.nature_danger",
+         "code": "nature_danger",
+         "title": "Природа и наша безопасность",
+         "items": [
+          "природные опасности"
+         ],
+         "order": 295,
+         "count": 10
+        },
+        {
+         "id": "g3.world.eco_safety",
+         "code": "eco_safety",
+         "title": "Экологическая безопасность",
+         "items": [
+          "экологическая безопасность"
+         ],
+         "order": 296,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "economy",
+       "title": "Чему учит экономика",
+       "id": "g3.world.economy",
+       "topics": [
+        {
+         "id": "g3.world.needs",
+         "code": "needs",
+         "title": "Потребности и товары",
+         "items": [
+          "потребности",
+          "товары и услуги"
+         ],
+         "order": 297,
+         "count": 10
+        },
+        {
+         "id": "g3.world.minerals",
+         "code": "minerals",
+         "title": "Полезные ископаемые",
+         "items": [
+          "полезные ископаемые"
+         ],
+         "order": 298,
+         "count": 10
+        },
+        {
+         "id": "g3.world.crops",
+         "code": "crops",
+         "title": "Растениеводство",
+         "items": [
+          "растениеводство"
+         ],
+         "order": 299,
+         "count": 10
+        },
+        {
+         "id": "g3.world.livestock",
+         "code": "livestock",
+         "title": "Животноводство",
+         "items": [
+          "животноводство"
+         ],
+         "order": 300,
+         "count": 10
+        },
+        {
+         "id": "g3.world.industry",
+         "code": "industry",
+         "title": "Промышленность",
+         "items": [
+          "промышленность"
+         ],
+         "order": 301,
+         "count": 10
+        },
+        {
+         "id": "g3.world.money",
+         "code": "money",
+         "title": "Деньги",
+         "items": [
+          "деньги"
+         ],
+         "order": 302,
+         "count": 10
+        },
+        {
+         "id": "g3.world.budget",
+         "code": "budget",
+         "title": "Государственный и семейный бюджет",
+         "items": [
+          "государственный бюджет",
+          "семейный бюджет"
+         ],
+         "order": 303,
+         "count": 10
+        },
+        {
+         "id": "g3.world.eco_econ",
+         "code": "eco_econ",
+         "title": "Экономика и экология",
+         "items": [
+          "экономика и экология"
+         ],
+         "order": 304,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "travel",
+       "title": "Путешествие по городам и странам",
+       "id": "g3.world.travel",
+       "topics": [
+        {
+         "id": "g3.world.golden_ring",
+         "code": "golden_ring",
+         "title": "Золотое кольцо России",
+         "items": [
+          "Золотое кольцо России"
+         ],
+         "order": 305,
+         "count": 10
+        },
+        {
+         "id": "g3.world.neighbors",
+         "code": "neighbors",
+         "title": "Наши ближайшие соседи",
+         "items": [
+          "страны-соседи России"
+         ],
+         "order": 306,
+         "count": 10
+        },
+        {
+         "id": "g3.world.europe_north",
+         "code": "europe_north",
+         "title": "Страны Северной Европы",
+         "items": [
+          "Северная Европа"
+         ],
+         "order": 307,
+         "count": 10
+        },
+        {
+         "id": "g3.world.europe_central",
+         "code": "europe_central",
+         "title": "Страны Бенилюкса и центра Европы",
+         "items": [
+          "Центральная Европа"
+         ],
+         "order": 308,
+         "count": 10
+        },
+        {
+         "id": "g3.world.europe_west",
+         "code": "europe_west",
+         "title": "Франция и Великобритания",
+         "items": [
+          "Западная Европа"
+         ],
+         "order": 309,
+         "count": 10
+        },
+        {
+         "id": "g3.world.europe_south",
+         "code": "europe_south",
+         "title": "На юге Европы",
+         "items": [
+          "Южная Европа"
+         ],
+         "order": 310,
+         "count": 10
+        },
+        {
+         "id": "g3.world.famous",
+         "code": "famous",
+         "title": "По знаменитым местам мира",
+         "items": [
+          "знаменитые места мира"
+         ],
+         "order": 311,
+         "count": 10
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "eng",
+     "title": "Английский язык",
+     "source": "Быкова Н. И., Дули Д., Поспелова М. Д., Эванс В. Английский в фокусе (Spotlight). 3 класс. В 2 ч. — М.: Просвещение, изд. 2024",
+     "sections": [
+      {
+       "code": "school",
+       "title": "School days — Школьные дни",
+       "id": "g3.eng.school",
+       "topics": [
+        {
+         "id": "g3.eng.supplies",
+         "code": "supplies",
+         "title": "Школьные принадлежности",
+         "items": [
+          "школьные принадлежности"
+         ],
+         "order": 312,
+         "count": 11
+        },
+        {
+         "id": "g3.eng.numbers20",
+         "code": "numbers20",
+         "title": "Числа от 11 до 20",
+         "items": [
+          "числа 11–20"
+         ],
+         "order": 313,
+         "count": 13
+        },
+        {
+         "id": "g3.eng.subjects",
+         "code": "subjects",
+         "title": "Школьные предметы",
+         "items": [
+          "школьные предметы"
+         ],
+         "order": 314,
+         "count": 11
+        },
+        {
+         "id": "g3.eng.to_be",
+         "code": "to_be",
+         "title": "Глагол to be",
+         "items": [
+          "утверждение",
+          "отрицание",
+          "вопрос"
+         ],
+         "order": 315,
+         "count": 14
+        }
+       ]
+      },
+      {
+       "code": "family",
+       "title": "Family moments — Семья",
+       "id": "g3.eng.family",
+       "topics": [
+        {
+         "id": "g3.eng.family",
+         "code": "family",
+         "title": "Члены семьи",
+         "items": [
+          "семья"
+         ],
+         "order": 316,
+         "count": 11
+        },
+        {
+         "id": "g3.eng.possessives",
+         "code": "possessives",
+         "title": "Притяжательные местоимения",
+         "items": [
+          "my",
+          "your",
+          "his",
+          "her",
+          "our",
+          "their"
+         ],
+         "order": 317,
+         "count": 10
+        },
+        {
+         "id": "g3.eng.plurals",
+         "code": "plurals",
+         "title": "Множественное число существительных",
+         "items": [
+          "множественное число"
+         ],
+         "order": 318,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "food",
+       "title": "All the things I like — Еда",
+       "id": "g3.eng.food",
+       "topics": [
+        {
+         "id": "g3.eng.food",
+         "code": "food",
+         "title": "Продукты и напитки",
+         "items": [
+          "продукты",
+          "напитки"
+         ],
+         "order": 319,
+         "count": 14
+        },
+        {
+         "id": "g3.eng.likes",
+         "code": "likes",
+         "title": "Вкусы: like в Present Simple",
+         "items": [
+          "I like",
+          "he likes"
+         ],
+         "order": 320,
+         "count": 10
+        },
+        {
+         "id": "g3.eng.some_any",
+         "code": "some_any",
+         "title": "some и any",
+         "items": [
+          "some",
+          "any"
+         ],
+         "order": 321,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "toys",
+       "title": "Come in and play — Игрушки",
+       "id": "g3.eng.toys",
+       "topics": [
+        {
+         "id": "g3.eng.toys_room",
+         "code": "toys_room",
+         "title": "Игрушки и предметы в комнате",
+         "items": [
+          "игрушки",
+          "предметы интерьера"
+         ],
+         "order": 322,
+         "count": 14
+        },
+        {
+         "id": "g3.eng.demonstratives",
+         "code": "demonstratives",
+         "title": "this, that, these, those",
+         "items": [
+          "this",
+          "that",
+          "these",
+          "those"
+         ],
+         "order": 323,
+         "count": 10
+        },
+        {
+         "id": "g3.eng.articles",
+         "code": "articles",
+         "title": "Артикли a и an",
+         "items": [
+          "a",
+          "an"
+         ],
+         "order": 324,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "animals",
+       "title": "Furry friends — Животные",
+       "id": "g3.eng.animals",
+       "topics": [
+        {
+         "id": "g3.eng.animal_body",
+         "code": "animal_body",
+         "title": "Животные и части тела",
+         "items": [
+          "описание животных",
+          "части тела"
+         ],
+         "order": 325,
+         "count": 16
+        },
+        {
+         "id": "g3.eng.numbers50",
+         "code": "numbers50",
+         "title": "Числа до 50",
+         "items": [
+          "числа 20–50"
+         ],
+         "order": 326,
+         "count": 12
+        },
+        {
+         "id": "g3.eng.can_have",
+         "code": "can_have",
+         "title": "can и have got / has got",
+         "items": [
+          "can",
+          "have got"
+         ],
+         "order": 327,
+         "count": 10
+        },
+        {
+         "id": "g3.eng.irregular_plurals",
+         "code": "irregular_plurals",
+         "title": "Исключения множественного числа",
+         "items": [
+          "mice",
+          "feet",
+          "teeth"
+         ],
+         "order": 328,
+         "count": 11
+        }
+       ]
+      },
+      {
+       "code": "home",
+       "title": "Home, sweet home — Дом",
+       "id": "g3.eng.home",
+       "topics": [
+        {
+         "id": "g3.eng.rooms_furniture",
+         "code": "rooms_furniture",
+         "title": "Комнаты и мебель",
+         "items": [
+          "комнаты",
+          "мебель"
+         ],
+         "order": 329,
+         "count": 16
+        },
+        {
+         "id": "g3.eng.prepositions",
+         "code": "prepositions",
+         "title": "Предлоги места",
+         "items": [
+          "in",
+          "on",
+          "under",
+          "next to",
+          "in front of",
+          "behind"
+         ],
+         "order": 330,
+         "count": 10
+        },
+        {
+         "id": "g3.eng.there_is",
+         "code": "there_is",
+         "title": "there is / there are",
+         "items": [
+          "there is",
+          "there are"
+         ],
+         "order": 331,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "dayoff",
+       "title": "Day off — Выходной",
+       "id": "g3.eng.dayoff",
+       "topics": [
+        {
+         "id": "g3.eng.park",
+         "code": "park",
+         "title": "В парке: занятия на прогулке",
+         "items": [
+          "занятия в парке"
+         ],
+         "order": 332,
+         "count": 11
+        },
+        {
+         "id": "g3.eng.present_cont",
+         "code": "present_cont",
+         "title": "Present Continuous",
+         "items": [
+          "Present Continuous"
+         ],
+         "order": 333,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "daily",
+       "title": "Day by day — Распорядок дня",
+       "id": "g3.eng.daily",
+       "topics": [
+        {
+         "id": "g3.eng.days",
+         "code": "days",
+         "title": "Дни недели",
+         "items": [
+          "дни недели"
+         ],
+         "order": 334,
+         "count": 11
+        },
+        {
+         "id": "g3.eng.routine",
+         "code": "routine",
+         "title": "Режим дня",
+         "items": [
+          "режим дня"
+         ],
+         "order": 335,
+         "count": 12
+        },
+        {
+         "id": "g3.eng.times_of_day",
+         "code": "times_of_day",
+         "title": "Время суток",
+         "items": [
+          "время суток"
+         ],
+         "order": 336,
+         "count": 12
+        },
+        {
+         "id": "g3.eng.present_simple",
+         "code": "present_simple",
+         "title": "Present Simple для регулярных действий",
+         "items": [
+          "Present Simple"
+         ],
+         "order": 337,
+         "count": 10
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "read",
+     "title": "Литературное чтение",
+     "source": "Климанова Л. Ф., Горецкий В. Г., Голованова М. В. и др. Литературное чтение. 3 класс. В 2 ч. — М.: Просвещение (УМК «Школа России»), изд. 2023",
+     "sections": [
+      {
+       "code": "book",
+       "title": "Самое великое чудо на свете",
+       "id": "g3.read.book",
+       "topics": [
+        {
+         "id": "g3.read.book",
+         "code": "book",
+         "title": "Книга — источник знаний",
+         "items": [
+          "рукописные книги Древней Руси",
+          "первопечатник Иван Фёдоров"
+         ],
+         "order": 338,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "folk",
+       "title": "Устное народное творчество",
+       "id": "g3.read.folk",
+       "topics": [
+        {
+         "id": "g3.read.folk_songs",
+         "code": "folk_songs",
+         "title": "Народные песни и докучные сказки",
+         "items": [
+          "русские народные песни",
+          "докучные сказки"
+         ],
+         "order": 339,
+         "count": 10
+        },
+        {
+         "id": "g3.read.alenushka",
+         "code": "alenushka",
+         "title": "«Сестрица Алёнушка и братец Иванушка»",
+         "items": [
+          "«Сестрица Алёнушка и братец Иванушка»"
+         ],
+         "order": 340,
+         "count": 10
+        },
+        {
+         "id": "g3.read.ivan_volk",
+         "code": "ivan_volk",
+         "title": "«Иван-царевич и Серый Волк»",
+         "items": [
+          "«Иван-царевич и Серый Волк»"
+         ],
+         "order": 341,
+         "count": 10
+        },
+        {
+         "id": "g3.read.sivka",
+         "code": "sivka",
+         "title": "«Сивка-Бурка»",
+         "items": [
+          "«Сивка-Бурка»"
+         ],
+         "order": 342,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "poetry1",
+       "title": "Поэтическая тетрадь: осень и зима",
+       "id": "g3.read.poetry1",
+       "topics": [
+        {
+         "id": "g3.read.tyutchev_fet",
+         "code": "tyutchev_fet",
+         "title": "Ф. Тютчев и А. Фет",
+         "items": [
+          "Ф. Тютчев «Весенняя гроза»",
+          "Ф. Тютчев «Листья»",
+          "А. Фет «Мама! Глянь-ка из окошка…»",
+          "А. Фет «Зреет рожь над жаркой нивой…»"
+         ],
+         "order": 343,
+         "count": 10
+        },
+        {
+         "id": "g3.read.nikitin_surikov",
+         "code": "nikitin_surikov",
+         "title": "И. Никитин и И. Суриков",
+         "items": [
+          "И. Никитин «Полно, степь моя, спать беспробудно…»",
+          "И. Никитин «Встреча зимы»",
+          "И. Суриков «Детство»",
+          "И. Суриков «Зима»"
+         ],
+         "order": 344,
+         "count": 10
+        },
+        {
+         "id": "g3.read.nekrasov",
+         "code": "nekrasov",
+         "title": "Н. Некрасов",
+         "items": [
+          "Н. Некрасов «Славная осень!..»",
+          "Н. Некрасов «Не ветер бушует над бором…»",
+          "Н. Некрасов «Дедушка Мазай и зайцы»"
+         ],
+         "order": 345,
+         "count": 10
+        },
+        {
+         "id": "g3.read.bunin_balmont",
+         "code": "bunin_balmont",
+         "title": "И. Бунин и К. Бальмонт",
+         "items": [
+          "К. Бальмонт «Золотое слово»",
+          "И. Бунин «Детство»",
+          "И. Бунин «Полевые цветы»",
+          "И. Бунин «Густой зелёный ельник у дороги…»"
+         ],
+         "order": 346,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "great",
+       "title": "Великие русские писатели",
+       "id": "g3.read.great",
+       "topics": [
+        {
+         "id": "g3.read.pushkin_poems",
+         "code": "pushkin_poems",
+         "title": "А. С. Пушкин. Стихи",
+         "items": [
+          "А. Пушкин «Уж небо осенью дышало…»",
+          "А. Пушкин «В тот год осенняя погода…»",
+          "А. Пушкин «Опрятней модного паркета…»",
+          "А. Пушкин «Зимнее утро»",
+          "А. Пушкин «Зимний вечер»"
+         ],
+         "order": 347,
+         "count": 10
+        },
+        {
+         "id": "g3.read.saltan",
+         "code": "saltan",
+         "title": "А. С. Пушкин «Сказка о царе Салтане…»",
+         "items": [
+          "«Сказка о царе Салтане…»"
+         ],
+         "order": 348,
+         "count": 10
+        },
+        {
+         "id": "g3.read.krylov",
+         "code": "krylov",
+         "title": "И. А. Крылов. Басни",
+         "items": [
+          "«Мартышка и Очки»",
+          "«Зеркало и Обезьяна»",
+          "«Ворона и Лисица»"
+         ],
+         "order": 349,
+         "count": 10
+        },
+        {
+         "id": "g3.read.lermontov",
+         "code": "lermontov",
+         "title": "М. Ю. Лермонтов. Стихи",
+         "items": [
+          "М. Лермонтов «Горные вершины»",
+          "М. Лермонтов «На севере диком стоит одиноко…»",
+          "М. Лермонтов «Утёс»",
+          "М. Лермонтов «Осень»"
+         ],
+         "order": 350,
+         "count": 10
+        },
+        {
+         "id": "g3.read.tolstoy_shark",
+         "code": "tolstoy_shark",
+         "title": "Л. Н. Толстой «Акула», «Прыжок»",
+         "items": [
+          "Л. Толстой «Акула»",
+          "Л. Толстой «Прыжок»"
+         ],
+         "order": 351,
+         "count": 10
+        },
+        {
+         "id": "g3.read.tolstoy_lion",
+         "code": "tolstoy_lion",
+         "title": "Л. Н. Толстой «Лев и собачка»",
+         "items": [
+          "Л. Толстой «Лев и собачка»"
+         ],
+         "order": 352,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "littales",
+       "title": "Литературные сказки",
+       "id": "g3.read.littales",
+       "topics": [
+        {
+         "id": "g3.read.mamin",
+         "code": "mamin",
+         "title": "Д. Мамин-Сибиряк «Сказка про храброго Зайца…»",
+         "items": [
+          "Д. Мамин-Сибиряк «Алёнушкины сказки»",
+          "«Сказка про храброго Зайца — Длинные Уши, Косые Глаза, Короткий Хвост»"
+         ],
+         "order": 353,
+         "count": 10
+        },
+        {
+         "id": "g3.read.garshin",
+         "code": "garshin",
+         "title": "В. Гаршин «Лягушка-путешественница»",
+         "items": [
+          "В. Гаршин «Лягушка-путешественница»"
+         ],
+         "order": 354,
+         "count": 10
+        },
+        {
+         "id": "g3.read.odoevsky",
+         "code": "odoevsky",
+         "title": "В. Одоевский «Мороз Иванович»",
+         "items": [
+          "В. Одоевский «Мороз Иванович»"
+         ],
+         "order": 355,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "byli",
+       "title": "Были-небылицы",
+       "id": "g3.read.byli",
+       "topics": [
+        {
+         "id": "g3.read.gorky",
+         "code": "gorky",
+         "title": "М. Горький «Случай с Евсейкой»",
+         "items": [
+          "М. Горький «Случай с Евсейкой»"
+         ],
+         "order": 356,
+         "count": 10
+        },
+        {
+         "id": "g3.read.paustovsky",
+         "code": "paustovsky",
+         "title": "К. Паустовский «Растрёпанный воробей»",
+         "items": [
+          "К. Паустовский «Растрёпанный воробей»"
+         ],
+         "order": 357,
+         "count": 10
+        },
+        {
+         "id": "g3.read.kuprin",
+         "code": "kuprin",
+         "title": "А. Куприн «Слон»",
+         "items": [
+          "А. Куприн «Слон»"
+         ],
+         "order": 358,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "poetry2",
+       "title": "Поэтическая тетрадь: начало XX века",
+       "id": "g3.read.poetry2",
+       "topics": [
+        {
+         "id": "g3.read.sasha_cherny",
+         "code": "sasha_cherny",
+         "title": "Саша Чёрный",
+         "items": [
+          "Саша Чёрный «Что ты тискаешь утёнка?..»",
+          "Саша Чёрный «Воробей»",
+          "Саша Чёрный «Слон»"
+         ],
+         "order": 359,
+         "count": 10
+        },
+        {
+         "id": "g3.read.blok_esenin",
+         "code": "blok_esenin",
+         "title": "А. Блок и С. Есенин",
+         "items": [
+          "А. Блок «Ветхая избушка»",
+          "А. Блок «Сны»",
+          "А. Блок «Ворона»",
+          "С. Есенин «Черёмуха»"
+         ],
+         "order": 360,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "nature",
+       "title": "Люби живое",
+       "id": "g3.read.nature",
+       "topics": [
+        {
+         "id": "g3.read.prishvin_sokolov",
+         "code": "prishvin_sokolov",
+         "title": "М. Пришвин «Моя Родина», И. Соколов-Микитов «Листопадничек»",
+         "items": [
+          "М. Пришвин «Моя Родина»",
+          "И. Соколов-Микитов «Листопадничек»"
+         ],
+         "order": 361,
+         "count": 10
+        },
+        {
+         "id": "g3.read.belov",
+         "code": "belov",
+         "title": "В. Белов «Малька провинилась», «Ещё раз про Мальку»",
+         "items": [
+          "В. Белов «Малька провинилась»",
+          "В. Белов «Ещё раз про Мальку»"
+         ],
+         "order": 362,
+         "count": 10
+        },
+        {
+         "id": "g3.read.bianki",
+         "code": "bianki",
+         "title": "В. Бианки «Мышонок Пик»",
+         "items": [
+          "В. Бианки «Мышонок Пик»"
+         ],
+         "order": 363,
+         "count": 10
+        },
+        {
+         "id": "g3.read.zhitkov",
+         "code": "zhitkov",
+         "title": "Б. Житков «Про обезьянку»",
+         "items": [
+          "Б. Житков «Про обезьянку»"
+         ],
+         "order": 364,
+         "count": 10
+        },
+        {
+         "id": "g3.read.durov_astafiev",
+         "code": "durov_astafiev",
+         "title": "В. Дуров «Наша Жучка», В. Астафьев «Капалуха»",
+         "items": [
+          "В. Дуров «Наша Жучка»",
+          "В. Астафьев «Капалуха»"
+         ],
+         "order": 365,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "kidpoems",
+       "title": "Поэтическая тетрадь: стихи для детей",
+       "id": "g3.read.kidpoems",
+       "topics": [
+        {
+         "id": "g3.read.marshak_barto",
+         "code": "marshak_barto",
+         "title": "С. Маршак и А. Барто",
+         "items": [
+          "С. Маршак «Гроза днём»",
+          "С. Маршак «В лесу над росистой поляной…»",
+          "А. Барто «Разлука»",
+          "А. Барто «В театре»"
+         ],
+         "order": 366,
+         "count": 10
+        },
+        {
+         "id": "g3.read.mikhalkov_blaginina",
+         "code": "mikhalkov_blaginina",
+         "title": "С. Михалков и Е. Благинина",
+         "items": [
+          "С. Михалков «Если»",
+          "Е. Благинина «Кукушка»",
+          "Е. Благинина «Котёнок»"
+         ],
+         "order": 367,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "humor",
+       "title": "Собирай по ягодке — наберёшь кузовок",
+       "id": "g3.read.humor",
+       "topics": [
+        {
+         "id": "g3.read.shergin",
+         "code": "shergin",
+         "title": "Б. Шергин «Собирай по ягодке — наберёшь кузовок»",
+         "items": [
+          "Б. Шергин «Собирай по ягодке — наберёшь кузовок»"
+         ],
+         "order": 368,
+         "count": 10
+        },
+        {
+         "id": "g3.read.platonov",
+         "code": "platonov",
+         "title": "А. Платонов «Цветок на земле», «Ещё мама»",
+         "items": [
+          "А. Платонов «Цветок на земле»",
+          "А. Платонов «Ещё мама»"
+         ],
+         "order": 369,
+         "count": 10
+        },
+        {
+         "id": "g3.read.zoshchenko",
+         "code": "zoshchenko",
+         "title": "М. Зощенко «Золотые слова», «Великие путешественники»",
+         "items": [
+          "М. Зощенко «Золотые слова»",
+          "М. Зощенко «Великие путешественники»"
+         ],
+         "order": 370,
+         "count": 10
+        },
+        {
+         "id": "g3.read.nosov",
+         "code": "nosov",
+         "title": "Н. Носов «Федина задача», «Телефон»",
+         "items": [
+          "Н. Носов «Федина задача»",
+          "Н. Носов «Телефон»"
+         ],
+         "order": 371,
+         "count": 10
+        },
+        {
+         "id": "g3.read.dragunsky",
+         "code": "dragunsky",
+         "title": "В. Драгунский «Друг детства»",
+         "items": [
+          "В. Драгунский «Друг детства»"
+         ],
+         "order": 372,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "magazines",
+       "title": "По страницам детских журналов",
+       "id": "g3.read.magazines",
+       "topics": [
+        {
+         "id": "g3.read.kassil",
+         "code": "kassil",
+         "title": "Л. Кассиль «Отметки Риммы Лебедевой»",
+         "items": [
+          "Л. Кассиль «Отметки Риммы Лебедевой»"
+         ],
+         "order": 373,
+         "count": 10
+        },
+        {
+         "id": "g3.read.ermolaev",
+         "code": "ermolaev",
+         "title": "Ю. Ермолаев «Проговорился», «Воспитатели»",
+         "items": [
+          "Ю. Ермолаев «Проговорился»",
+          "Ю. Ермолаев «Воспитатели»"
+         ],
+         "order": 374,
+         "count": 10
+        },
+        {
+         "id": "g3.read.oster_sef",
+         "code": "oster_sef",
+         "title": "Г. Остер и Р. Сеф",
+         "items": [
+          "Г. Остер «Вредные советы»",
+          "Г. Остер «Как получаются легенды»",
+          "Р. Сеф «Весёлые стихи»"
+         ],
+         "order": 375,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "foreign",
+       "title": "Зарубежная литература",
+       "id": "g3.read.foreign",
+       "topics": [
+        {
+         "id": "g3.read.perseus",
+         "code": "perseus",
+         "title": "Древнегреческий миф «Храбрый Персей»",
+         "items": [
+          "«Храбрый Персей»"
+         ],
+         "order": 376,
+         "count": 10
+        },
+        {
+         "id": "g3.read.ugly_duckling",
+         "code": "ugly_duckling",
+         "title": "Х. К. Андерсен «Гадкий утёнок»",
+         "items": [
+          "Х. К. Андерсен «Гадкий утёнок»"
+         ],
+         "order": 377,
+         "count": 10
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 4,
+   "subjects": [
+    {
+     "code": "math",
+     "title": "Математика",
+     "source": "Моро М. И., Бантова М. А., Бельтюкова Г. В. и др. Математика. 4 класс. В 2 ч. — М.: Просвещение (УМК «Школа России»), изд. 2023",
+     "sections": [
+      {
+       "code": "rep",
+       "title": "Числа от 1 до 1000. Повторение",
+       "id": "g4.math.rep",
+       "topics": [
+        {
+         "id": "g4.math.rep_num",
+         "code": "rep_num",
+         "title": "Нумерация чисел до 1000",
+         "items": [
+          "нумерация"
+         ],
+         "order": 378,
+         "count": 10
+        },
+        {
+         "id": "g4.math.rep_ops",
+         "code": "rep_ops",
+         "title": "Арифметические действия",
+         "items": [
+          "арифметические действия"
+         ],
+         "order": 379,
+         "count": 10
+        },
+        {
+         "id": "g4.math.diagrams",
+         "code": "diagrams",
+         "title": "Чтение и построение диаграмм",
+         "items": [
+          "диаграммы"
+         ],
+         "order": 380,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "big",
+       "title": "Числа, которые больше 1000. Нумерация",
+       "id": "g4.math.big",
+       "topics": [
+        {
+         "id": "g4.math.classes",
+         "code": "classes",
+         "title": "Классы и разряды",
+         "items": [
+          "класс единиц",
+          "класс тысяч",
+          "класс миллионов",
+          "класс миллиардов"
+         ],
+         "order": 381,
+         "count": 10
+        },
+        {
+         "id": "g4.math.readwrite",
+         "code": "readwrite",
+         "title": "Чтение и запись многозначных чисел",
+         "items": [
+          "чтение многозначных чисел",
+          "запись многозначных чисел"
+         ],
+         "order": 382,
+         "count": 10
+        },
+        {
+         "id": "g4.math.compare_big",
+         "code": "compare_big",
+         "title": "Сравнение многозначных чисел",
+         "items": [
+          "сравнение многозначных чисел"
+         ],
+         "order": 383,
+         "count": 10
+        },
+        {
+         "id": "g4.math.place_sum",
+         "code": "place_sum",
+         "title": "Разрядные слагаемые",
+         "items": [
+          "разрядные слагаемые"
+         ],
+         "order": 384,
+         "count": 10
+        },
+        {
+         "id": "g4.math.mul10",
+         "code": "mul10",
+         "title": "Умножение и деление на 10, 100, 1000",
+         "items": [
+          "умножение на 10, 100, 1000",
+          "деление на 10, 100, 1000"
+         ],
+         "order": 385,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "quantities",
+       "title": "Величины",
+       "id": "g4.math.quantities",
+       "topics": [
+        {
+         "id": "g4.math.length",
+         "code": "length",
+         "title": "Единицы длины. Километр",
+         "items": [
+          "километр",
+          "единицы длины"
+         ],
+         "order": 386,
+         "count": 10
+        },
+        {
+         "id": "g4.math.area_units",
+         "code": "area_units",
+         "title": "Единицы площади",
+         "items": [
+          "квадратный километр",
+          "квадратный миллиметр",
+          "ар",
+          "гектар"
+         ],
+         "order": 387,
+         "count": 11
+        },
+        {
+         "id": "g4.math.paletka",
+         "code": "paletka",
+         "title": "Измерение площади палеткой",
+         "items": [
+          "палетка"
+         ],
+         "order": 388,
+         "count": 10
+        },
+        {
+         "id": "g4.math.mass_big",
+         "code": "mass_big",
+         "title": "Единицы массы: тонна и центнер",
+         "items": [
+          "тонна",
+          "центнер"
+         ],
+         "order": 389,
+         "count": 10
+        },
+        {
+         "id": "g4.math.time_units",
+         "code": "time_units",
+         "title": "Единицы времени: секунда, век",
+         "items": [
+          "секунда",
+          "век",
+          "единицы времени"
+         ],
+         "order": 390,
+         "count": 10
+        },
+        {
+         "id": "g4.math.unit_tables",
+         "code": "unit_tables",
+         "title": "Таблицы единиц величин",
+         "items": [
+          "сводные таблицы единиц"
+         ],
+         "order": 391,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "addsub",
+       "title": "Сложение и вычитание",
+       "id": "g4.math.addsub",
+       "topics": [
+        {
+         "id": "g4.math.addsub_big",
+         "code": "addsub_big",
+         "title": "Сложение и вычитание многозначных чисел",
+         "items": [
+          "устные приёмы",
+          "письменные приёмы"
+         ],
+         "order": 392,
+         "count": 13
+        },
+        {
+         "id": "g4.math.unknowns",
+         "code": "unknowns",
+         "title": "Нахождение неизвестного слагаемого, уменьшаемого, вычитаемого",
+         "items": [
+          "неизвестные компоненты"
+         ],
+         "order": 393,
+         "count": 10
+        },
+        {
+         "id": "g4.math.quantities",
+         "code": "quantities",
+         "title": "Сложение и вычитание величин",
+         "items": [
+          "действия с величинами"
+         ],
+         "order": 394,
+         "count": 10
+        },
+        {
+         "id": "g4.math.parts_whole",
+         "code": "parts_whole",
+         "title": "Нахождение нескольких долей целого",
+         "items": [
+          "нахождение нескольких долей"
+         ],
+         "order": 395,
+         "count": 11
+        }
+       ]
+      },
+      {
+       "code": "mul1",
+       "title": "Умножение и деление на однозначное число",
+       "id": "g4.math.mul1",
+       "topics": [
+        {
+         "id": "g4.math.props",
+         "code": "props",
+         "title": "Свойства умножения",
+         "items": [
+          "свойства умножения"
+         ],
+         "order": 396,
+         "count": 10
+        },
+        {
+         "id": "g4.math.mul_1d",
+         "code": "mul_1d",
+         "title": "Письменное умножение на однозначное число",
+         "items": [
+          "письменное умножение"
+         ],
+         "order": 397,
+         "count": 10
+        },
+        {
+         "id": "g4.math.div_1d",
+         "code": "div_1d",
+         "title": "Письменное деление на однозначное число",
+         "items": [
+          "письменное деление"
+         ],
+         "order": 398,
+         "count": 10
+        },
+        {
+         "id": "g4.math.zeros",
+         "code": "zeros",
+         "title": "Умножение и деление чисел с нулями",
+         "items": [
+          "случаи с нулями"
+         ],
+         "order": 399,
+         "count": 11
+        },
+        {
+         "id": "g4.math.proportional",
+         "code": "proportional",
+         "title": "Задачи на пропорциональное деление",
+         "items": [
+          "пропорциональное деление"
+         ],
+         "order": 400,
+         "count": 10
+        },
+        {
+         "id": "g4.math.two_diff",
+         "code": "two_diff",
+         "title": "Нахождение неизвестного по двум разностям",
+         "items": [
+          "по двум разностям"
+         ],
+         "order": 401,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "motion",
+       "title": "Скорость, время, расстояние",
+       "id": "g4.math.motion",
+       "topics": [
+        {
+         "id": "g4.math.speed",
+         "code": "speed",
+         "title": "Скорость, время, расстояние",
+         "items": [
+          "скорость",
+          "время",
+          "расстояние"
+         ],
+         "order": 402,
+         "count": 10
+        },
+        {
+         "id": "g4.math.meet",
+         "code": "meet",
+         "title": "Встречное движение",
+         "items": [
+          "встречное движение"
+         ],
+         "order": 403,
+         "count": 10
+        },
+        {
+         "id": "g4.math.opposite",
+         "code": "opposite",
+         "title": "Движение в противоположных направлениях",
+         "items": [
+          "противоположные направления"
+         ],
+         "order": 404,
+         "count": 10
+        },
+        {
+         "id": "g4.math.chase",
+         "code": "chase",
+         "title": "Движение вдогонку и с отставанием",
+         "items": [
+          "вдогонку",
+          "с отставанием"
+         ],
+         "order": 405,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "zeros",
+       "title": "Умножение и деление на числа, оканчивающиеся нулями",
+       "id": "g4.math.zeros",
+       "topics": [
+        {
+         "id": "g4.math.mul_zeros",
+         "code": "mul_zeros",
+         "title": "Умножение на числа, оканчивающиеся нулями",
+         "items": [
+          "умножение на круглые числа"
+         ],
+         "order": 406,
+         "count": 11
+        },
+        {
+         "id": "g4.math.div_zeros",
+         "code": "div_zeros",
+         "title": "Деление на числа, оканчивающиеся нулями",
+         "items": [
+          "деление на круглые числа"
+         ],
+         "order": 407,
+         "count": 11
+        }
+       ]
+      },
+      {
+       "code": "mul2",
+       "title": "Умножение и деление на двузначное и трёхзначное число",
+       "id": "g4.math.mul2",
+       "topics": [
+        {
+         "id": "g4.math.mul_2d",
+         "code": "mul_2d",
+         "title": "Умножение на двузначное число",
+         "items": [
+          "умножение на двузначное"
+         ],
+         "order": 408,
+         "count": 10
+        },
+        {
+         "id": "g4.math.mul_3d",
+         "code": "mul_3d",
+         "title": "Умножение на трёхзначное число",
+         "items": [
+          "умножение на трёхзначное"
+         ],
+         "order": 409,
+         "count": 10
+        },
+        {
+         "id": "g4.math.div_2d",
+         "code": "div_2d",
+         "title": "Деление на двузначное число",
+         "items": [
+          "деление на двузначное"
+         ],
+         "order": 410,
+         "count": 10
+        },
+        {
+         "id": "g4.math.div_3d",
+         "code": "div_3d",
+         "title": "Деление на трёхзначное число",
+         "items": [
+          "деление на трёхзначное"
+         ],
+         "order": 411,
+         "count": 10
+        },
+        {
+         "id": "g4.math.div_rem_big",
+         "code": "div_rem_big",
+         "title": "Деление с остатком на двузначное число",
+         "items": [
+          "деление с остатком"
+         ],
+         "order": 412,
+         "count": 11
+        }
+       ]
+      },
+      {
+       "code": "final",
+       "title": "Итоговое повторение",
+       "id": "g4.math.final",
+       "topics": [
+        {
+         "id": "g4.math.fin_problems",
+         "code": "fin_problems",
+         "title": "Текстовые задачи",
+         "items": [
+          "текстовые задачи"
+         ],
+         "order": 413,
+         "count": 10
+        },
+        {
+         "id": "g4.math.fin_expr",
+         "code": "fin_expr",
+         "title": "Выражения и порядок действий",
+         "items": [
+          "выражения"
+         ],
+         "order": 414,
+         "count": 10
+        },
+        {
+         "id": "g4.math.fin_eq",
+         "code": "fin_eq",
+         "title": "Уравнения",
+         "items": [
+          "уравнения"
+         ],
+         "order": 415,
+         "count": 10
+        },
+        {
+         "id": "g4.math.fin_geo",
+         "code": "fin_geo",
+         "title": "Геометрические фигуры и величины",
+         "items": [
+          "геометрические фигуры",
+          "величины"
+         ],
+         "order": 416,
+         "count": 10
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "rus",
+     "title": "Русский язык",
+     "source": "Канакина В. П., Горецкий В. Г. Русский язык. 4 класс. В 2 ч. — М.: Просвещение (УМК «Школа России»), изд. 2023",
+     "sections": [
+      {
+       "code": "rep",
+       "title": "Повторение",
+       "id": "g4.rus.rep",
+       "topics": [
+        {
+         "id": "g4.rus.speech_text",
+         "code": "speech_text",
+         "title": "Речь и текст",
+         "items": [
+          "речь",
+          "текст"
+         ],
+         "order": 417,
+         "count": 10
+        },
+        {
+         "id": "g4.rus.sentence",
+         "code": "sentence",
+         "title": "Предложение и обращение",
+         "items": [
+          "предложение",
+          "обращение"
+         ],
+         "order": 418,
+         "count": 10
+        },
+        {
+         "id": "g4.rus.homogeneous",
+         "code": "homogeneous",
+         "title": "Однородные члены предложения",
+         "items": [
+          "однородные члены"
+         ],
+         "order": 419,
+         "count": 10
+        },
+        {
+         "id": "g4.rus.homog_punct",
+         "code": "homog_punct",
+         "title": "Знаки препинания при однородных членах",
+         "items": [
+          "запятая при однородных членах"
+         ],
+         "order": 420,
+         "count": 10
+        },
+        {
+         "id": "g4.rus.simple_complex",
+         "code": "simple_complex",
+         "title": "Простые и сложные предложения",
+         "items": [
+          "простые предложения",
+          "сложные предложения"
+         ],
+         "order": 421,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "word",
+       "title": "Слово в языке и речи",
+       "id": "g4.rus.word",
+       "topics": [
+        {
+         "id": "g4.rus.lexis",
+         "code": "lexis",
+         "title": "Лексическое значение слова",
+         "items": [
+          "лексика"
+         ],
+         "order": 422,
+         "count": 10
+        },
+        {
+         "id": "g4.rus.composition",
+         "code": "composition",
+         "title": "Состав слова",
+         "items": [
+          "состав слова"
+         ],
+         "order": 423,
+         "count": 11
+        },
+        {
+         "id": "g4.rus.root_spelling",
+         "code": "root_spelling",
+         "title": "Правописание гласных и согласных в корне",
+         "items": [
+          "гласные в корне",
+          "согласные в корне"
+         ],
+         "order": 424,
+         "count": 10
+        },
+        {
+         "id": "g4.rus.prefix_suffix",
+         "code": "prefix_suffix",
+         "title": "Приставки и суффиксы",
+         "items": [
+          "приставки",
+          "суффиксы"
+         ],
+         "order": 425,
+         "count": 10
+        },
+        {
+         "id": "g4.rus.pos",
+         "code": "pos",
+         "title": "Части речи",
+         "items": [
+          "части речи"
+         ],
+         "order": 426,
+         "count": 10
+        },
+        {
+         "id": "g4.rus.adverb",
+         "code": "adverb",
+         "title": "Наречие",
+         "items": [
+          "наречие"
+         ],
+         "order": 427,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "noun",
+       "title": "Имя существительное",
+       "id": "g4.rus.noun",
+       "topics": [
+        {
+         "id": "g4.rus.declensions",
+         "code": "declensions",
+         "title": "Три склонения имён существительных",
+         "items": [
+          "1-е склонение",
+          "2-е склонение",
+          "3-е склонение"
+         ],
+         "order": 428,
+         "count": 11
+        },
+        {
+         "id": "g4.rus.cases",
+         "code": "cases",
+         "title": "Падежи имён существительных",
+         "items": [
+          "падежи"
+         ],
+         "order": 429,
+         "count": 10
+        },
+        {
+         "id": "g4.rus.endings_sg",
+         "code": "endings_sg",
+         "title": "Безударные падежные окончания в единственном числе",
+         "items": [
+          "окончания в единственном числе"
+         ],
+         "order": 430,
+         "count": 11
+        },
+        {
+         "id": "g4.rus.endings_pl",
+         "code": "endings_pl",
+         "title": "Падежные окончания во множественном числе",
+         "items": [
+          "окончания во множественном числе"
+         ],
+         "order": 431,
+         "count": 10
+        },
+        {
+         "id": "g4.rus.indeclinable",
+         "code": "indeclinable",
+         "title": "Несклоняемые существительные",
+         "items": [
+          "несклоняемые существительные"
+         ],
+         "order": 432,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "adj",
+       "title": "Имя прилагательное",
+       "id": "g4.rus.adj",
+       "topics": [
+        {
+         "id": "g4.rus.adj_decl_mn",
+         "code": "adj_decl_mn",
+         "title": "Склонение прилагательных мужского и среднего рода",
+         "items": [
+          "мужской род",
+          "средний род"
+         ],
+         "order": 433,
+         "count": 10
+        },
+        {
+         "id": "g4.rus.adj_decl_f",
+         "code": "adj_decl_f",
+         "title": "Склонение прилагательных женского рода",
+         "items": [
+          "женский род"
+         ],
+         "order": 434,
+         "count": 10
+        },
+        {
+         "id": "g4.rus.adj_decl_pl",
+         "code": "adj_decl_pl",
+         "title": "Склонение прилагательных во множественном числе",
+         "items": [
+          "множественное число"
+         ],
+         "order": 435,
+         "count": 10
+        },
+        {
+         "id": "g4.rus.adj_endings",
+         "code": "adj_endings",
+         "title": "Безударные окончания прилагательных",
+         "items": [
+          "правописание окончаний прилагательных"
+         ],
+         "order": 436,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "pronoun",
+       "title": "Местоимение",
+       "id": "g4.rus.pronoun",
+       "topics": [
+        {
+         "id": "g4.rus.pron_decl",
+         "code": "pron_decl",
+         "title": "Склонение личных местоимений",
+         "items": [
+          "склонение местоимений"
+         ],
+         "order": 437,
+         "count": 10
+        },
+        {
+         "id": "g4.rus.pron_prep",
+         "code": "pron_prep",
+         "title": "Местоимения с предлогами",
+         "items": [
+          "раздельное написание с предлогами"
+         ],
+         "order": 438,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "verb",
+       "title": "Глагол",
+       "id": "g4.rus.verb",
+       "topics": [
+        {
+         "id": "g4.rus.verb_tense_inf",
+         "code": "verb_tense_inf",
+         "title": "Времена и неопределённая форма глагола",
+         "items": [
+          "времена",
+          "неопределённая форма"
+         ],
+         "order": 439,
+         "count": 10
+        },
+        {
+         "id": "g4.rus.conjugation",
+         "code": "conjugation",
+         "title": "I и II спряжение глаголов",
+         "items": [
+          "I спряжение",
+          "II спряжение"
+         ],
+         "order": 440,
+         "count": 10
+        },
+        {
+         "id": "g4.rus.verb_exceptions",
+         "code": "verb_exceptions",
+         "title": "Глаголы-исключения",
+         "items": [
+          "глаголы-исключения"
+         ],
+         "order": 441,
+         "count": 10
+        },
+        {
+         "id": "g4.rus.verb_endings",
+         "code": "verb_endings",
+         "title": "Безударные личные окончания глаголов",
+         "items": [
+          "безударные личные окончания"
+         ],
+         "order": 442,
+         "count": 10
+        },
+        {
+         "id": "g4.rus.tsya",
+         "code": "tsya",
+         "title": "-тся и -ться в глаголах",
+         "items": [
+          "-тся",
+          "-ться"
+         ],
+         "order": 443,
+         "count": 10
+        },
+        {
+         "id": "g4.rus.verb_soft_2p",
+         "code": "verb_soft_2p",
+         "title": "Мягкий знак после шипящих во 2-м лице",
+         "items": [
+          "-шь"
+         ],
+         "order": 444,
+         "count": 10
+        },
+        {
+         "id": "g4.rus.verb_past_suffix",
+         "code": "verb_past_suffix",
+         "title": "Суффиксы глаголов прошедшего времени",
+         "items": [
+          "суффиксы прошедшего времени"
+         ],
+         "order": 445,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "final",
+       "title": "Итоговое повторение",
+       "id": "g4.rus.final",
+       "topics": [
+        {
+         "id": "g4.rus.final_spelling",
+         "code": "final_spelling",
+         "title": "Итоговое повторение: орфография",
+         "items": [
+          "орфография 1–4 классов"
+         ],
+         "order": 446,
+         "count": 10
+        },
+        {
+         "id": "g4.rus.final_grammar",
+         "code": "final_grammar",
+         "title": "Итоговое повторение: части речи и предложение",
+         "items": [
+          "части речи",
+          "синтаксис"
+         ],
+         "order": 447,
+         "count": 13
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "world",
+     "title": "Окружающий мир",
+     "source": "Плешаков А. А., Крючкова Е. А. Окружающий мир. 4 класс. В 2 ч. — М.: Просвещение (УМК «Школа России»), изд. 2023",
+     "sections": [
+      {
+       "code": "earth",
+       "title": "Земля и человечество",
+       "id": "g4.world.earth",
+       "topics": [
+        {
+         "id": "g4.world.solar",
+         "code": "solar",
+         "title": "Солнечная система",
+         "items": [
+          "Солнечная система"
+         ],
+         "order": 448,
+         "count": 10
+        },
+        {
+         "id": "g4.world.stars",
+         "code": "stars",
+         "title": "Звёздное небо",
+         "items": [
+          "звёздное небо"
+         ],
+         "order": 449,
+         "count": 10
+        },
+        {
+         "id": "g4.world.maps",
+         "code": "maps",
+         "title": "География и карты",
+         "items": [
+          "география",
+          "глобус и карта"
+         ],
+         "order": 450,
+         "count": 10
+        },
+        {
+         "id": "g4.world.timeline",
+         "code": "timeline",
+         "title": "История и лента времени",
+         "items": [
+          "история",
+          "лента времени"
+         ],
+         "order": 451,
+         "count": 10
+        },
+        {
+         "id": "g4.world.ecology",
+         "code": "ecology",
+         "title": "Экология",
+         "items": [
+          "экология"
+         ],
+         "order": 452,
+         "count": 10
+        },
+        {
+         "id": "g4.world.heritage",
+         "code": "heritage",
+         "title": "Всемирное наследие",
+         "items": [
+          "Всемирное культурное наследие",
+          "Всемирное природное наследие"
+         ],
+         "order": 453,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "russia_nature",
+       "title": "Природа России",
+       "id": "g4.world.russia_nature",
+       "topics": [
+        {
+         "id": "g4.world.plains_mountains",
+         "code": "plains_mountains",
+         "title": "Равнины и горы России",
+         "items": [
+          "равнины",
+          "горы"
+         ],
+         "order": 454,
+         "count": 10
+        },
+        {
+         "id": "g4.world.seas_lakes_rivers",
+         "code": "seas_lakes_rivers",
+         "title": "Моря, озёра и реки России",
+         "items": [
+          "моря",
+          "озёра",
+          "реки"
+         ],
+         "order": 455,
+         "count": 13
+        },
+        {
+         "id": "g4.world.arctic",
+         "code": "arctic",
+         "title": "Зона арктических пустынь",
+         "items": [
+          "арктические пустыни"
+         ],
+         "order": 456,
+         "count": 10
+        },
+        {
+         "id": "g4.world.tundra",
+         "code": "tundra",
+         "title": "Тундра",
+         "items": [
+          "тундра"
+         ],
+         "order": 457,
+         "count": 10
+        },
+        {
+         "id": "g4.world.forests",
+         "code": "forests",
+         "title": "Леса России",
+         "items": [
+          "тайга",
+          "смешанные леса",
+          "широколиственные леса"
+         ],
+         "order": 458,
+         "count": 10
+        },
+        {
+         "id": "g4.world.steppe",
+         "code": "steppe",
+         "title": "Зона степей",
+         "items": [
+          "степи"
+         ],
+         "order": 459,
+         "count": 10
+        },
+        {
+         "id": "g4.world.desert",
+         "code": "desert",
+         "title": "Пустыни",
+         "items": [
+          "пустыни"
+         ],
+         "order": 460,
+         "count": 10
+        },
+        {
+         "id": "g4.world.subtropics",
+         "code": "subtropics",
+         "title": "У Чёрного моря",
+         "items": [
+          "субтропики"
+         ],
+         "order": 461,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "region",
+       "title": "Родной край — часть большой страны",
+       "id": "g4.world.region",
+       "topics": [
+        {
+         "id": "g4.world.relief",
+         "code": "relief",
+         "title": "Поверхность нашего края",
+         "items": [
+          "рельеф"
+         ],
+         "order": 462,
+         "count": 10
+        },
+        {
+         "id": "g4.world.region_waters",
+         "code": "region_waters",
+         "title": "Водные богатства края",
+         "items": [
+          "водоёмы края"
+         ],
+         "order": 463,
+         "count": 10
+        },
+        {
+         "id": "g4.world.region_minerals",
+         "code": "region_minerals",
+         "title": "Наши подземные богатства",
+         "items": [
+          "полезные ископаемые"
+         ],
+         "order": 464,
+         "count": 10
+        },
+        {
+         "id": "g4.world.soils",
+         "code": "soils",
+         "title": "Земля-кормилица",
+         "items": [
+          "почвы"
+         ],
+         "order": 465,
+         "count": 10
+        },
+        {
+         "id": "g4.world.forest_comm",
+         "code": "forest_comm",
+         "title": "Жизнь леса",
+         "items": [
+          "лес как сообщество"
+         ],
+         "order": 466,
+         "count": 10
+        },
+        {
+         "id": "g4.world.meadow",
+         "code": "meadow",
+         "title": "Жизнь луга",
+         "items": [
+          "луг"
+         ],
+         "order": 467,
+         "count": 10
+        },
+        {
+         "id": "g4.world.pond",
+         "code": "pond",
+         "title": "Жизнь в пресных водах",
+         "items": [
+          "пресный водоём"
+         ],
+         "order": 468,
+         "count": 10
+        },
+        {
+         "id": "g4.world.agriculture",
+         "code": "agriculture",
+         "title": "Сельское хозяйство края",
+         "items": [
+          "растениеводство",
+          "животноводство"
+         ],
+         "order": 469,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "world_history",
+       "title": "Страницы всемирной истории",
+       "id": "g4.world.world_history",
+       "topics": [
+        {
+         "id": "g4.world.primitive",
+         "code": "primitive",
+         "title": "Начало истории человечества",
+         "items": [
+          "первобытный мир"
+         ],
+         "order": 470,
+         "count": 10
+        },
+        {
+         "id": "g4.world.ancient",
+         "code": "ancient",
+         "title": "Мир древности",
+         "items": [
+          "Древний Египет",
+          "Древняя Греция",
+          "Древний Рим"
+         ],
+         "order": 471,
+         "count": 10
+        },
+        {
+         "id": "g4.world.middle_ages",
+         "code": "middle_ages",
+         "title": "Средние века",
+         "items": [
+          "Средние века"
+         ],
+         "order": 472,
+         "count": 10
+        },
+        {
+         "id": "g4.world.modern",
+         "code": "modern",
+         "title": "Новое время",
+         "items": [
+          "Новое время"
+         ],
+         "order": 473,
+         "count": 10
+        },
+        {
+         "id": "g4.world.newest",
+         "code": "newest",
+         "title": "Новейшее время",
+         "items": [
+          "Новейшее время"
+         ],
+         "order": 474,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "russia_history",
+       "title": "Страницы истории России",
+       "id": "g4.world.russia_history",
+       "topics": [
+        {
+         "id": "g4.world.slavs",
+         "code": "slavs",
+         "title": "Жизнь древних славян",
+         "items": [
+          "восточные славяне"
+         ],
+         "order": 475,
+         "count": 10
+        },
+        {
+         "id": "g4.world.ancient_rus",
+         "code": "ancient_rus",
+         "title": "Во времена Древней Руси. Крещение Руси",
+         "items": [
+          "Древняя Русь",
+          "принятие христианства"
+         ],
+         "order": 476,
+         "count": 10
+        },
+        {
+         "id": "g4.world.rus_cities",
+         "code": "rus_cities",
+         "title": "Города и письменность Древней Руси",
+         "items": [
+          "древнерусские города",
+          "письменность"
+         ],
+         "order": 477,
+         "count": 13
+        },
+        {
+         "id": "g4.world.nevsky",
+         "code": "nevsky",
+         "title": "Трудные времена на Русской земле",
+         "items": [
+          "монгольское нашествие",
+          "Александр Невский"
+         ],
+         "order": 478,
+         "count": 10
+        },
+        {
+         "id": "g4.world.kulikovo",
+         "code": "kulikovo",
+         "title": "Куликовская битва",
+         "items": [
+          "Куликовская битва"
+         ],
+         "order": 479,
+         "count": 10
+        },
+        {
+         "id": "g4.world.ivan3",
+         "code": "ivan3",
+         "title": "Иван Третий",
+         "items": [
+          "Иван III"
+         ],
+         "order": 480,
+         "count": 10
+        },
+        {
+         "id": "g4.world.printing",
+         "code": "printing",
+         "title": "Мастера печатных дел",
+         "items": [
+          "начало книгопечатания"
+         ],
+         "order": 481,
+         "count": 10
+        },
+        {
+         "id": "g4.world.troubles",
+         "code": "troubles",
+         "title": "Патриоты России. Смутное время",
+         "items": [
+          "Смутное время",
+          "Минин и Пожарский"
+         ],
+         "order": 482,
+         "count": 10
+        },
+        {
+         "id": "g4.world.peter",
+         "code": "peter",
+         "title": "Пётр Великий",
+         "items": [
+          "Пётр I"
+         ],
+         "order": 483,
+         "count": 10
+        },
+        {
+         "id": "g4.world.lomonosov",
+         "code": "lomonosov",
+         "title": "Михаил Васильевич Ломоносов",
+         "items": [
+          "М. В. Ломоносов"
+         ],
+         "order": 484,
+         "count": 10
+        },
+        {
+         "id": "g4.world.catherine",
+         "code": "catherine",
+         "title": "Екатерина Великая",
+         "items": [
+          "Екатерина II"
+         ],
+         "order": 485,
+         "count": 10
+        },
+        {
+         "id": "g4.world.war1812",
+         "code": "war1812",
+         "title": "Отечественная война 1812 года",
+         "items": [
+          "Отечественная война 1812 года"
+         ],
+         "order": 486,
+         "count": 10
+        },
+        {
+         "id": "g4.world.c19",
+         "code": "c19",
+         "title": "Страницы истории XIX века",
+         "items": [
+          "XIX век"
+         ],
+         "order": 487,
+         "count": 10
+        },
+        {
+         "id": "g4.world.c20",
+         "code": "c20",
+         "title": "Россия вступает в XX век",
+         "items": [
+          "XX век"
+         ],
+         "order": 488,
+         "count": 10
+        },
+        {
+         "id": "g4.world.ww2",
+         "code": "ww2",
+         "title": "Великая Отечественная война",
+         "items": [
+          "Великая Отечественная война"
+         ],
+         "order": 489,
+         "count": 10
+        },
+        {
+         "id": "g4.world.space",
+         "code": "space",
+         "title": "Освоение космоса",
+         "items": [
+          "освоение космоса"
+         ],
+         "order": 490,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "modern_russia",
+       "title": "Современная Россия",
+       "id": "g4.world.modern_russia",
+       "topics": [
+        {
+         "id": "g4.world.constitution",
+         "code": "constitution",
+         "title": "Основной закон России",
+         "items": [
+          "Конституция РФ"
+         ],
+         "order": 491,
+         "count": 10
+        },
+        {
+         "id": "g4.world.rights",
+         "code": "rights",
+         "title": "Права и обязанности гражданина",
+         "items": [
+          "права",
+          "обязанности"
+         ],
+         "order": 492,
+         "count": 10
+        },
+        {
+         "id": "g4.world.symbols",
+         "code": "symbols",
+         "title": "Государственные символы России",
+         "items": [
+          "герб",
+          "флаг",
+          "гимн"
+         ],
+         "order": 493,
+         "count": 10
+        },
+        {
+         "id": "g4.world.holidays",
+         "code": "holidays",
+         "title": "Праздники России",
+         "items": [
+          "праздники"
+         ],
+         "order": 494,
+         "count": 10
+        },
+        {
+         "id": "g4.world.regions",
+         "code": "regions",
+         "title": "Путешествие по России",
+         "items": [
+          "регионы России"
+         ],
+         "order": 495,
+         "count": 10
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "eng",
+     "title": "Английский язык",
+     "source": "Быкова Н. И., Дули Д., Поспелова М. Д., Эванс В. Английский в фокусе (Spotlight). 4 класс. В 2 ч. — М.: Просвещение, изд. 2024",
+     "sections": [
+      {
+       "code": "family",
+       "title": "Family and friends — Семья и друзья",
+       "id": "g4.eng.family",
+       "topics": [
+        {
+         "id": "g4.eng.appearance",
+         "code": "appearance",
+         "title": "Внешность и характер",
+         "items": [
+          "внешность",
+          "характер"
+         ],
+         "order": 496,
+         "count": 16
+        },
+        {
+         "id": "g4.eng.belongings",
+         "code": "belongings",
+         "title": "Личные вещи",
+         "items": [
+          "личные вещи"
+         ],
+         "order": 497,
+         "count": 11
+        },
+        {
+         "id": "g4.eng.numbers100",
+         "code": "numbers100",
+         "title": "Числа до 100",
+         "items": [
+          "числа до 100"
+         ],
+         "order": 498,
+         "count": 13
+        },
+        {
+         "id": "g4.eng.prepositions",
+         "code": "prepositions",
+         "title": "Предлоги места",
+         "items": [
+          "предлоги места"
+         ],
+         "order": 499,
+         "count": 10
+        },
+        {
+         "id": "g4.eng.havegot_pc",
+         "code": "havegot_pc",
+         "title": "Повторение have got и Present Continuous",
+         "items": [
+          "have got",
+          "Present Continuous"
+         ],
+         "order": 500,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "work",
+       "title": "A working day — Рабочий день",
+       "id": "g4.eng.work",
+       "topics": [
+        {
+         "id": "g4.eng.jobs",
+         "code": "jobs",
+         "title": "Профессии",
+         "items": [
+          "профессии"
+         ],
+         "order": 501,
+         "count": 11
+        },
+        {
+         "id": "g4.eng.workplaces",
+         "code": "workplaces",
+         "title": "Места работы в городе",
+         "items": [
+          "места в городе"
+         ],
+         "order": 502,
+         "count": 12
+        },
+        {
+         "id": "g4.eng.clock",
+         "code": "clock",
+         "title": "Который час?",
+         "items": [
+          "время по часам"
+         ],
+         "order": 503,
+         "count": 10
+        },
+        {
+         "id": "g4.eng.frequency",
+         "code": "frequency",
+         "title": "Наречия частотности",
+         "items": [
+          "always",
+          "usually",
+          "sometimes",
+          "never"
+         ],
+         "order": 504,
+         "count": 10
+        },
+        {
+         "id": "g4.eng.have_to",
+         "code": "have_to",
+         "title": "have to",
+         "items": [
+          "have to"
+         ],
+         "order": 505,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "food",
+       "title": "Tasty treats — Еда и покупки",
+       "id": "g4.eng.food",
+       "topics": [
+        {
+         "id": "g4.eng.shop_food",
+         "code": "shop_food",
+         "title": "Продукты в магазине",
+         "items": [
+          "продукты"
+         ],
+         "order": 506,
+         "count": 11
+        },
+        {
+         "id": "g4.eng.containers",
+         "code": "containers",
+         "title": "Упаковки и ёмкости",
+         "items": [
+          "a packet of",
+          "a tin of",
+          "a carton of",
+          "a bottle of",
+          "a jar of"
+         ],
+         "order": 507,
+         "count": 10
+        },
+        {
+         "id": "g4.eng.count_uncount",
+         "code": "count_uncount",
+         "title": "Исчисляемые и неисчисляемые: much, many, a lot of",
+         "items": [
+          "much",
+          "many",
+          "a lot of"
+         ],
+         "order": 508,
+         "count": 10
+        },
+        {
+         "id": "g4.eng.may_i",
+         "code": "may_i",
+         "title": "Вежливые просьбы: May I…?",
+         "items": [
+          "May I…?"
+         ],
+         "order": 509,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "zoo",
+       "title": "At the zoo — В зоопарке",
+       "id": "g4.eng.zoo",
+       "topics": [
+        {
+         "id": "g4.eng.wild_animals",
+         "code": "wild_animals",
+         "title": "Дикие животные",
+         "items": [
+          "дикие животные"
+         ],
+         "order": 510,
+         "count": 11
+        },
+        {
+         "id": "g4.eng.months",
+         "code": "months",
+         "title": "Месяцы года",
+         "items": [
+          "месяцы"
+         ],
+         "order": 511,
+         "count": 11
+        },
+        {
+         "id": "g4.eng.comparative",
+         "code": "comparative",
+         "title": "Сравнительная степень прилагательных",
+         "items": [
+          "сравнительная степень"
+         ],
+         "order": 512,
+         "count": 10
+        },
+        {
+         "id": "g4.eng.must",
+         "code": "must",
+         "title": "must / mustn't",
+         "items": [
+          "must",
+          "mustn't"
+         ],
+         "order": 513,
+         "count": 10
+        },
+        {
+         "id": "g4.eng.ps_vs_pc",
+         "code": "ps_vs_pc",
+         "title": "Present Simple и Present Continuous",
+         "items": [
+          "Present Simple",
+          "Present Continuous"
+         ],
+         "order": 514,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "past",
+       "title": "Where were you yesterday? — Вчера",
+       "id": "g4.eng.past",
+       "topics": [
+        {
+         "id": "g4.eng.ordinals",
+         "code": "ordinals",
+         "title": "Порядковые числительные и даты",
+         "items": [
+          "порядковые числительные",
+          "даты"
+         ],
+         "order": 515,
+         "count": 13
+        },
+        {
+         "id": "g4.eng.feelings",
+         "code": "feelings",
+         "title": "Чувства и эмоции",
+         "items": [
+          "чувства"
+         ],
+         "order": 516,
+         "count": 12
+        },
+        {
+         "id": "g4.eng.was_were",
+         "code": "was_were",
+         "title": "was / were",
+         "items": [
+          "was",
+          "were"
+         ],
+         "order": 517,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "tales",
+       "title": "Tell the tale — Сказки",
+       "id": "g4.eng.tales",
+       "topics": [
+        {
+         "id": "g4.eng.past_regular",
+         "code": "past_regular",
+         "title": "Past Simple: правильные глаголы (утверждения)",
+         "items": [
+          "Past Simple правильные глаголы"
+         ],
+         "order": 518,
+         "count": 11
+        },
+        {
+         "id": "g4.eng.past_neg_q",
+         "code": "past_neg_q",
+         "title": "Past Simple: отрицания и вопросы",
+         "items": [
+          "отрицания",
+          "вопросы"
+         ],
+         "order": 519,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "days",
+       "title": "Days to remember — Памятные дни",
+       "id": "g4.eng.days",
+       "topics": [
+        {
+         "id": "g4.eng.entertainment",
+         "code": "entertainment",
+         "title": "Развлечения",
+         "items": [
+          "развлечения"
+         ],
+         "order": 520,
+         "count": 11
+        },
+        {
+         "id": "g4.eng.superlative",
+         "code": "superlative",
+         "title": "Превосходная степень прилагательных",
+         "items": [
+          "превосходная степень"
+         ],
+         "order": 521,
+         "count": 10
+        },
+        {
+         "id": "g4.eng.past_irregular",
+         "code": "past_irregular",
+         "title": "Past Simple: неправильные глаголы",
+         "items": [
+          "неправильные глаголы"
+         ],
+         "order": 522,
+         "count": 11
+        }
+       ]
+      },
+      {
+       "code": "travel",
+       "title": "Places to go — Путешествия",
+       "id": "g4.eng.travel",
+       "topics": [
+        {
+         "id": "g4.eng.countries",
+         "code": "countries",
+         "title": "Страны",
+         "items": [
+          "страны"
+         ],
+         "order": 523,
+         "count": 12
+        },
+        {
+         "id": "g4.eng.holiday_types",
+         "code": "holiday_types",
+         "title": "Виды отдыха, погода и одежда",
+         "items": [
+          "виды отдыха",
+          "погода",
+          "одежда"
+         ],
+         "order": 524,
+         "count": 16
+        },
+        {
+         "id": "g4.eng.going_to",
+         "code": "going_to",
+         "title": "be going to",
+         "items": [
+          "be going to"
+         ],
+         "order": 525,
+         "count": 10
+        },
+        {
+         "id": "g4.eng.will",
+         "code": "will",
+         "title": "will",
+         "items": [
+          "will"
+         ],
+         "order": 526,
+         "count": 10
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "code": "read",
+     "title": "Литературное чтение",
+     "source": "Климанова Л. Ф., Горецкий В. Г., Голованова М. В. и др. Литературное чтение. 4 класс. В 2 ч. — М.: Просвещение (УМК «Школа России»), изд. 2023",
+     "sections": [
+      {
+       "code": "origins",
+       "title": "Летописи, былины, жития",
+       "id": "g4.read.origins",
+       "topics": [
+        {
+         "id": "g4.read.chronicles",
+         "code": "chronicles",
+         "title": "Летописи",
+         "items": [
+          "«И повесил Олег щит свой на вратах Цареграда»",
+          "«И вспомнил Олег коня своего»"
+         ],
+         "order": 527,
+         "count": 10
+        },
+        {
+         "id": "g4.read.ilya",
+         "code": "ilya",
+         "title": "Былина «Ильины три поездочки»",
+         "items": [
+          "«Ильины три поездочки»"
+         ],
+         "order": 528,
+         "count": 10
+        },
+        {
+         "id": "g4.read.sergius",
+         "code": "sergius",
+         "title": "«Житие Сергия Радонежского»",
+         "items": [
+          "«Житие Сергия Радонежского»"
+         ],
+         "order": 529,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "classics",
+       "title": "Чудесный мир классики",
+       "id": "g4.read.classics",
+       "topics": [
+        {
+         "id": "g4.read.ershov",
+         "code": "ershov",
+         "title": "П. Ершов «Конёк-Горбунок»",
+         "items": [
+          "П. Ершов «Конёк-Горбунок»"
+         ],
+         "order": 530,
+         "count": 10
+        },
+        {
+         "id": "g4.read.pushkin_poems",
+         "code": "pushkin_poems",
+         "title": "А. С. Пушкин. Стихи",
+         "items": [
+          "А. Пушкин «Няне»",
+          "А. Пушкин «Туча»",
+          "А. Пушкин «Унылая пора! Очей очарованье!..»"
+         ],
+         "order": 531,
+         "count": 10
+        },
+        {
+         "id": "g4.read.tsarevna",
+         "code": "tsarevna",
+         "title": "А. С. Пушкин «Сказка о мёртвой царевне и о семи богатырях»",
+         "items": [
+          "«Сказка о мёртвой царевне и о семи богатырях»"
+         ],
+         "order": 532,
+         "count": 10
+        },
+        {
+         "id": "g4.read.lermontov",
+         "code": "lermontov",
+         "title": "М. Ю. Лермонтов «Дары Терека», «Ашик-Кериб»",
+         "items": [
+          "М. Лермонтов «Дары Терека»",
+          "М. Лермонтов «Ашик-Кериб»"
+         ],
+         "order": 533,
+         "count": 10
+        },
+        {
+         "id": "g4.read.tolstoy",
+         "code": "tolstoy",
+         "title": "Л. Н. Толстой «Детство», «Как мужик убрал камень»",
+         "items": [
+          "Л. Толстой «Детство»",
+          "Л. Толстой «Как мужик убрал камень»"
+         ],
+         "order": 534,
+         "count": 10
+        },
+        {
+         "id": "g4.read.chekhov",
+         "code": "chekhov",
+         "title": "А. П. Чехов «Мальчики»",
+         "items": [
+          "А. Чехов «Мальчики»"
+         ],
+         "order": 535,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "poetry19",
+       "title": "Поэтическая тетрадь (XIX век)",
+       "id": "g4.read.poetry19",
+       "topics": [
+        {
+         "id": "g4.read.poetry_a",
+         "code": "poetry_a",
+         "title": "Ф. Тютчев, А. Фет, Е. Баратынский",
+         "items": [
+          "Ф. Тютчев «Ещё земли печален вид…»",
+          "Ф. Тютчев «Как неожиданно и ярко…»",
+          "А. Фет «Весенний дождь»",
+          "А. Фет «Бабочка»",
+          "Е. Баратынский «Весна, весна! Как воздух чист!..»"
+         ],
+         "order": 536,
+         "count": 10
+        },
+        {
+         "id": "g4.read.poetry_b",
+         "code": "poetry_b",
+         "title": "А. Плещеев, И. Никитин, Н. Некрасов, И. Бунин",
+         "items": [
+          "А. Плещеев «Дети и птичка»",
+          "И. Никитин «В синем небе плывут над полями…»",
+          "Н. Некрасов «Школьник»",
+          "Н. Некрасов «В зимние сумерки нянины сказки…»",
+          "И. Бунин «Листопад»"
+         ],
+         "order": 537,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "littales",
+       "title": "Литературные сказки",
+       "id": "g4.read.littales",
+       "topics": [
+        {
+         "id": "g4.read.tabakerka",
+         "code": "tabakerka",
+         "title": "В. Одоевский «Городок в табакерке»",
+         "items": [
+          "В. Одоевский «Городок в табакерке»"
+         ],
+         "order": 538,
+         "count": 10
+        },
+        {
+         "id": "g4.read.bazhov",
+         "code": "bazhov",
+         "title": "П. Бажов «Серебряное копытце»",
+         "items": [
+          "П. Бажов «Серебряное копытце»"
+         ],
+         "order": 539,
+         "count": 10
+        },
+        {
+         "id": "g4.read.aksakov",
+         "code": "aksakov",
+         "title": "С. Аксаков «Аленький цветочек»",
+         "items": [
+          "С. Аксаков «Аленький цветочек»"
+         ],
+         "order": 540,
+         "count": 10
+        },
+        {
+         "id": "g4.read.garshin",
+         "code": "garshin",
+         "title": "В. Гаршин «Сказка о жабе и розе»",
+         "items": [
+          "В. Гаршин «Сказка о жабе и розе»"
+         ],
+         "order": 541,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "moral",
+       "title": "Делу время — потехе час",
+       "id": "g4.read.moral",
+       "topics": [
+        {
+         "id": "g4.read.shvarts",
+         "code": "shvarts",
+         "title": "Е. Шварц «Сказка о потерянном времени»",
+         "items": [
+          "Е. Шварц «Сказка о потерянном времени»"
+         ],
+         "order": 542,
+         "count": 10
+        },
+        {
+         "id": "g4.read.dragunsky",
+         "code": "dragunsky",
+         "title": "В. Драгунский «Главные реки», «Что любит Мишка»",
+         "items": [
+          "В. Драгунский «Главные реки»",
+          "В. Драгунский «Что любит Мишка»"
+         ],
+         "order": 543,
+         "count": 10
+        },
+        {
+         "id": "g4.read.golyavkin",
+         "code": "golyavkin",
+         "title": "В. Голявкин «Никакой я горчицы не ел»",
+         "items": [
+          "В. Голявкин «Никакой я горчицы не ел»"
+         ],
+         "order": 544,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "childhood",
+       "title": "Страна детства",
+       "id": "g4.read.childhood",
+       "topics": [
+        {
+         "id": "g4.read.zhitkov",
+         "code": "zhitkov",
+         "title": "Б. Житков «Как я ловил человечков»",
+         "items": [
+          "Б. Житков «Как я ловил человечков»"
+         ],
+         "order": 545,
+         "count": 10
+        },
+        {
+         "id": "g4.read.paustovsky",
+         "code": "paustovsky",
+         "title": "К. Паустовский «Корзина с еловыми шишками»",
+         "items": [
+          "К. Паустовский «Корзина с еловыми шишками»"
+         ],
+         "order": 546,
+         "count": 10
+        },
+        {
+         "id": "g4.read.zoshchenko",
+         "code": "zoshchenko",
+         "title": "М. Зощенко «Ёлка»",
+         "items": [
+          "М. Зощенко «Ёлка»"
+         ],
+         "order": 547,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "silver",
+       "title": "Поэтическая тетрадь (Серебряный век)",
+       "id": "g4.read.silver",
+       "topics": [
+        {
+         "id": "g4.read.silver",
+         "code": "silver",
+         "title": "В. Брюсов, С. Есенин, М. Цветаева",
+         "items": [
+          "В. Брюсов «Опять сон»",
+          "В. Брюсов «Детская»",
+          "С. Есенин «Бабушкины сказки»",
+          "М. Цветаева «Бежит тропинка с бугорка…»",
+          "М. Цветаева «Наши царства»"
+         ],
+         "order": 548,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "nature",
+       "title": "Природа и мы",
+       "id": "g4.read.nature",
+       "topics": [
+        {
+         "id": "g4.read.mamin",
+         "code": "mamin",
+         "title": "Д. Мамин-Сибиряк «Приёмыш»",
+         "items": [
+          "Д. Мамин-Сибиряк «Приёмыш»"
+         ],
+         "order": 549,
+         "count": 10
+        },
+        {
+         "id": "g4.read.kuprin",
+         "code": "kuprin",
+         "title": "А. Куприн «Барбос и Жулька»",
+         "items": [
+          "А. Куприн «Барбос и Жулька»"
+         ],
+         "order": 550,
+         "count": 10
+        },
+        {
+         "id": "g4.read.prishvin_charushin",
+         "code": "prishvin_charushin",
+         "title": "М. Пришвин «Выскочка», Е. Чарушин «Кабан»",
+         "items": [
+          "М. Пришвин «Выскочка»",
+          "Е. Чарушин «Кабан»"
+         ],
+         "order": 551,
+         "count": 10
+        },
+        {
+         "id": "g4.read.astafiev",
+         "code": "astafiev",
+         "title": "В. Астафьев «Стрижонок Скрип»",
+         "items": [
+          "В. Астафьев «Стрижонок Скрип»"
+         ],
+         "order": 552,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "homeland",
+       "title": "Поэзия о Родине и природе (XX век)",
+       "id": "g4.read.homeland",
+       "topics": [
+        {
+         "id": "g4.read.poetry_xx",
+         "code": "poetry_xx",
+         "title": "Б. Пастернак, С. Клычков, Д. Кедрин, Н. Рубцов, С. Есенин",
+         "items": [
+          "Б. Пастернак «Золотая осень»",
+          "С. Клычков «Весна в лесу»",
+          "Д. Кедрин «Бабье лето»",
+          "Н. Рубцов «Сентябрь»",
+          "С. Есенин «Лебёдушка»"
+         ],
+         "order": 553,
+         "count": 10
+        },
+        {
+         "id": "g4.read.homeland",
+         "code": "homeland",
+         "title": "Стихи о Родине: И. Никитин, С. Дрожжин, А. Жигулин",
+         "items": [
+          "И. Никитин «Русь»",
+          "С. Дрожжин «Родине»",
+          "А. Жигулин «О, Родина! В неярком блеске…»"
+         ],
+         "order": 554,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "scifi",
+       "title": "Страна Фантазия",
+       "id": "g4.read.scifi",
+       "topics": [
+        {
+         "id": "g4.read.veltistov",
+         "code": "veltistov",
+         "title": "Е. Велтистов «Приключения Электроника»",
+         "items": [
+          "Е. Велтистов «Приключения Электроника»"
+         ],
+         "order": 555,
+         "count": 10
+        },
+        {
+         "id": "g4.read.bulychev",
+         "code": "bulychev",
+         "title": "Кир Булычёв «Путешествие Алисы»",
+         "items": [
+          "Кир Булычёв «Путешествие Алисы»"
+         ],
+         "order": 556,
+         "count": 10
+        }
+       ]
+      },
+      {
+       "code": "foreign",
+       "title": "Зарубежная литература",
+       "id": "g4.read.foreign",
+       "topics": [
+        {
+         "id": "g4.read.gulliver",
+         "code": "gulliver",
+         "title": "Дж. Свифт «Путешествие Гулливера»",
+         "items": [
+          "Дж. Свифт «Путешествие Гулливера»"
+         ],
+         "order": 557,
+         "count": 10
+        },
+        {
+         "id": "g4.read.mermaid",
+         "code": "mermaid",
+         "title": "Х. К. Андерсен «Русалочка»",
+         "items": [
+          "Х. К. Андерсен «Русалочка»"
+         ],
+         "order": 558,
+         "count": 10
+        },
+        {
+         "id": "g4.read.tom_sawyer",
+         "code": "tom_sawyer",
+         "title": "М. Твен «Приключения Тома Сойера»",
+         "items": [
+          "М. Твен «Приключения Тома Сойера»"
+         ],
+         "order": 559,
+         "count": 10
+        },
+        {
+         "id": "g4.read.lagerlof",
+         "code": "lagerlof",
+         "title": "С. Лагерлёф «Святая ночь», «В Назарете»",
+         "items": [
+          "С. Лагерлёф «Святая ночь»",
+          "С. Лагерлёф «В Назарете»"
+         ],
+         "order": 560,
+         "count": 10
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

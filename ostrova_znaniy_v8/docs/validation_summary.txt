@@ -1,0 +1,174 @@
+{
+ "grades": {
+  "2": {
+   "math": {
+    "sections": 6,
+    "topics": 42,
+    "tasks": 470,
+    "min_tasks_in_topic": 10
+   },
+   "rus": {
+    "sections": 6,
+    "topics": 37,
+    "tasks": 373,
+    "min_tasks_in_topic": 10
+   },
+   "world": {
+    "sections": 6,
+    "topics": 51,
+    "tasks": 512,
+    "min_tasks_in_topic": 10
+   },
+   "eng": {
+    "sections": 6,
+    "topics": 24,
+    "tasks": 272,
+    "min_tasks_in_topic": 10
+   },
+   "read": {
+    "sections": 12,
+    "topics": 41,
+    "tasks": 0,
+    "min_tasks_in_topic": 0
+   }
+  },
+  "3": {
+   "math": {
+    "sections": 7,
+    "topics": 36,
+    "tasks": 397,
+    "min_tasks_in_topic": 9
+   },
+   "rus": {
+    "sections": 9,
+    "topics": 39,
+    "tasks": 387,
+    "min_tasks_in_topic": 9
+   },
+   "world": {
+    "sections": 6,
+    "topics": 41,
+    "tasks": 410,
+    "min_tasks_in_topic": 10
+   },
+   "eng": {
+    "sections": 8,
+    "topics": 26,
+    "tasks": 278,
+    "min_tasks_in_topic": 9
+   },
+   "read": {
+    "sections": 12,
+    "topics": 40,
+    "tasks": 0,
+    "min_tasks_in_topic": 0
+   }
+  },
+  "4": {
+   "math": {
+    "sections": 9,
+    "topics": 39,
+    "tasks": 396,
+    "min_tasks_in_topic": 10
+   },
+   "rus": {
+    "sections": 7,
+    "topics": 31,
+    "tasks": 311,
+    "min_tasks_in_topic": 9
+   },
+   "world": {
+    "sections": 6,
+    "topics": 48,
+    "tasks": 480,
+    "min_tasks_in_topic": 10
+   },
+   "eng": {
+    "sections": 8,
+    "topics": 31,
+    "tasks": 323,
+    "min_tasks_in_topic": 9
+   },
+   "read": {
+    "sections": 11,
+    "topics": 34,
+    "tasks": 0,
+    "min_tasks_in_topic": 0
+   }
+  }
+ },
+ "totals": {
+  "textbooks": 15,
+  "sections": 119,
+  "topics": 560,
+  "reading_works_items": 240,
+  "tasks": 4609,
+  "min_tasks_in_topic": 0,
+  "topics_below_min": 131,
+  "uncovered_items": 266,
+  "auto_hints": 1401,
+  "errors": 400,
+  "warnings": 30
+ }
+}
+ERRORS: 400  WARNINGS: 30
+  E g2.eng.phonics: пункт «звуки» не покрыт заданиями
+  E g2.eng.phonics: пункт «правила чтения» не покрыт заданиями
+  E g2.eng.food: пункт «продукты» не покрыт заданиями
+  E g2.eng.food: пункт «напитки» не покрыт заданиями
+  E g2.eng.face_body: пункт «части лица» не покрыт заданиями
+  E g2.eng.face_body: пункт «части тела» не покрыт заданиями
+  E g2.read.book: заданий 0 < 10
+  E g2.read.book: пункт «книга» не покрыт заданиями
+  E g2.read.book: пункт «библиотека» не покрыт заданиями
+  E g2.read.folk_songs: заданий 0 < 10
+  E g2.read.folk_songs: пункт «народные песни» не покрыт заданиями
+  E g2.read.folk_songs: пункт «потешки» не покрыт заданиями
+  E g2.read.folk_songs: пункт «прибаутки» не покрыт заданиями
+  E g2.read.folk_small: заданий 0 < 10
+  E g2.read.folk_small: пункт «считалки» не покрыт заданиями
+  E g2.read.folk_small: пункт «скороговорки» не покрыт заданиями
+  E g2.read.folk_small: пункт «небылицы» не покрыт заданиями
+  E g2.read.riddles: заданий 0 < 10
+  E g2.read.riddles: пункт «загадки» не покрыт заданиями
+  E g2.read.riddles: пункт «пословицы» не покрыт заданиями
+  E g2.read.riddles: пункт «поговорки» не покрыт заданиями
+  E g2.read.petushok: заданий 0 < 10
+  E g2.read.petushok: пункт ««Петушок и бобовое зёрнышко»» не покрыт заданиями
+  E g2.read.u_strakha: заданий 0 < 10
+  E g2.read.u_strakha: пункт ««У страха глаза велики»» не покрыт заданиями
+  E g2.read.lisa_teterev: заданий 0 < 10
+  E g2.read.lisa_teterev: пункт ««Лиса и тетерев»» не покрыт заданиями
+  E g2.read.lisa_zhuravl: заданий 0 < 10
+  E g2.read.lisa_zhuravl: пункт ««Лиса и журавль»» не покрыт заданиями
+  E g2.read.kasha: заданий 0 < 10
+  E g2.read.kasha: пункт ««Каша из топора»» не покрыт заданиями
+  E g2.read.gusi: заданий 0 < 10
+  E g2.read.gusi: пункт ««Гуси-лебеди»» не покрыт заданиями
+  E g2.read.autumn_poems: заданий 0 < 10
+  E g2.read.autumn_poems: пункт «осенние загадки» не покрыт заданиями
+  E g2.read.autumn_poems: пункт «Ф. Тютчев» не покрыт заданиями
+  E g2.read.autumn_poems: пункт «К. Бальмонт» не покрыт заданиями
+  E g2.read.autumn_poems: пункт «А. Плещеев» не покрыт заданиями
+  E g2.read.autumn_poems: пункт «А. Фет» не покрыт заданиями
+  E g2.read.autumn_poems: пункт «И. Бунин» не покрыт заданиями
+  E g2.read.autumn_prose: заданий 0 < 10
+  E g2.read.autumn_prose: пункт «М. Пришвин «Осеннее утро»» не покрыт заданиями
+  E g2.read.autumn_prose: пункт «В. Берестов «Хитрые грибы»» не покрыт заданиями
+  E g2.read.pushkin_poems: заданий 0 < 10
+  E g2.read.pushkin_poems: пункт «А. Пушкин «У лукоморья дуб зелёный…»» не покрыт заданиями
+  E g2.read.pushkin_poems: пункт «А. Пушкин «Вот север, тучи нагоняя…»» не покрыт заданиями
+  E g2.read.pushkin_poems: пункт «А. Пушкин «Зима!.. Крестьянин, торжествуя…»» не покрыт заданиями
+  E g2.read.rybak: заданий 0 < 10
+  E g2.read.rybak: пункт ««Сказка о рыбаке и рыбке»» не покрыт заданиями
+  E g2.read.krylov: заданий 0 < 10
+  E g2.read.krylov: пункт ««Лебедь, Рак и Щука»» не покрыт заданиями
+  E g2.read.krylov: пункт ««Стрекоза и Муравей»» не покрыт заданиями
+  E g2.read.tolstoy_stories: заданий 0 < 10
+  E g2.read.tolstoy_stories: пункт ««Старый дед и внучек»» не покрыт заданиями
+  E g2.read.tolstoy_stories: пункт ««Котёнок»» не покрыт заданиями
+  E g2.read.filipok: заданий 0 < 10
+  E g2.read.filipok: пункт ««Филипок»» не покрыт заданиями
+  E g2.read.animal_poems: заданий 0 < 10
+  E g2.read.animal_poems: пункт «Б. Заходер «Плачет киска в коридоре»» не покрыт заданиями
+  E g2.read.animal_poems: пункт «В. Берестов «Кошкин щенок»» не покрыт заданиями
